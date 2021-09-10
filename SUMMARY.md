@@ -343,18 +343,6 @@
   * [Docker Hub Webhooks](docker-hub/webhooks.md)
 - Docker Id
   * [Docker ID Accounts](docker-id/index.md)
-- Ee
-  - Admin
-    - Backup
-      * [Index](ee/admin/backup/index.md)
-  - Ucp
-    - Admin
-      - Monitor And Troubleshoot
-        * [Index](ee/ucp/admin/monitor-and-troubleshoot/index.md)
-        * [Troubleshoot Node Messages](ee/ucp/admin/monitor-and-troubleshoot/troubleshoot-node-messages.md)
-  * [Index](ee/index.md)
-  * [Telemetry](ee/telemetry.md)
-  * [Upgrade](ee/upgrade.md)
 - Engine
   - Api
     - Sdk
