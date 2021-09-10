@@ -45,7 +45,18 @@ jobs:
           cp book.json ${SRC_FOLDER}
           cd ${SRC_FOLDER}
           # mv index.md README.md
-          rm -rf datacenter ee
+          rm -rf datacenter \
+                 ee \
+                 404.md \
+                 glossary.md \
+                 search.md \
+                 test.md \
+                 index.md \
+                 toolbox \
+                 machine \
+                 kitematic \
+                 components.md
+
           npm init -f
           npm install gitbook-summary
           npx book sm -t "${GITBOOK_TITLE}" -i node_modules
