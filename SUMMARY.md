@@ -455,6 +455,7 @@
       * [Docker Compose Top](engine/reference/commandline/compose_top.md)
       * [Docker Compose Unpause](engine/reference/commandline/compose_unpause.md)
       * [Docker Compose Up](engine/reference/commandline/compose_up.md)
+      * [Docker Compose Version](engine/reference/commandline/compose_version.md)
       * [Docker Compose](engine/reference/commandline/compose.md)
       * [Docker Config Create](engine/reference/commandline/config_create.md)
       * [Docker Config Inspect](engine/reference/commandline/config_inspect.md)
