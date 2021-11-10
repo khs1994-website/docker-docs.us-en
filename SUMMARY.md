@@ -732,6 +732,7 @@
   * [Experimental](go/experimental.md)
   * [Formatting](go/formatting.md)
   * [Learn More About Using Docker On The Command Line](go/guides.md)
+  * [Pause And Resume Docker Desktop](go/win-desktop-pause.md)
   * [Rootless](go/rootless.md)
   * [Vulnerability Scanning](go/tip-scanning.md)
   * [Wsl 2](go/wsl2.md)
