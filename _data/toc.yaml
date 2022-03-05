@@ -229,40 +229,6 @@ guides:
           title: Journald logging driver
         - path: /config/containers/logging/splunk/
           title: Splunk logging driver
-    - sectiontitle: Security
-      section:
-      - path: /engine/security/
-        title: Docker security
-      - path: /engine/security/non-events/
-        title: Docker security non-events
-      - path: /engine/security/protect-access/
-        title: Protect the Docker daemon socket
-      - path: /engine/security/certificates/
-        title: Using certificates for repository client verification
-      - sectiontitle: Use trusted images
-        section:
-        - path: /engine/security/trust/
-          title: Overview
-        - path: /engine/security/trust/trust_automation/
-          title: Automation
-        - path: /engine/security/trust/trust_delegation/
-          title: Delegations
-        - path: /engine/security/trust/deploying_notary/
-          title: Deploy Notary
-        - path: /engine/security/trust/trust_key_mng/
-          title: Manage content trust keys
-        - path: /engine/security/trust/trust_sandbox/
-          title: Play in a content trust sandbox
-      - path: /engine/security/antivirus/
-        title: Antivirus software
-      - path: /engine/security/apparmor/
-        title: AppArmor security profiles
-      - path: /engine/security/seccomp/
-        title: Seccomp security profiles
-      - path: /engine/security/userns-remap/
-        title: Isolate containers with a user namespace
-      - path: /engine/security/rootless/
-        title: Rootless mode
     - sectiontitle: Scale your app
       section:
       - path: /engine/swarm/
@@ -407,14 +373,8 @@ guides:
         title: Use the VFS storage driver
 - path: /get-started/resources/
   title: "Educational resources"
-- sectiontitle: Open source at Docker
-  section:
-  - path: /opensource/
-    title: Contribute to documentation
-  - path: /opensource/ways/
-    title: Other ways to contribute
-- path: /docsarchive/
-  title: Documentation archive
+- path: /opensource/
+  title: "Contribute to documentation"
 reference:
 - path: /reference/
   title: Reference documentation
@@ -1362,12 +1322,6 @@ manuals:
         title: Link to GitHub and BitBucket
   - path: /docker-hub/webhooks/
     title: Webhooks
-  - path: /docker-hub/slack_integration/
-    title: Slack integration
-  - path: /docker-hub/orgs/
-    title: Teams and organizations
-  - path: /docker-hub/image-access-management/
-    title: Image Access Management
   - path: /docker-hub/vulnerability-scanning/
     title: Vulnerability scanning
   - path: /docker-hub/audit-log/
@@ -1413,6 +1367,62 @@ manuals:
     title: Add seats
   - path: /subscription/remove-seats/
     title: Remove seats
+
+- sectiontitle: Administration
+  section:
+  - path: /docker-hub/orgs/
+    title: Teams and organizations
+  - path: /docker-hub/configure-sign-in/
+    title: Enforce sign in
+  - sectiontitle: Single-Sign-on
+    section:
+      -  path: /single-sign-on/
+         title: Configure
+      -  path: /single-sign-on/faqs/
+         title: FAQs
+  - path: /docker-hub/image-access-management/
+    title: Image Access Management
+  - path: /docker-hub/onboarding-faqs/
+    title: Onboarding FAQs
+
+- sectiontitle: Security
+  section:
+  - path: /security/
+    title: Announcements
+  - sectiontitle: Docker Engine security
+    section:
+      - path: /engine/security/
+        title: Overview
+      - path: /engine/security/non-events/
+        title: Docker security non-events
+      - path: /engine/security/protect-access/
+        title: Protect the Docker daemon socket
+      - path: /engine/security/certificates/
+        title: Using certificates for repository client verification
+      - sectiontitle: Use trusted images
+        section:
+        - path: /engine/security/trust/
+          title: Overview
+        - path: /engine/security/trust/trust_automation/
+          title: Automation
+        - path: /engine/security/trust/trust_delegation/
+          title: Delegations
+        - path: /engine/security/trust/deploying_notary/
+          title: Deploy Notary
+        - path: /engine/security/trust/trust_key_mng/
+          title: Manage content trust keys
+        - path: /engine/security/trust/trust_sandbox/
+          title: Play in a content trust sandbox
+      - path: /engine/security/antivirus/
+        title: Antivirus software
+      - path: /engine/security/apparmor/
+        title: AppArmor security profiles
+      - path: /engine/security/seccomp/
+        title: Seccomp security profiles
+      - path: /engine/security/userns-remap/
+        title: Isolate containers with a user namespace
+      - path: /engine/security/rootless/
+        title: Rootless mode
 
 - sectiontitle: Open-source projects
   section:

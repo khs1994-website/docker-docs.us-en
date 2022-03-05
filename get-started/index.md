@@ -59,7 +59,11 @@ redirect_from:
 
 > **Update to the Docker Desktop terms**
 >
-> Professional use of Docker Desktop in large organizations (more than 250 employees or more than $10 million in annual revenue) requires users to have a paid Docker subscription. While the effective date of these terms is August 31, 2021, there is a grace period until January 31, 2022, for those that require a paid subscription. For more information, see the blog [Docker is Updating and Extending Our Product Subscriptions](https://www.docker.com/blog/updating-product-subscriptions/){: target="_blank" rel="noopener" class="_" id="dkr_docs_cta"}.
+> Commercial use of Docker Desktop in larger enterprises (more than 250
+> employees OR more than $10 million USD in annual revenue) now requires a paid
+> subscription. The grace period for those that will require a paid subscription
+> ends on January 31, 2022. [Learn more](https://www.docker.com/blog/the-grace-period-for-the-docker-subscription-service-agreement-ends-soon-heres-what-you-need-to-know/){:
+ target="_blank" rel="noopener" class="_" id="dkr_docs_cta"}.
 {: .important}
 
 Welcome! We are excited that you want to learn Docker.
@@ -134,7 +138,12 @@ Now that you've run a container, what _is_ a container? Simply put, a container 
 a sandboxed process on your machine that is isolated from all other processes
 on the host machine. That isolation leverages [kernel namespaces and cgroups](https://medium.com/@saschagrunert/demystifying-containers-part-i-kernel-space-2c53d6979504),
 features that have been in Linux for a long time. Docker has worked to make these
-capabilities approachable and easy to use.
+capabilities approachable and easy to use. To summarize, a container:
+
+- is a runnable instance of an image. You can create, start, stop, move, or delete a container using the DockerAPI or CLI.
+- can be run on local machines, virtual machines or deployed to the cloud.
+- is portable (can be run on any OS)
+- Containers are isolated from each other and run their own software, binaries, and configurations.
 
 > **Creating containers from scratch**
 >

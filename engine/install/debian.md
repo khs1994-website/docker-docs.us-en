@@ -99,13 +99,6 @@ from the repository.
     **nightly** or **test** repository, add the word `nightly` or `test` (or both)
     after the word `stable` in the commands below. [Learn about **nightly** and **test** channels](index.md).
 
-    > **Note**: The `lsb_release -cs` sub-command below returns the name of your
-    > Debian distribution, such as `helium`. Sometimes, in a distribution
-    > like BunsenLabs Linux, you might need to change `$(lsb_release -cs)`
-    > to your parent Debian distribution. For example, if you are using
-    >  `BunsenLabs Linux Helium`, you could use `stretch`. Docker does not offer any guarantees on untested
-    > and unsupported Debian distributions.
-
     ```console
     $ echo \
       "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] {{ download-url-base }} \
@@ -130,6 +123,12 @@ This procedure works for Debian on `x86_64` / `amd64`, `armhf`, `arm64`, and Ras
     > or updating without specifying a version in the `apt-get install` or
     > `apt-get update` command always installs the highest possible version,
     > which may not be appropriate for your stability needs.
+
+    > Receiving a GPG error when running `apt-get update`?
+    >  
+    > Your default umask may not be set correctly, causing the public key file
+    > for the repo to not be detected. Run the following command and then try to
+    > update your repo again: `sudo chmod a+r /usr/share/keyrings/docker-archive-keyring.gpg`.
 
 2.  To install a _specific version_ of Docker Engine, list the available versions
     in the repo, then select and install:

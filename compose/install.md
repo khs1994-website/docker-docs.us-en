@@ -136,7 +136,9 @@ also included below.
     ```
 
     > To install a different version of Compose, substitute `{{site.compose_version}}`
-    > with the version of Compose you want to use.
+    > with the version of Compose you want to use. For instructions on how to
+    > install Compose `{{site.compose_v2_version}}` on Linux, see [Install
+    > Compose 2.0.0 on Linux](../cli-command#install-on-linux)
 
     If you have problems installing with `curl`, see
     [Alternative Install Options](install.md#alternative-install-options) tab above.
@@ -146,15 +148,16 @@ also included below.
     ```console
     $ sudo chmod +x /usr/local/bin/docker-compose
     ```
-    
-> **Note**: If the command `docker-compose` fails after installation, check your path.
-> You can also create a symbolic link to `/usr/bin` or any other directory in your path.
 
-For example:
-
-```console
-$ sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
-```
+    > **Note**:
+    >
+    > If the command `docker-compose` fails after installation, check your path.
+    > You can also create a symbolic link to `/usr/bin` or any other directory in your path.
+    >
+    > For example:
+    > ```console
+    > $ sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+    > ```
 
 3.  Optionally, install [command completion](completion.md) for the
     `bash` and `zsh` shell.
@@ -190,7 +193,7 @@ tutorial](https://docs.python-guide.org/dev/virtualenvs/) to get
 started.
 
 ```console
-$ pip install docker-compose
+$ pip3 install docker-compose
 ```
 
 If you are not using virtualenv,

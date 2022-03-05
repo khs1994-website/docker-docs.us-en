@@ -12,7 +12,11 @@ redirect_from:
 
 > **Update to the Docker Desktop terms**
 >
-> Professional use of Docker Desktop in large organizations (more than 250 employees or more than $10 million in annual revenue) requires users to have a paid Docker subscription. While the effective date of these terms is August 31, 2021, there is a grace period until January 31, 2022 for those that require a paid subscription. For more information, see [Docker Desktop License Agreement](../subscription/index.md#docker-desktop-license-agreement).
+> Commercial use of Docker Desktop in larger enterprises (more than 250
+> employees OR more than $10 million USD in annual revenue) now requires a paid
+> subscription. The grace period for those that will require a paid subscription
+> ends on January 31, 2022. [Learn more](https://www.docker.com/blog/the-grace-period-for-the-docker-subscription-service-agreement-ends-soon-heres-what-you-need-to-know/){:
+ target="_blank" rel="noopener" class="_" id="dkr_docs_cta"}.
 {: .important}
 
 Docker Desktop is an easy-to-install application for your Mac or Windows environment
@@ -48,6 +52,23 @@ Docker Desktop is available for Mac and Windows. For download information, syste
 * [Install Docker Desktop on Windows](windows/install.md)
 
 For information about Docker Desktop licensing, see [Docker Desktop License Agreement](../subscription/index.md#docker-desktop-license-agreement).
+
+## Sign in to Docker Desktop
+
+After you’ve successfully installed and started Docker Desktop, we recommend
+that you authenticate using the **Sign in/Create ID** option from the Docker
+menu.
+
+Authenticated users get a higher pull rate limit compared to anonymous users. For example, if you are authenticated, you get 200 pulls per 6 hour period, compared to 100 pulls per 6 hour period per IP address for anonymous users. For more information, see [Download rate limit](../docker-hub/download-rate-limit.md).
+
+In large enterprises where admin access is restricted, administrators can create
+a `registry.json` file and deploy it to the developers' machines using a device
+management software as part of the Docker Desktop installation process. Enforcing developers to authenticate through Docker Desktop also allows
+administrators to set up guardrails using features such as 
+[Image Access Management](../docker-hub/image-access-management.md) which allows team
+members to only have access to Trusted Content on Docker Hub, and pull only from
+the specified categories of images. For more information, see
+[Configure registry.json to enforce sign in](../docker-hub/configure-sign-in.md).
 
 ## Configure Docker Desktop
 

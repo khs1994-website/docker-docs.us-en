@@ -17,6 +17,7 @@
     * [Enable Buildkit](_includes/guides/enable-buildkit.md)
   * [Api Version Matrix](_includes/api-version-matrix.md)
   * [Cli](_includes/cli.md)
+  * [Configure Registry Json](_includes/configure-registry-json.md)
   * [Deploy](_includes/deploy.md)
   * [Desktop License Update](_includes/desktop-license-update.md)
   * [Desktop Update](_includes/desktop-update.md)
@@ -266,6 +267,8 @@
 - Desktop
   - Enterprise
     * [Docker Desktop Enterprise](desktop/enterprise/index.md)
+  - Linux
+    * [Docker Desktop For Linux Tech Preview](desktop/linux/index.md)
   - Mac
     - Release Notes
       * [Docker Desktop for Mac 2.x release notes](desktop/mac/release-notes/2.x.md)
@@ -331,8 +334,9 @@
     * [Publish Content On Docker Hub](docker-hub/publish/publish.md)
     * [Docker Hub Publisher FA Qs](docker-hub/publish/publisher_faq.md)
     * [Docker Hub Publisher Image Trust Chain](docker-hub/publish/trustchain.md)
-  * [Managing Access Tokens](docker-hub/access-tokens.md)
+  * [Manage Access Tokens](docker-hub/access-tokens.md)
   * [Audit Log](docker-hub/audit-log.md)
+  * [Configure registry.json to enforce sign in](docker-hub/configure-sign-in.md)
   * [Convert An Account Into An Organization](docker-hub/convert-account.md)
   * [Deactivating An Account Or An Organization](docker-hub/deactivate-account.md)
   * [Download Rate Limit](docker-hub/download-rate-limit.md)
@@ -340,7 +344,9 @@
   * [Advanced Image Management Dashboard](docker-hub/image-management.md)
   * [Docker Hub Quickstart](docker-hub/index.md)
   * [Docker Official Images](docker-hub/official_images.md)
+  * [Onboarding Faqs](docker-hub/onboarding-faqs.md)
   * [Teams And Organizations](docker-hub/orgs.md)
+  * [Registry Access Management](docker-hub/registry-access-management.md)
   * [Docker Hub Release Notes](docker-hub/release-notes.md)
   * [Repositories](docker-hub/repos.md)
   * [Service Accounts](docker-hub/service-accounts.md)
@@ -726,6 +732,7 @@
   * [How To Run Docker Desktop On New Mac With Apple Silicon Processors](go/apple-silicon.md)
   * [Attack Surface](go/attack-surface.md)
   * [How To Enable Build Kit](go/buildkit.md)
+  * [How To Install Buildx](go/buildx.md)
   * [Docker Compose Native Build Through The CLI](go/compose-native-build.md)
   * [Daemon Access](go/daemon-access.md)
   * [Deprecated Engine Features](go/deprecated.md)
@@ -830,6 +837,11 @@
   * [Dockerize A Riak Service](samples/running_riak_service.md)
   * [Dockerize An SSH Service](samples/running_ssh_service.md)
   * [Quickstart Compose And Word Press](samples/wordpress.md)
+- Security
+  * [Docker Security Announcements](security/index.md)
+- Single Sign On
+  * [Single Sign On FA Qs](single-sign-on/faqs.md)
+  * [Configure Single Sign On](single-sign-on/index.md)
 - Storage
   - Storagedriver
     * [Use The AUFS Storage Driver](storage/storagedriver/aufs-driver.md)

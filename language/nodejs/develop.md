@@ -22,7 +22,7 @@ First, we’ll take a look at running a database in a container and how we use v
 
 Instead of downloading MongoDB, installing, configuring and then running the Mongo database as a service, we can use the Docker Official Image for MongoDB and run it in a container.
 
-Before we run MongoDB in a container, we want to create a couple of volumes that Docker can manage to store our persistent data and configuration. Let's use the managed volumes feature that docker provides instead of using bind mounts. You can read all about volumes in our documentation.
+Before we run MongoDB in a container, we want to create a couple of volumes that Docker can manage to store our persistent data and configuration. Let's use the managed volumes feature that docker provides instead of using bind mounts. For more information, see [Use volumes](../../storage/volumes.md).
 
 Let’s create our volumes now. We’ll create one for the data and one for configuration of MongoDB.
 
@@ -60,7 +60,7 @@ server.use( '/', mocks.server( server.Router(), false, false ) )
 server.start()
 ```
 
-We’ve add the `ronin-database` module and we updated the code to connect to the database and set the in-memory flag to false. We now need to rebuild our image so it contains our changes.
+We’ve added the `ronin-database` module and we updated the code to connect to the database and set the in-memory flag to false. We now need to rebuild our image so it contains our changes.
 
 First let’s add the `ronin-database` module to our application using npm.
 
@@ -82,9 +82,11 @@ $ docker run \
   --network mongodb \
   --name rest-server \
   -p 8000:8000 \
-  -e CONNECTIONSTRING=mongodb://mongodb:27017/yoda_notes \
+  -e CONNECTIONSTRING=mongodb://mongodb:27017/notes \
   node-docker
 ```
+
+The `yoda_notes` at the end of the connection string is the desired name for our database.
 
 Let’s test that our application is connected to the database and is able to add a note.
 

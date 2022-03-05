@@ -17,8 +17,6 @@ This example demonstrates how to dockerize an ASP.NET Core application.
   Linux
 - Great for modern cloud-based apps, such as web apps, IoT apps, and mobile
   backends
-- ASP.NET Core apps can run on [.NET Core](https://www.microsoft.com/net/core/platform)
-  or on the full [.NET Framework](https://www.microsoft.com/net/framework)
 - Designed to provide an optimized development framework for apps that are
   deployed to the cloud or run on-premises
 - Modular components with minimal overhead retain flexibility while
@@ -47,7 +45,7 @@ clone our [ASP.NET Docker Sample](https://github.com/dotnet/dotnet-docker/tree/m
 
 ```dockerfile
 # syntax=docker/dockerfile:1
-FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build-env
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build-env
 WORKDIR /app
 
 # Copy csproj and restore as distinct layers
@@ -59,7 +57,7 @@ COPY ../engine/examples ./
 RUN dotnet publish -c Release -o out
 
 # Build runtime image
-FROM mcr.microsoft.com/dotnet/aspnet:3.1
+FROM mcr.microsoft.com/dotnet/aspnet:6.0
 WORKDIR /app
 COPY --from=build-env /app/out .
 ENTRYPOINT ["dotnet", "aspnetapp.dll"]

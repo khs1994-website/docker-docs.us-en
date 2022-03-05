@@ -24,7 +24,7 @@ To run an image inside of a container, we use the `docker run` command. The `doc
 $ docker run node-docker
 ```
 
-When you run this command, you’ll notice that you were not returned to the command prompt. This is because our application is a REST server and will run in a loop waiting for incoming requests without return control back to the OS until we stop the container.
+When you run this command, you’ll notice that you were not returned to the command prompt. This is because our application is a REST server and will run in a loop waiting for incoming requests without returning control back to the OS until we stop the container.
 
 Let’s open a new terminal then make a GET request to the server using the curl command.
 
@@ -81,9 +81,7 @@ Again, let’s make sure that our container is running properly. Run the same cu
 $ curl --request POST \
   --url http://localhost:8000/test \
   --header 'content-type: application/json' \
-  --data '{
-	"msg": "testing"
-}'
+  --data '{"msg": "testing"}'
 {"code":"success","payload":[{"msg":"testing","id":"dc0e2c2b-793d-433c-8645-b3a553ea26de","createDate":"2020-09-01T17:36:09.897Z"}]}
 ```
 
@@ -97,7 +95,7 @@ CONTAINER ID        IMAGE               COMMAND                  CREATED        
 ce02b3179f0f        node-docker         "docker-entrypoint.s…"   6 minutes ago       Up 6 minutes        0.0.0.0:8000->8000/tcp   wonderful_kalam
 ```
 
-The `ps` command tells a bunch of stuff about our running containers. We can see the Container ID, The image running inside the container, the command that was used to start the container, when it was created, the status, ports that exposed and the name of the container.
+The `ps` command tells a bunch of stuff about our running containers. We can see the Container ID, the image running inside the container, the command that was used to start the container, when it was created, the status, ports that exposed and the name of the container.
 
 You are probably wondering where the name of our container is coming from. Since we didn’t provide a name for the container when we started it, Docker generated a random name. We’ll fix this in a minute but first we need to stop the container. To stop the container, run the `docker stop` command which does just that, stops the container. You will need to pass the name of the container or you can use the container id.
 

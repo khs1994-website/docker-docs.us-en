@@ -78,8 +78,9 @@ from the [project release page](https://github.com/docker/compose/releases){:tar
 1. Run the following command to download the current stable release of Docker Compose:
 
     ```console
-    $ mkdir -p ~/.docker/cli-plugins/
-    $ curl -SL https://github.com/docker/compose/releases/download/v2.0.1/docker-compose-linux-x86_64 -o ~/.docker/cli-plugins/docker-compose
+    $ DOCKER_CONFIG=${DOCKER_CONFIG:-$HOME/.docker}
+    $ mkdir -p $DOCKER_CONFIG/cli-plugins
+    $ curl -SL https://github.com/docker/compose/releases/download/v{{site.compose_v2_version}}/docker-compose-linux-x86_64 -o $DOCKER_CONFIG/cli-plugins/docker-compose
     ```
 
     This command installs Compose V2 for the active user under `$HOME` directory. To install Docker Compose for all users on your system, replace `~/.docker/cli-plugins` with `/usr/local/lib/docker/cli-plugins`.
@@ -87,14 +88,14 @@ from the [project release page](https://github.com/docker/compose/releases){:tar
 2. Apply executable permissions to the binary:
 
     ```console
-    $ chmod +x ~/.docker/cli-plugins/docker-compose
+    $ chmod +x $DOCKER_CONFIG/cli-plugins/docker-compose
     ```
 
 3. Test your installation
 
     ```console
     $ docker compose version
-    Docker Compose version 2.0.1
+    Docker Compose version {{site.compose_v2_version}}
     ```
 
 ### Compose Switch
@@ -104,7 +105,7 @@ from the [project release page](https://github.com/docker/compose/releases){:tar
 To install Compose Switch automatically, run:
 
 ```console
-$ curl -fL https://raw.githubusercontent.com/docker/compose-cli/main/scripts/install/install_linux.sh | sh
+$ curl -fL https://raw.githubusercontent.com/docker/compose-switch/master/install_on_linux.sh | sh
 ```
 
 To install Compose Switch manually:
@@ -112,7 +113,7 @@ To install Compose Switch manually:
 1. Download the `compose-switch` binary for your architecture
 
     ```console
-    $ curl -fL https://github.com/docker/compose-switch/releases/download/v1.0.1/docker-compose-linux-amd64 -o /usr/local/bin/compose-switch
+    $ curl -fL https://github.com/docker/compose-switch/releases/download/v{{site.compose_switch_version}}/docker-compose-linux-amd64 -o /usr/local/bin/compose-switch
     ```
 
 2. Run the following command to make it an executable:
