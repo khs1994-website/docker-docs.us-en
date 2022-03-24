@@ -741,6 +741,7 @@
   * [Learn More About Using Docker On The Command Line](go/guides.md)
   * [Pause And Resume Docker Desktop](go/win-desktop-pause.md)
   * [Rootless](go/rootless.md)
+  * [Information On How Configure Storage Drivers](go/storage-driver.md)
   * [Vulnerability Scanning](go/tip-scanning.md)
   * [Wsl 2](go/wsl2.md)
 - Language
