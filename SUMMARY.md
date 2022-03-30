@@ -268,7 +268,7 @@
   - Enterprise
     * [Docker Desktop Enterprise](desktop/enterprise/index.md)
   - Linux
-    * [Docker Desktop For Linux Tech Preview](desktop/linux/index.md)
+    * [Docker Desktop For Linux Beta](desktop/linux/index.md)
   - Mac
     - Release Notes
       * [Docker Desktop for Mac 2.x release notes](desktop/mac/release-notes/2.x.md)
