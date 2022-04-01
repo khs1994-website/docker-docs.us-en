@@ -183,10 +183,12 @@
   * [Deploying Docker Containers On ECS](cloud/ecs-integration.md)
 - Compose
   - Compose File
+    * [Compose File Build Reference](compose/compose-file/build.md)
     * [Compose File Version 2 Reference](compose/compose-file/compose-file-v2.md)
     * [Compose File Version 3 Reference](compose/compose-file/compose-file-v3.md)
     * [Compose File Versions And Upgrading](compose/compose-file/compose-versioning.md)
-    * [Compose File](compose/compose-file/index.md)
+    * [Compose File Deploy Reference](compose/compose-file/deploy.md)
+    * [Compose Specification](compose/compose-file/index.md)
   - Reference
     * [Docker Compose Build](compose/reference/build.md)
     * [Docker Compose Config](compose/reference/config.md)
