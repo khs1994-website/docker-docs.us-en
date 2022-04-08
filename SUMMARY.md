@@ -655,6 +655,8 @@
     * [Docker Engine 18.09 release notes](engine/release-notes/18.09.md)
     * [Docker Engine 19.03 release notes](engine/release-notes/19.03.md)
     * [Docker Engine Release Notes](engine/release-notes/prior-releases.md)
+  - Sbom
+    * [Generate The SBOM For Docker Images](engine/sbom/index.md)
   - Scan
     * [Vulnerability Scanning For Docker Local Images](engine/scan/index.md)
   - Security
