@@ -335,6 +335,7 @@
     * [Docker Verified Publisher Program](docker-hub/publish/index.md)
     * [Publish Content On Docker Hub](docker-hub/publish/publish.md)
     * [Docker Hub Publisher FA Qs](docker-hub/publish/publisher_faq.md)
+    * [Migrate Content From The Publisher Center To Docker Hub](docker-hub/publish/publisher-center-migration.md)
     * [Docker Hub Publisher Image Trust Chain](docker-hub/publish/trustchain.md)
   * [Manage Access Tokens](docker-hub/access-tokens.md)
   * [Audit Log](docker-hub/audit-log.md)
