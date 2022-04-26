@@ -299,6 +299,7 @@
   * [Back Up And Restore Data](desktop/backup-and-restore.md)
   * [Docker Dashboard](desktop/dashboard.md)
   * [Development Environments Preview](desktop/dev-environments.md)
+  * [Docker Extensions](desktop/extensions.md)
   * [Frequently Asked Questions](desktop/faqs.md)
   * [Docker Desktop Overview](desktop/index.md)
   * [Deploy On Kubernetes](desktop/kubernetes.md)
