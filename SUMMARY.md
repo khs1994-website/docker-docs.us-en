@@ -217,7 +217,6 @@
     * [Docker Compose Unpause](compose/reference/unpause.md)
     * [Docker Compose Up](compose/reference/up.md)
   * [Compose Command Compatibility With Docker Compose](compose/cli-command-compatibility.md)
-  * [Compose V 2](compose/cli-command.md)
   * [Command Line Completion](compose/completion.md)
   * [Declare Default Environment Variables In File](compose/env-file.md)
   * [Environment Variables In Compose](compose/environment-variables.md)
