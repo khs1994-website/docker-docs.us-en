@@ -20,6 +20,7 @@
   * [Configure Registry Json](_includes/configure-registry-json.md)
   * [Deploy](_includes/deploy.md)
   * [Desktop License Update](_includes/desktop-license-update.md)
+  * [Desktop Linux Launch](_includes/desktop-linux-launch.md)
   * [Desktop Update](_includes/desktop-update.md)
   * [Eula](_includes/eula.md)
   * [Experimental Feature](_includes/experimental-feature.md)
@@ -269,7 +270,19 @@
   - Enterprise
     * [Docker Desktop Enterprise](desktop/enterprise/index.md)
   - Linux
-    * [Docker Desktop For Linux Beta](desktop/linux/index.md)
+    - Install
+      * [Install Docker Desktop On Arch Based Distributions](desktop/linux/install/archlinux.md)
+      * [Install Docker Desktop On Debian](desktop/linux/install/debian.md)
+      * [Install Docker Desktop On Fedora](desktop/linux/install/fedora.md)
+      * [Install Docker Desktop On Ubuntu](desktop/linux/install/ubuntu.md)
+    - Release Notes
+      * [Docker Desktop For Linux Release Notes](desktop/linux/release-notes/index.md)
+    * [Docker Desktop For Linux User Manual](desktop/linux/index.md)
+    * [Install Docker Desktop On Linux](desktop/linux/install.md)
+    * [Networking Features In Docker Desktop For Linux](desktop/linux/networking.md)
+    * [Overview](desktop/linux/overview.md)
+    * [Disk Utilization In Docker For Linux](desktop/linux/space.md)
+    * [Logs And Troubleshooting](desktop/linux/troubleshoot.md)
   - Mac
     - Release Notes
       * [Docker Desktop for Mac 2.x release notes](desktop/mac/release-notes/2.x.md)
