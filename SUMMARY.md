@@ -280,7 +280,6 @@
     * [Docker Desktop For Linux User Manual](desktop/linux/index.md)
     * [Install Docker Desktop On Linux](desktop/linux/install.md)
     * [Networking Features In Docker Desktop For Linux](desktop/linux/networking.md)
-    * [Overview](desktop/linux/overview.md)
     * [Disk Utilization In Docker For Linux](desktop/linux/space.md)
     * [Logs And Troubleshooting](desktop/linux/troubleshoot.md)
   - Mac
