@@ -284,10 +284,6 @@
     * [Logs And Troubleshooting](desktop/linux/troubleshoot.md)
   - Mac
     - Release Notes
-      * [Docker Desktop for Mac 2.x release notes](desktop/mac/release-notes/2.x.md)
-      * [Docker Desktop for Mac 3.x release notes](desktop/mac/release-notes/3.x.md)
-      * [Release Notes For Previous Versions](desktop/mac/release-notes/archive.md)
-      * [Docker Desktop For Mac Edge Release Notes](desktop/mac/release-notes/edge-releases.md)
       * [Docker Desktop For Mac Release Notes](desktop/mac/release-notes/index.md)
     * [Docker Desktop For Apple Silicon](desktop/mac/apple-silicon.md)
     * [Docker Desktop For Mac User Manual](desktop/mac/index.md)
@@ -295,12 +291,16 @@
     * [Networking Features In Docker Desktop For Mac](desktop/mac/networking.md)
     * [Disk Utilization In Docker For Mac](desktop/mac/space.md)
     * [Logs And Troubleshooting](desktop/mac/troubleshoot.md)
+  - Previous Versions
+    * [Docker Desktop for Mac 2.x release notes](desktop/previous-versions/2.x-mac.md)
+    * [Docker for Windows 2.x release notes](desktop/previous-versions/2.x-windows.md)
+    * [Docker Desktop for Mac 3.x release notes](desktop/previous-versions/3.x-mac.md)
+    * [Docker for Windows 3.x release notes](desktop/previous-versions/3.x-windows.md)
+    * [Release Notes For Previous Versions](desktop/previous-versions/archive-windows.md)
+    * [Docker Desktop For Mac Edge Release Notes](desktop/previous-versions/edge-releases-mac.md)
+    * [Docker Desktop For Windows Edge Release Notes](desktop/previous-versions/edge-releases-windows.md)
   - Windows
     - Release Notes
-      * [Docker for Windows 2.x release notes](desktop/windows/release-notes/2.x.md)
-      * [Docker for Windows 3.x release notes](desktop/windows/release-notes/3.x.md)
-      * [Release Notes For Previous Versions](desktop/windows/release-notes/archive.md)
-      * [Docker Desktop For Windows Edge Release Notes](desktop/windows/release-notes/edge-releases.md)
       * [Docker For Windows Release Notes](desktop/windows/release-notes/index.md)
     * [Docker Desktop For Windows User Manual](desktop/windows/index.md)
     * [Install Docker Desktop On Windows](desktop/windows/install.md)
@@ -315,6 +315,7 @@
   * [Docker Desktop Overview](desktop/index.md)
   * [Deploy On Kubernetes](desktop/kubernetes.md)
   * [Leverage Multi CPU Architecture Support](desktop/multi-arch.md)
+  * [Docker Desktop Release Notes](desktop/release-notes.md)
 - Develop
   - Develop Images
     * [Create A Base Image](develop/develop-images/baseimages.md)
