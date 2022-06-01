@@ -360,6 +360,7 @@
   * [Advanced Image Management Dashboard](docker-hub/image-management.md)
   * [Docker Hub Quickstart](docker-hub/index.md)
   * [Docker Official Images](docker-hub/official_images.md)
+  * [Get Started Onboarding With Docker Business](docker-hub/onboard-business.md)
   * [Onboarding Faqs](docker-hub/onboarding-faqs.md)
   * [Teams And Organizations](docker-hub/orgs.md)
   * [Registry Access Management](docker-hub/registry-access-management.md)
