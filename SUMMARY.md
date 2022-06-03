@@ -190,6 +190,11 @@
     * [Compose File Versions And Upgrading](compose/compose-file/compose-versioning.md)
     * [Compose File Deploy Reference](compose/compose-file/deploy.md)
     * [Compose Specification](compose/compose-file/index.md)
+  - Install
+    * [Install Compose Through Docker Desktop](compose/install/compose-desktop.md)
+    * [Install Docker Compose CLI Plugin](compose/install/compose-plugin.md)
+    * [Install Docker Compose](compose/install/index.md)
+    * [Uninstall Docker Compose](compose/install/uninstall.md)
   - Reference
     * [Docker Compose Build](compose/reference/build.md)
     * [Docker Compose Config](compose/reference/config.md)
@@ -226,7 +231,6 @@
   * [Get Started With Docker Compose](compose/gettingstarted.md)
   * [Enabling GPU Access With Compose](compose/gpu-support.md)
   * [Overview Of Docker Compose](compose/index.md)
-  * [Install Docker Compose](compose/install.md)
   * [Networking In Compose](compose/networking.md)
   * [Use Compose In Production](compose/production.md)
   * [Using Profiles With Compose](compose/profiles.md)
