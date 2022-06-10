@@ -174,6 +174,8 @@
     * [Yourls](_samples/library/yourls.md)
     * [Znc](_samples/library/znc.md)
     * [Zookeeper](_samples/library/zookeeper.md)
+- Build
+  * [Overview Of Docker Build](build/index.md)
 - Buildx
   * [Docker Buildx](buildx/working-with-buildx.md)
 - Ci Cd
@@ -273,6 +275,41 @@
 - Desktop
   - Enterprise
     * [Docker Desktop Enterprise](desktop/enterprise/index.md)
+  - Extensions Sdk
+    - Design
+      * [Design Guidelines](desktop/extensions-sdk/design/design-guidelines.md)
+      * [Docker S Design Principles](desktop/extensions-sdk/design/design-principles.md)
+      * [MUI Best Practices](desktop/extensions-sdk/design/mui-best-practices.md)
+      * [UI Styling Overview](desktop/extensions-sdk/design/overview.md)
+    - Dev
+      - Api
+        - Reference
+          - Interfaces
+            * [Docker Extension API Reference](desktop/extensions-sdk/dev/api/reference/interfaces/Toast.md)
+          * [Docker Extension API Reference](desktop/extensions-sdk/dev/api/reference/README.md)
+        * [Extension Backend](desktop/extensions-sdk/dev/api/backend.md)
+        * [Navigation](desktop/extensions-sdk/dev/api/dashboard-routes-navigation.md)
+        * [Dashboard](desktop/extensions-sdk/dev/api/dashboard.md)
+        * [Docker](desktop/extensions-sdk/dev/api/docker.md)
+        * [Extension UI API](desktop/extensions-sdk/dev/api/overview.md)
+      - Cli
+        * [Build Test And Install An Extension](desktop/extensions-sdk/dev/cli/build-test-install-extension.md)
+        * [Usage Overview](desktop/extensions-sdk/dev/cli/usage.md)
+      * [OAuth 2.0 flow](desktop/extensions-sdk/dev/oauth2-flow.md)
+      * [Overview](desktop/extensions-sdk/dev/overview.md)
+    - Extensions
+      * [Distribute Your Extension](desktop/extensions-sdk/extensions/DISTRIBUTION.md)
+      * [Extension Image Labels](desktop/extensions-sdk/extensions/labels.md)
+      * [Extension Metadata](desktop/extensions-sdk/extensions/METADATA.md)
+      * [Building Multi Arch Extensions](desktop/extensions-sdk/extensions/multi-arch.md)
+      * [Validate Your Extension](desktop/extensions-sdk/extensions/validation.md)
+    - Tutorials
+      * [Extensions SDK Tutorials](desktop/extensions-sdk/tutorials/initialize.md)
+      * [Minimal Backend Extension Tutorial](desktop/extensions-sdk/tutorials/minimal-backend-extension.md)
+      * [Minimal Frontend Extension Tutorial](desktop/extensions-sdk/tutorials/minimal-frontend-extension.md)
+      * [Minimal Docker CLI Extension Tutorial](desktop/extensions-sdk/tutorials/minimal-frontend-using-docker-cli.md)
+      * [Minimal React Extension Tutorial](desktop/extensions-sdk/tutorials/react-extension.md)
+    * [Introduction](desktop/extensions-sdk/index.md)
   - Linux
     - Install
       * [Install Docker Desktop On Arch Based Distributions](desktop/linux/install/archlinux.md)
