@@ -286,6 +286,10 @@
       * [Minimal Docker CLI Extension Tutorial](desktop/extensions-sdk/tutorials/minimal-frontend-using-docker-cli.md)
       * [Minimal React Extension Tutorial](desktop/extensions-sdk/tutorials/react-extension.md)
     * [Introduction](desktop/extensions-sdk/index.md)
+  - Faqs
+    * [Frequently Asked Questions](desktop/faqs/general.md)
+    * [Frequently Asked Questions For Mac](desktop/faqs/macfaqs.md)
+    * [Frequently Asked Questions For Windows](desktop/faqs/windowsfaqs.md)
   - Linux
     - Install
       * [Install Docker Desktop On Arch Based Distributions](desktop/linux/install/archlinux.md)
@@ -328,7 +332,6 @@
   * [Docker Dashboard](desktop/dashboard.md)
   * [Development Environments Preview](desktop/dev-environments.md)
   * [Docker Extensions](desktop/extensions.md)
-  * [Frequently Asked Questions](desktop/faqs.md)
   * [Docker Desktop Overview](desktop/index.md)
   * [Deploy On Kubernetes](desktop/kubernetes.md)
   * [Leverage Multi CPU Architecture Support](desktop/multi-arch.md)
