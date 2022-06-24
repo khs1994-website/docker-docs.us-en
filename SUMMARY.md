@@ -252,9 +252,18 @@
   - Enterprise
     * [Docker Desktop Enterprise](desktop/enterprise/index.md)
   - Extensions Sdk
+    - Build
+      - Set Up
+        * [Set Up A Minimal Backend Extension](desktop/extensions-sdk/build/set-up/minimal-backend-extension.md)
+        * [Set Up A Minimal Frontend Extension](desktop/extensions-sdk/build/set-up/minimal-frontend-extension.md)
+        * [Set Up A Minimal Extension Invoking Docker Commands](desktop/extensions-sdk/build/set-up/minimal-frontend-using-docker-cli.md)
+        * [Set Up A Minimal React Extension](desktop/extensions-sdk/build/set-up/react-extension.md)
+      * [Step Three Build And Install](desktop/extensions-sdk/build/build-install.md)
+      * [Step One Get Started](desktop/extensions-sdk/build/get-started.md)
+      * [Step Four Test And Debug](desktop/extensions-sdk/build/test-debug.md)
     - Design
       * [Design Guidelines](desktop/extensions-sdk/design/design-guidelines.md)
-      * [Docker S Design Principles](desktop/extensions-sdk/design/design-principles.md)
+      * [Docker Design Principles](desktop/extensions-sdk/design/design-principles.md)
       * [MUI Best Practices](desktop/extensions-sdk/design/mui-best-practices.md)
       * [UI Styling Overview](desktop/extensions-sdk/design/overview.md)
     - Dev
@@ -268,24 +277,16 @@
         * [Dashboard](desktop/extensions-sdk/dev/api/dashboard.md)
         * [Docker](desktop/extensions-sdk/dev/api/docker.md)
         * [Extension UI API](desktop/extensions-sdk/dev/api/overview.md)
-      - Cli
-        * [Build Test And Install An Extension](desktop/extensions-sdk/dev/cli/build-test-install-extension.md)
-        * [Usage Overview](desktop/extensions-sdk/dev/cli/usage.md)
       * [OAuth 2.0 flow](desktop/extensions-sdk/dev/oauth2-flow.md)
-      * [Overview](desktop/extensions-sdk/dev/overview.md)
+      * [Usage Overview](desktop/extensions-sdk/dev/usage.md)
     - Extensions
       * [Distribute Your Extension](desktop/extensions-sdk/extensions/DISTRIBUTION.md)
+      * [Publish Your Extension](desktop/extensions-sdk/extensions/index.md)
       * [Extension Image Labels](desktop/extensions-sdk/extensions/labels.md)
       * [Extension Metadata](desktop/extensions-sdk/extensions/METADATA.md)
-      * [Building Multi Arch Extensions](desktop/extensions-sdk/extensions/multi-arch.md)
-      * [Validate Your Extension](desktop/extensions-sdk/extensions/validation.md)
-    - Tutorials
-      * [Extensions SDK Tutorials](desktop/extensions-sdk/tutorials/initialize.md)
-      * [Minimal Backend Extension Tutorial](desktop/extensions-sdk/tutorials/minimal-backend-extension.md)
-      * [Minimal Frontend Extension Tutorial](desktop/extensions-sdk/tutorials/minimal-frontend-extension.md)
-      * [Minimal Docker CLI Extension Tutorial](desktop/extensions-sdk/tutorials/minimal-frontend-using-docker-cli.md)
-      * [Minimal React Extension Tutorial](desktop/extensions-sdk/tutorials/react-extension.md)
-    * [Introduction](desktop/extensions-sdk/index.md)
+      * [Build The Extensions For Multiple Architectures](desktop/extensions-sdk/extensions/multi-arch.md)
+    * [Overview](desktop/extensions-sdk/index.md)
+    * [Quickstart](desktop/extensions-sdk/quickstart.md)
   - Faqs
     * [Frequently Asked Questions](desktop/faqs/general.md)
     * [Frequently Asked Questions For Mac](desktop/faqs/macfaqs.md)
@@ -386,6 +387,7 @@
   * [Registry Access Management](docker-hub/registry-access-management.md)
   * [Docker Hub Release Notes](docker-hub/release-notes.md)
   * [Repositories](docker-hub/repos.md)
+  * [System For Cross Domain Identity Management](docker-hub/scim.md)
   * [Service Accounts](docker-hub/service-accounts.md)
   * [Set Up Docker Hub Notifications In Slack](docker-hub/slack_integration.md)
   * [Hub Vulnerability Scanning](docker-hub/vulnerability-scanning.md)
