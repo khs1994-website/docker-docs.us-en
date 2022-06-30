@@ -355,6 +355,7 @@
   * [Docker Dashboard](desktop/dashboard.md)
   * [Development Environments Preview](desktop/dev-environments.md)
   * [Docker Extensions](desktop/extensions.md)
+  * [Give feedback on...](desktop/feedback.md)
   * [Docker Desktop Overview](desktop/index.md)
   * [Deploy On Kubernetes](desktop/kubernetes.md)
   * [Leverage Multi CPU Architecture Support](desktop/multi-arch.md)
