@@ -249,6 +249,12 @@
   * [Docker Object Labels](config/labels-custom-metadata.md)
   * [Prune Unused Docker Objects](config/pruning.md)
 - Desktop
+  - Dev Environments
+    * [Create A Compose Dev Environment](desktop/dev-environments/create-compose-dev-env.md)
+    * [Create A Dev Environment](desktop/dev-environments/create-dev-env.md)
+    * [Overview](desktop/dev-environments/index.md)
+    * [Share Your Dev Environment](desktop/dev-environments/share.md)
+    * [Specify A Dockerfile Or Base Image](desktop/dev-environments/specify.md)
   - Enterprise
     * [Docker Desktop Enterprise](desktop/enterprise/index.md)
   - Extensions Sdk
@@ -353,7 +359,6 @@
     * [Docker Desktop WSL 2 Backend](desktop/windows/wsl.md)
   * [Back Up And Restore Data](desktop/backup-and-restore.md)
   * [Docker Dashboard](desktop/dashboard.md)
-  * [Development Environments Preview](desktop/dev-environments.md)
   * [Docker Extensions](desktop/extensions.md)
   * [Give feedback on...](desktop/feedback.md)
   * [Docker Desktop Overview](desktop/index.md)
