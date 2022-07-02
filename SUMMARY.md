@@ -264,9 +264,8 @@
         * [Set Up A Minimal Frontend Extension](desktop/extensions-sdk/build/set-up/minimal-frontend-extension.md)
         * [Set Up A Minimal Extension Invoking Docker Commands](desktop/extensions-sdk/build/set-up/minimal-frontend-using-docker-cli.md)
         * [Set Up A Minimal React Extension](desktop/extensions-sdk/build/set-up/react-extension.md)
-      * [Step Three Build And Install](desktop/extensions-sdk/build/build-install.md)
-      * [Step One Get Started](desktop/extensions-sdk/build/get-started.md)
-      * [Step Four Test And Debug](desktop/extensions-sdk/build/test-debug.md)
+      * [Step Two Build And Install](desktop/extensions-sdk/build/build-install.md)
+      * [Step Three Test And Debug](desktop/extensions-sdk/build/test-debug.md)
     - Design
       * [Design Guidelines](desktop/extensions-sdk/design/design-guidelines.md)
       * [Docker Design Principles](desktop/extensions-sdk/design/design-principles.md)
