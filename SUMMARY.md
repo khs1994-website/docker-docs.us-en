@@ -364,6 +364,7 @@
   * [Deploy On Kubernetes](desktop/kubernetes.md)
   * [Leverage Multi CPU Architecture Support](desktop/multi-arch.md)
   * [Docker Desktop Release Notes](desktop/release-notes.md)
+  * [Get Support](desktop/support.md)
 - Develop
   - Develop Images
     * [Create A Base Image](develop/develop-images/baseimages.md)
