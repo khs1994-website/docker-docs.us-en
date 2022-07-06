@@ -316,6 +316,7 @@
     * [Quickstart](desktop/extensions-sdk/quickstart.md)
   - Faqs
     * [Frequently Asked Questions](desktop/faqs/general.md)
+    * [Frequently Asked Questions For Linux](desktop/faqs/linuxfaqs.md)
     * [Frequently Asked Questions For Mac](desktop/faqs/macfaqs.md)
     * [Frequently Asked Questions For Windows](desktop/faqs/windowsfaqs.md)
   - Linux
@@ -363,6 +364,7 @@
   * [Docker Desktop Overview](desktop/index.md)
   * [Deploy On Kubernetes](desktop/kubernetes.md)
   * [Leverage Multi CPU Architecture Support](desktop/multi-arch.md)
+  * [Explore Networking Features](desktop/networking.md)
   * [Docker Desktop Release Notes](desktop/release-notes.md)
   * [Get Support](desktop/support.md)
 - Develop
@@ -383,6 +385,7 @@
     * [Generate A New Recovery Code](docker-hub/2fa/new-recovery-code.md)
     * [Recover Your Docker Hub Account](docker-hub/2fa/recover-hub-account.md)
   - Api
+    * [Dvp](docker-hub/api/dvp.md)
     * [Latest](docker-hub/api/latest.md)
   - Builds
     * [Advanced Options For Autobuild And Autotest](docker-hub/builds/advanced.md)
