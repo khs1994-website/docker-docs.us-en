@@ -339,6 +339,7 @@
     * [Docker Desktop For Mac User Manual](desktop/mac/index.md)
     * [Install Docker Desktop On Mac](desktop/mac/install.md)
     * [Networking Features In Docker Desktop For Mac](desktop/mac/networking.md)
+    * [Docker Desktop Privileged Helper On Mac](desktop/mac/privileged-helper.md)
     * [Disk Utilization In Docker For Mac](desktop/mac/space.md)
     * [Logs And Troubleshooting](desktop/mac/troubleshoot.md)
   - Previous Versions
