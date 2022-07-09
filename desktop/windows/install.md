@@ -25,6 +25,8 @@ Welcome to Docker Desktop for Windows. This page contains information about Dock
 >
 > [Docker Desktop for Windows](https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe){: .button .primary-btn }
 
+*For checksums, see [Release notes](../release-notes.md)*
+
 ## System requirements
 
 Your Windows machine must meet the following requirements to successfully install Docker Desktop.
@@ -97,6 +99,11 @@ Looking for information on using Windows containers?
   with Windows containers.
 * Docker Container Platform for Windows [articles and blog
   posts](https://www.docker.com/microsoft/) on the Docker website.
+
+> **Note**
+>
+> To run Windows containers, you need Windows 10 or Windows 11 Professional or Enterprise edition. 
+Windows Home or Education editions will only allow you to run Linux containers.
 
 ## Install Docker Desktop on Windows
 
