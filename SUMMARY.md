@@ -248,6 +248,10 @@
   * [Format Command And Log Output](config/formatting.md)
   * [Docker Object Labels](config/labels-custom-metadata.md)
   * [Prune Unused Docker Objects](config/pruning.md)
+- Deprecated
+  * [Kitematic Deprecated](deprecated/kitematic.md)
+  * [Docker Machine](deprecated/machine.md)
+  * [Docker Toolbox](deprecated/toolbox.md)
 - Desktop
   - Dev Environments
     * [Create A Compose Dev Environment](desktop/dev-environments/create-compose-dev-env.md)
@@ -319,16 +323,18 @@
     * [Frequently Asked Questions For Linux](desktop/faqs/linuxfaqs.md)
     * [Frequently Asked Questions For Mac](desktop/faqs/macfaqs.md)
     * [Frequently Asked Questions For Windows](desktop/faqs/windowsfaqs.md)
+  - Install
+    * [Install Docker Desktop On Arch Based Distributions](desktop/install/archlinux.md)
+    * [Install Docker Desktop On Debian](desktop/install/debian.md)
+    * [Install Docker Desktop On Fedora](desktop/install/fedora.md)
+    * [Install Docker Desktop On Linux](desktop/install/linux-install.md)
+    * [Install Docker Desktop On Mac](desktop/install/mac-install.md)
+    * [Install Docker Desktop On Ubuntu](desktop/install/ubuntu.md)
+    * [Install Docker Desktop On Windows](desktop/install/windows-install.md)
   - Linux
-    - Install
-      * [Install Docker Desktop On Arch Based Distributions](desktop/linux/install/archlinux.md)
-      * [Install Docker Desktop On Debian](desktop/linux/install/debian.md)
-      * [Install Docker Desktop On Fedora](desktop/linux/install/fedora.md)
-      * [Install Docker Desktop On Ubuntu](desktop/linux/install/ubuntu.md)
     - Release Notes
       * [Docker Desktop For Linux Release Notes](desktop/linux/release-notes/index.md)
     * [Docker Desktop For Linux User Manual](desktop/linux/index.md)
-    * [Install Docker Desktop On Linux](desktop/linux/install.md)
     * [Networking Features In Docker Desktop For Linux](desktop/linux/networking.md)
     * [Disk Utilization In Docker Desktop For Linux](desktop/linux/space.md)
     * [Logs And Troubleshooting](desktop/linux/troubleshoot.md)
@@ -337,7 +343,6 @@
       * [Docker Desktop For Mac Release Notes](desktop/mac/release-notes/index.md)
     * [Docker Desktop For Apple Silicon](desktop/mac/apple-silicon.md)
     * [Docker Desktop For Mac User Manual](desktop/mac/index.md)
-    * [Install Docker Desktop On Mac](desktop/mac/install.md)
     * [Networking Features In Docker Desktop For Mac](desktop/mac/networking.md)
     * [Docker Desktop Privileged Helper On Mac](desktop/mac/privileged-helper.md)
     * [Disk Utilization In Docker For Mac](desktop/mac/space.md)
@@ -354,7 +359,6 @@
     - Release Notes
       * [Docker For Windows Release Notes](desktop/windows/release-notes/index.md)
     * [Docker Desktop For Windows User Manual](desktop/windows/index.md)
-    * [Install Docker Desktop On Windows](desktop/windows/install.md)
     * [Networking Features In Docker Desktop For Windows](desktop/windows/networking.md)
     * [Logs And Troubleshooting](desktop/windows/troubleshoot.md)
     * [Docker Desktop WSL 2 Backend](desktop/windows/wsl.md)
