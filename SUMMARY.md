@@ -355,6 +355,10 @@
     * [Release Notes For Previous Versions](desktop/previous-versions/archive-windows.md)
     * [Docker Desktop For Mac Edge Release Notes](desktop/previous-versions/edge-releases-mac.md)
     * [Docker Desktop For Windows Edge Release Notes](desktop/previous-versions/edge-releases-windows.md)
+  - Settings
+    * [Change Docker Dektop Settings On Linux](desktop/settings/linux-settings.md)
+    * [Change Docker Dektop Preferences On Mac](desktop/settings/mac-settings.md)
+    * [Change Docker Dektop Settings On Windows](desktop/settings/windows-settings.md)
   - Windows
     - Release Notes
       * [Docker For Windows Release Notes](desktop/windows/release-notes/index.md)
@@ -942,6 +946,8 @@
   * [Docker Subscription Overview](subscription/index.md)
   * [Remove Seats From Your Subscription](subscription/remove-seats.md)
   * [Upgrade Your Subscription](subscription/upgrade.md)
+- Support
+  * [Get Support](support/index.md)
 * [CONTRIBUTING](CONTRIBUTING.md)
 * [View The Docs Archives](docsarchive.md)
 * [Get Docker](get-docker.md)
