@@ -356,9 +356,9 @@
     * [Docker Desktop For Mac Edge Release Notes](desktop/previous-versions/edge-releases-mac.md)
     * [Docker Desktop For Windows Edge Release Notes](desktop/previous-versions/edge-releases-windows.md)
   - Settings
-    * [Change Docker Dektop Settings On Linux](desktop/settings/linux-settings.md)
-    * [Change Docker Dektop Preferences On Mac](desktop/settings/mac-settings.md)
-    * [Change Docker Dektop Settings On Windows](desktop/settings/windows-settings.md)
+    * [Change Docker Desktop Settings On Linux](desktop/settings/linux.md)
+    * [Change Docker Desktop Preferences On Mac](desktop/settings/mac.md)
+    * [Change Docker Desktop Settings On Windows](desktop/settings/windows.md)
   - Windows
     - Release Notes
       * [Docker For Windows Release Notes](desktop/windows/release-notes/index.md)
