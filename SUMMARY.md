@@ -175,6 +175,7 @@
     * [Znc](_samples/library/znc.md)
     * [Zookeeper](_samples/library/zookeeper.md)
 - Build
+  * [Hello Build](build/hellobuild.md)
   * [Overview Of Docker Build](build/index.md)
 - Buildx
   * [Docker Buildx](buildx/working-with-buildx.md)
@@ -373,6 +374,7 @@
   * [Docker Desktop Overview](desktop/index.md)
   * [Deploy On Kubernetes](desktop/kubernetes.md)
   * [Leverage Multi CPU Architecture Support](desktop/multi-arch.md)
+  * [Enable Nested Virtualization](desktop/nested-virtualization.md)
   * [Explore Networking Features](desktop/networking.md)
   * [Docker Desktop Release Notes](desktop/release-notes.md)
   * [Get Support](desktop/support.md)
