@@ -175,10 +175,11 @@
     * [Znc](_samples/library/znc.md)
     * [Zookeeper](_samples/library/zookeeper.md)
 - Build
+  - Buildx
+    * [Buildx](build/buildx/index.md)
+    * [Install Docker Buildx](build/buildx/install.md)
   * [Hello Build](build/hellobuild.md)
   * [Overview Of Docker Build](build/index.md)
-- Buildx
-  * [Docker Buildx](buildx/working-with-buildx.md)
 - Ci Cd
   * [Best Practices For Using Docker Hub For CI CD](ci-cd/best-practices.md)
   * [Configure Git Hub Actions](ci-cd/github-actions.md)
@@ -360,6 +361,10 @@
     * [Change Docker Desktop Settings On Linux](desktop/settings/linux.md)
     * [Change Docker Desktop Preferences On Mac](desktop/settings/mac.md)
     * [Change Docker Desktop Settings On Windows](desktop/settings/windows.md)
+  - Use Desktop
+    * [Explore Containers](desktop/use-desktop/container.md)
+    * [Explore Images](desktop/use-desktop/images.md)
+    * [Explore Volumes](desktop/use-desktop/volumes.md)
   - Windows
     - Release Notes
       * [Docker For Windows Release Notes](desktop/windows/release-notes/index.md)
@@ -371,6 +376,7 @@
   * [Docker Dashboard](desktop/dashboard.md)
   * [Docker Extensions](desktop/extensions.md)
   * [Give feedback on...](desktop/feedback.md)
+  * [Sign In And Get Started](desktop/get-started.md)
   * [Docker Desktop Overview](desktop/index.md)
   * [Deploy On Kubernetes](desktop/kubernetes.md)
   * [Leverage Multi CPU Architecture Support](desktop/multi-arch.md)
