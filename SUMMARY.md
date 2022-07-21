@@ -339,7 +339,6 @@
     * [Docker Desktop For Linux User Manual](desktop/linux/index.md)
     * [Networking Features In Docker Desktop For Linux](desktop/linux/networking.md)
     * [Disk Utilization In Docker Desktop For Linux](desktop/linux/space.md)
-    * [Logs And Troubleshooting](desktop/linux/troubleshoot.md)
   - Mac
     - Release Notes
       * [Docker Desktop For Mac Release Notes](desktop/mac/release-notes/index.md)
@@ -348,7 +347,6 @@
     * [Networking Features In Docker Desktop For Mac](desktop/mac/networking.md)
     * [Docker Desktop Privileged Helper On Mac](desktop/mac/privileged-helper.md)
     * [Disk Utilization In Docker For Mac](desktop/mac/space.md)
-    * [Logs And Troubleshooting](desktop/mac/troubleshoot.md)
   - Previous Versions
     * [Docker Desktop for Mac 2.x release notes](desktop/previous-versions/2.x-mac.md)
     * [Docker for Windows 2.x release notes](desktop/previous-versions/2.x-windows.md)
@@ -361,6 +359,11 @@
     * [Change Docker Desktop Settings On Linux](desktop/settings/linux.md)
     * [Change Docker Desktop Preferences On Mac](desktop/settings/mac.md)
     * [Change Docker Desktop Settings On Windows](desktop/settings/windows.md)
+  - Troubleshoot
+    * [Known Issues For Docker Desktop On Mac](desktop/troubleshoot/known-issues.md)
+    * [Overview](desktop/troubleshoot/overview.md)
+    * [Troubleshoot Topics](desktop/troubleshoot/topics.md)
+    * [Workarounds For Common Problems](desktop/troubleshoot/workarounds.md)
   - Use Desktop
     * [Explore Containers](desktop/use-desktop/container.md)
     * [Explore Images](desktop/use-desktop/images.md)
@@ -370,7 +373,7 @@
       * [Docker For Windows Release Notes](desktop/windows/release-notes/index.md)
     * [Docker Desktop For Windows User Manual](desktop/windows/index.md)
     * [Networking Features In Docker Desktop For Windows](desktop/windows/networking.md)
-    * [Logs And Troubleshooting](desktop/windows/troubleshoot.md)
+    * [Troubleshoot](desktop/windows/troubleshoot.md)
     * [Docker Desktop WSL 2 Backend](desktop/windows/wsl.md)
   * [Back Up And Restore Data](desktop/backup-and-restore.md)
   * [Docker Dashboard](desktop/dashboard.md)
