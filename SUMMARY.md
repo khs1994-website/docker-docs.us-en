@@ -431,6 +431,7 @@
   * [Image Access Management](docker-hub/image-access-management.md)
   * [Advanced Image Management Dashboard](docker-hub/image-management.md)
   * [Docker Hub Quickstart](docker-hub/index.md)
+  * [Manage Members](docker-hub/members.md)
   * [Docker Official Images](docker-hub/official_images.md)
   * [Get Started Onboarding With Docker Business](docker-hub/onboard-business.md)
   * [Onboarding Faqs](docker-hub/onboarding-faqs.md)
