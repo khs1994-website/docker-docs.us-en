@@ -1,0 +1,10 @@
+**/.DS_Store
+**/desktop.ini
+.bundle/**
+.jekyll-cache
+.jekyll-metadata
+_site/**
+.sass-cache/**
+CNAME
+_kbase/**
+/vendor
