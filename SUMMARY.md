@@ -367,6 +367,7 @@
   - Use Desktop
     * [Explore Containers](desktop/use-desktop/container.md)
     * [Explore Images](desktop/use-desktop/images.md)
+    * [Pause Docker Desktop](desktop/use-desktop/pause.md)
     * [Explore Volumes](desktop/use-desktop/volumes.md)
   - Windows
     - Release Notes
@@ -380,7 +381,7 @@
   * [Docker Extensions](desktop/extensions.md)
   * [Give feedback on...](desktop/feedback.md)
   * [Sign In And Get Started](desktop/get-started.md)
-  * [Docker Desktop Overview](desktop/index.md)
+  * [Docker Desktop](desktop/index.md)
   * [Deploy On Kubernetes](desktop/kubernetes.md)
   * [Leverage Multi CPU Architecture Support](desktop/multi-arch.md)
   * [Enable Nested Virtualization](desktop/nested-virtualization.md)
@@ -726,6 +727,7 @@
       * [Docker Volume Rm](engine/reference/commandline/volume_rm.md)
       * [Docker Volume](engine/reference/commandline/volume.md)
       * [Docker Wait](engine/reference/commandline/wait.md)
+    * [Dockerfile Reference](engine/reference/builder.md)
   - Release Notes
     * [Docker Engine 17.03 release notes](engine/release-notes/17.03.md)
     * [Docker Engine 17.04 release notes](engine/release-notes/17.04.md)
