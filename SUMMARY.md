@@ -175,9 +175,18 @@
     * [Znc](_samples/library/znc.md)
     * [Zookeeper](_samples/library/zookeeper.md)
 - Build
+  - Bake
+    * [Defining Additional Build Contexts And Linking Targets](build/bake/build-contexts.md)
+    * [Building From Compose File](build/bake/compose-file.md)
+    * [Configuring Builds](build/bake/configuring-build.md)
+    * [Bake File Definition](build/bake/file-definition.md)
+    * [User Defined HCL Functions](build/bake/hcl-funcs.md)
+    * [High Level Build Options With Bake](build/bake/index.md)
   - Buildx
-    * [Buildx](build/buildx/index.md)
+    * [Working With Buildx](build/buildx/index.md)
     * [Install Docker Buildx](build/buildx/install.md)
+    * [Building Multi Platform Images](build/buildx/multiplatform-images.md)
+    * [Using Multiple Builders](build/buildx/multiple-builders.md)
   * [Hello Build](build/hellobuild.md)
   * [Overview Of Docker Build](build/index.md)
 - Ci Cd
@@ -333,20 +342,9 @@
     * [Install Docker Desktop On Mac](desktop/install/mac-install.md)
     * [Install Docker Desktop On Ubuntu](desktop/install/ubuntu.md)
     * [Install Docker Desktop On Windows](desktop/install/windows-install.md)
-  - Linux
-    - Release Notes
-      * [Docker Desktop For Linux Release Notes](desktop/linux/release-notes/index.md)
-    * [Docker Desktop For Linux User Manual](desktop/linux/index.md)
-    * [Networking Features In Docker Desktop For Linux](desktop/linux/networking.md)
-    * [Disk Utilization In Docker Desktop For Linux](desktop/linux/space.md)
   - Mac
-    - Release Notes
-      * [Docker Desktop For Mac Release Notes](desktop/mac/release-notes/index.md)
     * [Docker Desktop For Apple Silicon](desktop/mac/apple-silicon.md)
-    * [Docker Desktop For Mac User Manual](desktop/mac/index.md)
-    * [Networking Features In Docker Desktop For Mac](desktop/mac/networking.md)
     * [Docker Desktop Privileged Helper On Mac](desktop/mac/privileged-helper.md)
-    * [Disk Utilization In Docker For Mac](desktop/mac/space.md)
   - Previous Versions
     * [Docker Desktop for Mac 2.x release notes](desktop/previous-versions/2.x-mac.md)
     * [Docker for Windows 2.x release notes](desktop/previous-versions/2.x-windows.md)
@@ -370,11 +368,6 @@
     * [Pause Docker Desktop](desktop/use-desktop/pause.md)
     * [Explore Volumes](desktop/use-desktop/volumes.md)
   - Windows
-    - Release Notes
-      * [Docker For Windows Release Notes](desktop/windows/release-notes/index.md)
-    * [Docker Desktop For Windows User Manual](desktop/windows/index.md)
-    * [Networking Features In Docker Desktop For Windows](desktop/windows/networking.md)
-    * [Troubleshoot](desktop/windows/troubleshoot.md)
     * [Docker Desktop WSL 2 Backend](desktop/windows/wsl.md)
   * [Back Up And Restore Data](desktop/backup-and-restore.md)
   * [Docker Dashboard](desktop/dashboard.md)
@@ -834,6 +827,7 @@
   * [Experimental](go/experimental.md)
   * [Formatting](go/formatting.md)
   * [Learn More About Using Docker On The Command Line](go/guides.md)
+  * [How To Set Up And Configure The Pass Credentials Helper For Docker Desktop For Linux](go/linux-credentials.md)
   * [Pause And Resume Docker Desktop](go/win-desktop-pause.md)
   * [Rootless](go/rootless.md)
   * [Information On How Configure Storage Drivers](go/storage-driver.md)
