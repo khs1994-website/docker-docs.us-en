@@ -344,7 +344,7 @@
     * [Install Docker Desktop On Windows](desktop/install/windows-install.md)
   - Mac
     * [Docker Desktop For Apple Silicon](desktop/mac/apple-silicon.md)
-    * [Docker Desktop Privileged Helper On Mac](desktop/mac/privileged-helper.md)
+    * [Docker Desktop Permission Requirements For Mac](desktop/mac/permission-requirements.md)
   - Previous Versions
     * [Docker Desktop for Mac 2.x release notes](desktop/previous-versions/2.x-mac.md)
     * [Docker for Windows 2.x release notes](desktop/previous-versions/2.x-windows.md)
@@ -377,10 +377,10 @@
   * [Docker Desktop](desktop/index.md)
   * [Deploy On Kubernetes](desktop/kubernetes.md)
   * [Leverage Multi CPU Architecture Support](desktop/multi-arch.md)
-  * [Enable Nested Virtualization](desktop/nested-virtualization.md)
   * [Explore Networking Features](desktop/networking.md)
   * [Docker Desktop Release Notes](desktop/release-notes.md)
   * [Get Support](desktop/support.md)
+  * [Run Docker Desktop In A VM Or VDI Environment](desktop/vm-vdi.md)
 - Develop
   - Develop Images
     * [Create A Base Image](develop/develop-images/baseimages.md)
