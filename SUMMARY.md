@@ -183,6 +183,11 @@
     * [User Defined HCL Functions](build/bake/hcl-funcs.md)
     * [High Level Build Options With Bake](build/bake/index.md)
   - Buildx
+    - Drivers
+      * [Docker Container Driver](build/buildx/drivers/docker-container.md)
+      * [Buildx Drivers Overview](build/buildx/drivers/index.md)
+      * [Kubernetes Driver](build/buildx/drivers/kubernetes.md)
+      * [Remote Driver](build/buildx/drivers/remote.md)
     * [Working With Buildx](build/buildx/index.md)
     * [Install Docker Buildx](build/buildx/install.md)
     * [Building Multi Platform Images](build/buildx/multiplatform-images.md)
@@ -368,6 +373,7 @@
     * [Pause Docker Desktop](desktop/use-desktop/pause.md)
     * [Explore Volumes](desktop/use-desktop/volumes.md)
   - Windows
+    * [Docker Desktop Permission Requirements For Windows](desktop/windows/permission-requirements.md)
     * [Docker Desktop WSL 2 Backend](desktop/windows/wsl.md)
   * [Back Up And Restore Data](desktop/backup-and-restore.md)
   * [Docker Dashboard](desktop/dashboard.md)
