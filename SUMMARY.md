@@ -185,6 +185,7 @@
   - Buildx
     - Drivers
       * [Docker Container Driver](build/buildx/drivers/docker-container.md)
+      * [Docker Driver](build/buildx/drivers/docker.md)
       * [Buildx Drivers Overview](build/buildx/drivers/index.md)
       * [Kubernetes Driver](build/buildx/drivers/kubernetes.md)
       * [Remote Driver](build/buildx/drivers/remote.md)
