@@ -377,7 +377,6 @@
     * [Docker Desktop Permission Requirements For Windows](desktop/windows/permission-requirements.md)
     * [Docker Desktop WSL 2 Backend](desktop/windows/wsl.md)
   * [Back Up And Restore Data](desktop/backup-and-restore.md)
-  * [Docker Dashboard](desktop/dashboard.md)
   * [Docker Extensions](desktop/extensions.md)
   * [Give feedback on...](desktop/feedback.md)
   * [Sign In And Get Started](desktop/get-started.md)
