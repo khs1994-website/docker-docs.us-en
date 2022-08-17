@@ -221,6 +221,7 @@
   * [Command Line Completion](compose/completion.md)
   * [Declare Default Environment Variables In File](compose/env-file.md)
   * [Environment Variables In Compose](compose/environment-variables.md)
+  * [Environment Variables Precedence](compose/envvars-precedence.md)
   * [Share Compose Configurations Between Files And Projects](compose/extends.md)
   * [Frequently Asked Questions](compose/faq.md)
   * [Get Started With Docker Compose](compose/gettingstarted.md)
