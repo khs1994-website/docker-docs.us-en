@@ -218,7 +218,6 @@
     * [Compose CLI Environment Variables](compose/reference/envvars.md)
     * [Overview Of Docker Compose CLI](compose/reference/index.md)
   * [Compose Command Compatibility With Docker Compose](compose/cli-command-compatibility.md)
-  * [Command Line Completion](compose/completion.md)
   * [Declare Default Environment Variables In File](compose/env-file.md)
   * [Environment Variables In Compose](compose/environment-variables.md)
   * [Environment Variables Precedence](compose/envvars-precedence.md)
