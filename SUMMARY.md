@@ -386,7 +386,7 @@
   * [Explore Networking Features](desktop/networking.md)
   * [Docker Desktop Release Notes](desktop/release-notes.md)
   * [Get Support](desktop/support.md)
-  * [Run Docker Desktop In A VM Or VDI Environment](desktop/vm-vdi.md)
+  * [Run Docker Desktop For Windows In A VM Or VDI Environment](desktop/vm-vdi.md)
 - Develop
   - Develop Images
     * [Create A Base Image](develop/develop-images/baseimages.md)
@@ -405,6 +405,7 @@
     * [Generate A New Recovery Code](docker-hub/2fa/new-recovery-code.md)
     * [Recover Your Docker Hub Account](docker-hub/2fa/recover-hub-account.md)
   - Api
+    * [Docker Hub API V 1 Deprecated](docker-hub/api/deprecated.md)
     * [Dvp](docker-hub/api/dvp.md)
     * [Latest](docker-hub/api/latest.md)
   - Builds
