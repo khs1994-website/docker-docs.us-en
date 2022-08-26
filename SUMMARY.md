@@ -350,7 +350,7 @@
     * [Install Docker Desktop On Windows](desktop/install/windows-install.md)
   - Mac
     * [Docker Desktop For Apple Silicon](desktop/mac/apple-silicon.md)
-    * [Docker Desktop Permission Requirements For Mac](desktop/mac/permission-requirements.md)
+    * [Understand Permission Requirements For Mac](desktop/mac/permission-requirements.md)
   - Previous Versions
     * [Docker Desktop for Mac 2.x release notes](desktop/previous-versions/2.x-mac.md)
     * [Docker for Windows 2.x release notes](desktop/previous-versions/2.x-windows.md)
@@ -374,7 +374,7 @@
     * [Pause Docker Desktop](desktop/use-desktop/pause.md)
     * [Explore Volumes](desktop/use-desktop/volumes.md)
   - Windows
-    * [Docker Desktop Permission Requirements For Windows](desktop/windows/permission-requirements.md)
+    * [Understand Permission Requirements For Windows](desktop/windows/permission-requirements.md)
     * [Docker Desktop WSL 2 Backend](desktop/windows/wsl.md)
   * [Back Up And Restore Data](desktop/backup-and-restore.md)
   * [Docker Extensions](desktop/extensions.md)
@@ -929,7 +929,7 @@
   * [Dockerize A Couch DB Service](samples/couchdb_data_volumes.md)
   * [Quickstart Compose And Django](samples/django.md)
   * [Dockerize an ASP.NET Core application](samples/dotnetcore.md)
-  * [Samples](samples/index.md)
+  * [Official Docker Samples](samples/index.md)
   * [Dockerize Postgre SQL](samples/postgresql_service.md)
   * [Quickstart Compose And Rails](samples/rails.md)
   * [Dockerize A Riak Service](samples/running_riak_service.md)
