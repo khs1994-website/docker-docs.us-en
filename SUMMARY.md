@@ -270,6 +270,8 @@
   * [Docker Machine](deprecated/machine.md)
   * [Docker Toolbox](deprecated/toolbox.md)
 - Desktop
+  - Containerd
+    * [Containerd Image Store Beta](desktop/containerd/index.md)
   - Dev Environments
     * [Create A Compose Dev Environment](desktop/dev-environments/create-compose-dev-env.md)
     * [Create A Dev Environment](desktop/dev-environments/create-dev-env.md)
