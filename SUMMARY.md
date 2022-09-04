@@ -421,7 +421,7 @@
     * [Migrate Content From The Publisher Center To Docker Hub](docker-hub/publish/publisher-center-migration.md)
   * [Manage Access Tokens](docker-hub/access-tokens.md)
   * [Audit Log](docker-hub/audit-log.md)
-  * [Configure registry.json to enforce sign in](docker-hub/configure-sign-in.md)
+  * [Configure registry.json to enforce sign-in](docker-hub/configure-sign-in.md)
   * [Convert An Account Into An Organization](docker-hub/convert-account.md)
   * [Deactivating An Account Or An Organization](docker-hub/deactivate-account.md)
   * [Download Rate Limit](docker-hub/download-rate-limit.md)
