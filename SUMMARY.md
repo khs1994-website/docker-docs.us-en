@@ -397,6 +397,7 @@
   - Use Desktop
     * [Explore Containers](desktop/use-desktop/container.md)
     * [Explore Images](desktop/use-desktop/images.md)
+    * [Overview](desktop/use-desktop/index.md)
     * [Pause Docker Desktop](desktop/use-desktop/pause.md)
     * [Explore Volumes](desktop/use-desktop/volumes.md)
   - Windows
