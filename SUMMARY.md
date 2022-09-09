@@ -304,6 +304,11 @@
     * [Specify A Dockerfile Or Base Image](desktop/dev-environments/specify.md)
   - Enterprise
     * [Docker Desktop Enterprise](desktop/enterprise/index.md)
+  - Extensions
+    * [What Is Docker Extensions](desktop/extensions/index.md)
+    * [Marketplace Extensions](desktop/extensions/marketplace.md)
+    * [Non Marketplace Extensions](desktop/extensions/non-marketplace.md)
+    * [Settings And Feedback](desktop/extensions/settings-feedback.md)
   - Extensions Sdk
     - Build
       - Set Up
@@ -404,7 +409,6 @@
     * [Understand Permission Requirements For Windows](desktop/windows/permission-requirements.md)
     * [Docker Desktop WSL 2 Backend](desktop/windows/wsl.md)
   * [Back Up And Restore Data](desktop/backup-and-restore.md)
-  * [Docker Extensions](desktop/extensions.md)
   * [Give Feedback](desktop/feedback.md)
   * [Sign In And Get Started](desktop/get-started.md)
   * [Docker Desktop](desktop/index.md)
