@@ -25,6 +25,7 @@
   * [Eula](_includes/eula.md)
   * [Experimental Feature](_includes/experimental-feature.md)
   * [Experimental](_includes/experimental.md)
+  * [Github Issue](_includes/github_issue.md)
   * [Github Pr](_includes/github-pr.md)
   * [Install Script](_includes/install-script.md)
   * [Registry](_includes/registry.md)
@@ -195,6 +196,7 @@
     * [Using Multiple Builders](build/buildx/multiple-builders.md)
   * [Hello Build](build/hellobuild.md)
   * [Overview Of Docker Build](build/index.md)
+  * [Build Release Notes](build/release-notes.md)
 - Ci Cd
   * [Best Practices For Using Docker Hub For CI CD](ci-cd/best-practices.md)
   * [Configure Git Hub Actions](ci-cd/github-actions.md)
