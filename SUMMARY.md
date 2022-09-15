@@ -183,18 +183,18 @@
     * [Bake File Definition](build/bake/file-definition.md)
     * [User Defined HCL Functions](build/bake/hcl-funcs.md)
     * [High Level Build Options With Bake](build/bake/index.md)
-  - Buildx
+  - Building
     - Drivers
-      * [Docker Container Driver](build/buildx/drivers/docker-container.md)
-      * [Docker Driver](build/buildx/drivers/docker.md)
-      * [Buildx Drivers Overview](build/buildx/drivers/index.md)
-      * [Kubernetes Driver](build/buildx/drivers/kubernetes.md)
-      * [Remote Driver](build/buildx/drivers/remote.md)
-    * [Working With Buildx](build/buildx/index.md)
+      * [Docker Container Driver](build/building/drivers/docker-container.md)
+      * [Docker Driver](build/building/drivers/docker.md)
+      * [Drivers Overview](build/building/drivers/index.md)
+      * [Kubernetes Driver](build/building/drivers/kubernetes.md)
+      * [Remote Driver](build/building/drivers/remote.md)
+    * [Multi Platform Images](build/building/multi-platform.md)
+    * [Packaging Your Software](build/building/packaging.md)
+  - Buildx
     * [Install Docker Buildx](build/buildx/install.md)
-    * [Building Multi Platform Images](build/buildx/multiplatform-images.md)
     * [Using Multiple Builders](build/buildx/multiple-builders.md)
-  * [Hello Build](build/hellobuild.md)
   * [Overview Of Docker Build](build/index.md)
   * [Build Release Notes](build/release-notes.md)
 - Ci Cd
@@ -415,7 +415,6 @@
   * [Sign In And Get Started](desktop/get-started.md)
   * [Docker Desktop](desktop/index.md)
   * [Deploy On Kubernetes](desktop/kubernetes.md)
-  * [Leverage Multi CPU Architecture Support](desktop/multi-arch.md)
   * [Explore Networking Features](desktop/networking.md)
   * [Docker Desktop Release Notes](desktop/release-notes.md)
   * [Get Support](desktop/support.md)
