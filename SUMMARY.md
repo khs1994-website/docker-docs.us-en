@@ -176,13 +176,6 @@
     * [Znc](_samples/library/znc.md)
     * [Zookeeper](_samples/library/zookeeper.md)
 - Build
-  - Bake
-    * [Defining Additional Build Contexts And Linking Targets](build/bake/build-contexts.md)
-    * [Building From Compose File](build/bake/compose-file.md)
-    * [Configuring Builds](build/bake/configuring-build.md)
-    * [Bake File Definition](build/bake/file-definition.md)
-    * [User Defined HCL Functions](build/bake/hcl-funcs.md)
-    * [High Level Build Options With Bake](build/bake/index.md)
   - Building
     - Drivers
       * [Docker Container Driver](build/building/drivers/docker-container.md)
@@ -195,6 +188,14 @@
   - Buildx
     * [Install Docker Buildx](build/buildx/install.md)
     * [Using Multiple Builders](build/buildx/multiple-builders.md)
+  - Customize
+    - Bake
+      * [Defining Additional Build Contexts And Linking Targets](build/customize/bake/build-contexts.md)
+      * [Building From Compose File](build/customize/bake/compose-file.md)
+      * [Configuring Builds](build/customize/bake/configuring-build.md)
+      * [Bake File Definition](build/customize/bake/file-definition.md)
+      * [User Defined HCL Functions](build/customize/bake/hcl-funcs.md)
+      * [High Level Build Options With Bake](build/customize/bake/index.md)
   * [Overview Of Docker Build](build/index.md)
   * [Build Release Notes](build/release-notes.md)
 - Ci Cd
