@@ -184,6 +184,7 @@
       * [Kubernetes Driver](build/building/drivers/kubernetes.md)
       * [Remote Driver](build/building/drivers/remote.md)
     * [Multi Platform Images](build/building/multi-platform.md)
+    * [Multi Stage Builds](build/building/multi-stage.md)
     * [Packaging Your Software](build/building/packaging.md)
   - Buildx
     * [Install Docker Buildx](build/buildx/install.md)
@@ -426,7 +427,6 @@
     * [Build Images With Build Kit](develop/develop-images/build_enhancements.md)
     * [Best Practices For Writing Dockerfiles](develop/develop-images/dockerfile_best-practices.md)
     * [Manage Images](develop/develop-images/image_management.md)
-    * [Use Multi Stage Builds](develop/develop-images/multistage-build.md)
   - Scan Images
     * [Best Practices For Scanning Images](develop/scan-images/index.md)
   * [Docker Development Best Practices](develop/dev-best-practices.md)
