@@ -1,6 +1,8 @@
 # [Docker 英文文档](https://github.com/docker/docker.github.io)
 
 - Includes
+  - Atomist
+    * [Disclaimer](_includes/atomist/disclaimer.md)
   - Content
     - Ssh
       * [Ssh Add Keys To Agent](_includes/content/ssh/ssh-add-keys-to-agent.md)
@@ -175,6 +177,16 @@
     * [Yourls](_samples/library/yourls.md)
     * [Znc](_samples/library/znc.md)
     * [Zookeeper](_samples/library/zookeeper.md)
+- Atomist
+  - Configure
+    * [Advisory Sources](atomist/configure/advisories.md)
+    * [Settings](atomist/configure/settings.md)
+  - Integrate
+    * [Track Deployments](atomist/integrate/deploys.md)
+    * [Integrate With Git Hub](atomist/integrate/github.md)
+  * [Get Started](atomist/get-started.md)
+  * [Introduction To Atomist](atomist/index.md)
+  * [Try Atomist](atomist/try-atomist.md)
 - Build
   - Building
     - Drivers
