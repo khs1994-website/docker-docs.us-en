@@ -321,7 +321,7 @@
   - Enterprise
     * [Docker Desktop Enterprise](desktop/enterprise/index.md)
   - Extensions
-    * [What Is Docker Extensions](desktop/extensions/index.md)
+    * [What Are Docker Extensions](desktop/extensions/index.md)
     * [Marketplace Extensions](desktop/extensions/marketplace.md)
     * [Non Marketplace Extensions](desktop/extensions/non-marketplace.md)
     * [Settings And Feedback](desktop/extensions/settings-feedback.md)
