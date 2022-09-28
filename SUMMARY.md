@@ -195,6 +195,7 @@
       * [Drivers Overview](build/building/drivers/index.md)
       * [Kubernetes Driver](build/building/drivers/kubernetes.md)
       * [Remote Driver](build/building/drivers/remote.md)
+    * [Optimizing Builds With Cache Management](build/building/cache.md)
     * [Multi Platform Images](build/building/multi-platform.md)
     * [Multi Stage Builds](build/building/multi-stage.md)
     * [Packaging Your Software](build/building/packaging.md)
