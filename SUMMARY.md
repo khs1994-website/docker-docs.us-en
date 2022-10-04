@@ -435,6 +435,7 @@
   * [Explore Networking Features](desktop/networking.md)
   * [Docker Desktop Release Notes](desktop/release-notes.md)
   * [Get Support](desktop/support.md)
+  * [Uninstall Docker Desktop](desktop/uninstall.md)
   * [Run Docker Desktop For Windows In A VM Or VDI Environment](desktop/vm-vdi.md)
 - Develop
   - Develop Images
