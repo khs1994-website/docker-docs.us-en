@@ -209,7 +209,7 @@
       * [Configuring Builds](build/customize/bake/configuring-build.md)
       * [Bake File Definition](build/customize/bake/file-definition.md)
       * [User Defined HCL Functions](build/customize/bake/hcl-funcs.md)
-      * [High Level Build Options With Bake](build/customize/bake/index.md)
+      * [High Level Builds With Bake](build/customize/bake/index.md)
   * [Overview Of Docker Build](build/index.md)
   * [Build Release Notes](build/release-notes.md)
 - Ci Cd
