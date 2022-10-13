@@ -189,13 +189,22 @@
   * [Try Atomist](atomist/try-atomist.md)
 - Build
   - Building
+    - Cache
+      - Backends
+        * [Azure Blob Storage Cache](build/building/cache/backends/azblob.md)
+        * [Git Hub Actions Cache](build/building/cache/backends/gha.md)
+        * [Cache Storage Backends](build/building/cache/backends/index.md)
+        * [Inline Cache](build/building/cache/backends/inline.md)
+        * [Local Cache](build/building/cache/backends/local.md)
+        * [Registry Cache](build/building/cache/backends/registry.md)
+        * [Amazon S 3 Cache](build/building/cache/backends/s3.md)
+      * [Optimizing Builds With Cache Management](build/building/cache/index.md)
     - Drivers
       * [Docker Container Driver](build/building/drivers/docker-container.md)
       * [Docker Driver](build/building/drivers/docker.md)
       * [Drivers Overview](build/building/drivers/index.md)
       * [Kubernetes Driver](build/building/drivers/kubernetes.md)
       * [Remote Driver](build/building/drivers/remote.md)
-    * [Optimizing Builds With Cache Management](build/building/cache.md)
     * [Multi Platform Images](build/building/multi-platform.md)
     * [Multi Stage Builds](build/building/multi-stage.md)
     * [Packaging Your Software](build/building/packaging.md)
@@ -286,7 +295,7 @@
   - Components
     * [Accordions](contribute/components/accordions.md)
     * [Badges](contribute/components/badges.md)
-    * [Call Outs](contribute/components/call-outs.md)
+    * [Callouts](contribute/components/call-outs.md)
     * [Cards](contribute/components/cards.md)
     * [Code Blocks](contribute/components/code-blocks.md)
     * [Images](contribute/components/images.md)
