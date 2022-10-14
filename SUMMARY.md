@@ -945,9 +945,6 @@
   * [Disable Networking For A Container](network/none.md)
   * [Use Overlay Networks](network/overlay.md)
   * [Configure Docker To Use A Proxy Server](network/proxy.md)
-- Opensource
-  * [Contribute To Documentation](opensource/index.md)
-  * [Other Ways To Contribute](opensource/ways.md)
 - Reference
   * [Reference Documentation](reference/index.md)
 - Registry
