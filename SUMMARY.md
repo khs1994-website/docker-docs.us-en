@@ -18,6 +18,7 @@
     * [Create Dockerfile](_includes/guides/create-dockerfile.md)
     * [Enable Buildkit](_includes/guides/enable-buildkit.md)
   * [Api Version Matrix](_includes/api-version-matrix.md)
+  * [Beta](_includes/beta.md)
   * [Cli](_includes/cli.md)
   * [Configure Registry Json](_includes/configure-registry-json.md)
   * [Deploy](_includes/deploy.md)
@@ -323,11 +324,10 @@
   - Containerd
     * [Containerd Image Store Beta](desktop/containerd/index.md)
   - Dev Environments
-    * [Create A Compose Dev Environment](desktop/dev-environments/create-compose-dev-env.md)
-    * [Create A Dev Environment](desktop/dev-environments/create-dev-env.md)
+    * [Create An Advanced Dev Environment](desktop/dev-environments/create-compose-dev-env.md)
+    * [Create A Simple Dev Environment](desktop/dev-environments/create-dev-env.md)
     * [Overview](desktop/dev-environments/index.md)
-    * [Share Your Dev Environment](desktop/dev-environments/share.md)
-    * [Specify A Dockerfile Or Base Image](desktop/dev-environments/specify.md)
+    * [Distribute Your Dev Environment](desktop/dev-environments/share.md)
   - Enterprise
     * [Docker Desktop Enterprise](desktop/enterprise/index.md)
   - Extensions
@@ -384,6 +384,7 @@
         * [Dashboard](desktop/extensions-sdk/dev/api/dashboard.md)
         * [Docker](desktop/extensions-sdk/dev/api/docker.md)
         * [Extension UI API](desktop/extensions-sdk/dev/api/overview.md)
+      * [Interacting With Kubernetes From A Docker Extension](desktop/extensions-sdk/dev/kubernetes.md)
       * [OAuth 2.0 flow](desktop/extensions-sdk/dev/oauth2-flow.md)
       * [Usage Overview](desktop/extensions-sdk/dev/usage.md)
     - Extensions
@@ -399,6 +400,17 @@
     * [Frequently Asked Questions For Linux](desktop/faqs/linuxfaqs.md)
     * [Frequently Asked Questions For Mac](desktop/faqs/macfaqs.md)
     * [Frequently Asked Questions For Windows](desktop/faqs/windowsfaqs.md)
+  - Hardened Desktop
+    - Enhanced Container Isolation
+      * [FA Qs And Known Issues](desktop/hardened-desktop/enhanced-container-isolation/faq.md)
+      * [Key Features And Benefits](desktop/hardened-desktop/enhanced-container-isolation/features-benefits.md)
+      * [How Does It Work](desktop/hardened-desktop/enhanced-container-isolation/how-eci-works.md)
+      * [What Is Enhanced Container Isolation](desktop/hardened-desktop/enhanced-container-isolation/index.md)
+    - Settings Management
+      * [Configure](desktop/hardened-desktop/settings-management/configure.md)
+      * [Index](desktop/hardened-desktop/settings-management/index.md)
+    * [Hardened Desktop](desktop/hardened-desktop/index.md)
+    * [Registry Access Management](desktop/hardened-desktop/registry-access-management.md)
   - Install
     * [Install Docker Desktop On Arch Based Distributions](desktop/install/archlinux.md)
     * [Install Docker Desktop On Debian](desktop/install/debian.md)
