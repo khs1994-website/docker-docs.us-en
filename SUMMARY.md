@@ -877,7 +877,7 @@
   * [Docker Engine Overview](engine/index.md)
   * [Migrate to Engine 1.10](engine/migration.md)
 - Get Started
-  * [Sample Application](get-started/02_our_app.md)
+  * [Containerize An Application](get-started/02_our_app.md)
   * [Update The Application](get-started/03_updating_app.md)
   * [Share The Application](get-started/04_sharing_app.md)
   * [Persist The DB](get-started/05_persisting_data.md)
