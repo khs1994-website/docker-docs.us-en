@@ -236,10 +236,12 @@
     * [Compose File Versions And Upgrading](compose/compose-file/compose-versioning.md)
     * [Compose File Deploy Reference](compose/compose-file/deploy.md)
     * [Compose Specification](compose/compose-file/index.md)
+  - Compose V 2
+    * [Compose V 2 Overview](compose/compose-v2/index.md)
   - Install
-    * [Install Docker Compose](compose/install/index.md)
-    * [Install On Linux](compose/install/linux.md)
-    * [Other Install Scenarios](compose/install/other.md)
+    * [Overview](compose/install/index.md)
+    * [Install The Compose Plugin](compose/install/linux.md)
+    * [Install The Compose Standalone](compose/install/other.md)
     * [Uninstall Docker Compose](compose/install/uninstall.md)
   - Reference
     * [Compose CLI Environment Variables](compose/reference/envvars.md)
@@ -250,7 +252,8 @@
   * [Environment Variables Precedence](compose/envvars-precedence.md)
   * [Share Compose Configurations Between Files And Projects](compose/extends.md)
   * [Frequently Asked Questions](compose/faq.md)
-  * [Get Started With Docker Compose](compose/gettingstarted.md)
+  * [Key Features And Use Cases](compose/features-uses.md)
+  * [Try Docker Compose](compose/gettingstarted.md)
   * [Enabling GPU Access With Compose](compose/gpu-support.md)
   * [Overview](compose/index.md)
   * [Networking In Compose](compose/networking.md)
