@@ -319,6 +319,7 @@
   * [Contributing Guidelines](contribute/contribute-guide.md)
   * [Source File Conventions](contribute/file-conventions.md)
   * [Contribute To Docker S Docs](contribute/overview.md)
+  * [UI Elements In Content](contribute/ui.md)
 - Deprecated
   * [Kitematic Deprecated](deprecated/kitematic.md)
   * [Docker Machine](deprecated/machine.md)
@@ -448,6 +449,8 @@
     * [Overview](desktop/use-desktop/index.md)
     * [Pause Docker Desktop](desktop/use-desktop/pause.md)
     * [Explore Volumes](desktop/use-desktop/volumes.md)
+  - Wasm
+    * [Docker Wasm Beta](desktop/wasm/index.md)
   - Windows
     * [Understand Permission Requirements For Windows](desktop/windows/permission-requirements.md)
     * [Docker Desktop WSL 2 Backend](desktop/windows/wsl.md)
