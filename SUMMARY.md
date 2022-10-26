@@ -14,9 +14,6 @@
     * [Compose Matrix](_includes/content/compose-matrix.md)
     * [Compose Var Sub](_includes/content/compose-var-sub.md)
     * [Moby](_includes/content/moby.md)
-  - Guides
-    * [Create Dockerfile](_includes/guides/create-dockerfile.md)
-    * [Enable Buildkit](_includes/guides/enable-buildkit.md)
   * [Api Version Matrix](_includes/api-version-matrix.md)
   * [Beta](_includes/beta.md)
   * [Cli](_includes/cli.md)
@@ -209,6 +206,9 @@
     * [Multi Platform Images](build/building/multi-platform.md)
     * [Multi Stage Builds](build/building/multi-stage.md)
     * [Packaging Your Software](build/building/packaging.md)
+  - Buildkit
+    * [Custom Dockerfile Syntax](build/buildkit/dockerfile-frontend.md)
+    * [Build Kit](build/buildkit/index.md)
   - Buildx
     * [Install Docker Buildx](build/buildx/install.md)
     * [Using Multiple Builders](build/buildx/multiple-builders.md)
@@ -467,7 +467,6 @@
 - Develop
   - Develop Images
     * [Create A Base Image](develop/develop-images/baseimages.md)
-    * [Build Images With Build Kit](develop/develop-images/build_enhancements.md)
     * [Best Practices For Writing Dockerfiles](develop/develop-images/dockerfile_best-practices.md)
     * [Manage Images](develop/develop-images/image_management.md)
   - Scan Images
