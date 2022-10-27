@@ -552,10 +552,11 @@
     * [Install Docker Engine On Cent OS](engine/install/centos.md)
     * [Install Docker Engine On Debian](engine/install/debian.md)
     * [Install Docker Engine On Fedora](engine/install/fedora.md)
-    * [Install Docker Engine](engine/install/index.md)
+    * [Docker Engine Installation Overview](engine/install/index.md)
     * [Post Installation Steps For Linux](engine/install/linux-postinstall.md)
     * [Install Docker Engine On RHEL](engine/install/rhel.md)
     * [Install Docker Engine On SLES](engine/install/sles.md)
+    * [Troubleshoot Docker Engine](engine/install/troubleshoot.md)
     * [Install Docker Engine On Ubuntu](engine/install/ubuntu.md)
   - Reference
     - [Commandline](engine/reference/commandline/README.md)
@@ -917,6 +918,13 @@
   * [Vulnerability Scanning](go/tip-scanning.md)
   * [Wsl 2](go/wsl2.md)
 - Language
+  - Dotnet
+    * [Build your .NET image](language/dotnet/build-images.md)
+    * [Configure CI CD For Your Application](language/dotnet/configure-ci-cd.md)
+    * [Deploy Your App](language/dotnet/deploy.md)
+    * [Use Containers For Development](language/dotnet/develop.md)
+    * [What Will You Learn In This Module](language/dotnet/index.md)
+    * [Run Your Image As A Container](language/dotnet/run-containers.md)
   - Golang
     * [Build Your Go Image](language/golang/build-images.md)
     * [Configure CI CD For Your Application](language/golang/configure-ci-cd.md)
