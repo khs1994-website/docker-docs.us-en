@@ -515,7 +515,7 @@
   * [Teams And Organizations](docker-hub/orgs.md)
   * [Registry Access Management](docker-hub/registry-access-management.md)
   * [Docker Hub Release Notes](docker-hub/release-notes.md)
-  * [System For Cross Domain Identity Management](docker-hub/scim.md)
+  * [SCIM](docker-hub/scim.md)
   * [Service Accounts](docker-hub/service-accounts.md)
   * [Set Up Docker Hub Notifications In Slack](docker-hub/slack_integration.md)
   * [Hub Vulnerability Scanning](docker-hub/vulnerability-scanning.md)
@@ -892,7 +892,7 @@
   * [Use Docker Compose](get-started/08_using_compose.md)
   * [Image Building Best Practices](get-started/09_image_best.md)
   * [What Next](get-started/11_what_next.md)
-  * [Orientation And Setup](get-started/index.md)
+  * [Overview](get-started/index.md)
   * [Deploy To Kubernetes](get-started/kube-deploy.md)
   * [Orchestration](get-started/orchestration.md)
   * [Docker Overview](get-started/overview.md)
@@ -1057,8 +1057,14 @@
 - Security
   * [Docker Security Announcements](security/index.md)
 - Single Sign On
+  - Configure
+    * [Configure](single-sign-on/configure/index.md)
+  - Manage
+    * [Manage SSO](single-sign-on/manage/index.md)
+  - Requirements
+    * [Requirements](single-sign-on/requirements/index.md)
   * [Single Sign On FA Qs](single-sign-on/faqs.md)
-  * [Configure Single Sign On](single-sign-on/index.md)
+  * [Overview](single-sign-on/index.md)
 - Storage
   - Storagedriver
     * [Use The AUFS Storage Driver](storage/storagedriver/aufs-driver.md)
