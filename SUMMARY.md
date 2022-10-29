@@ -1010,7 +1010,6 @@
   * [Cloudflared Samples](samples/cloudflared.md)
   * [Dockerize A Couch DB Service](samples/couchdb_data_volumes.md)
   * [Django Samples](samples/django-sample.md)
-  * [Quickstart Compose And Django](samples/django.md)
   * [.NET samples](samples/dotnet.md)
   * [Dockerize an ASP.NET Core application](samples/dotnetcore.md)
   * [Elasticsearch Logstash Kibana Samples](samples/elasticsearch.md)
@@ -1038,7 +1037,6 @@
   * [Dockerize Postgre SQL](samples/postgresql_service.md)
   * [Prometheus Samples](samples/prometheus.md)
   * [Python Samples](samples/python.md)
-  * [Quickstart Compose And Rails](samples/rails.md)
   * [React Samples](samples/react.md)
   * [Redis Samples](samples/redis.md)
   * [Dockerize A Riak Service](samples/running_riak_service.md)
@@ -1053,7 +1051,6 @@
   * [Vue.js samples](samples/vuejs.md)
   * [Wire Guard Samples](samples/wireguard.md)
   * [Word Press Samples](samples/wordpress-sample.md)
-  * [Quickstart Compose And Word Press](samples/wordpress.md)
 - Security
   * [Docker Security Announcements](security/index.md)
 - Single Sign On
