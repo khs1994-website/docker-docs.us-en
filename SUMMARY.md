@@ -196,6 +196,7 @@
         * [Local Cache](build/building/cache/backends/local.md)
         * [Registry Cache](build/building/cache/backends/registry.md)
         * [Amazon S 3 Cache](build/building/cache/backends/s3.md)
+      * [Garbage Collection](build/building/cache/garbage-collection.md)
       * [Optimizing Builds With Cache Management](build/building/cache/index.md)
     - Drivers
       * [Docker Container Driver](build/building/drivers/docker-container.md)
@@ -207,8 +208,10 @@
     * [Multi Stage Builds](build/building/multi-stage.md)
     * [Packaging Your Software](build/building/packaging.md)
   - Buildkit
+    * [Configure Build Kit](build/buildkit/configure.md)
     * [Custom Dockerfile Syntax](build/buildkit/dockerfile-frontend.md)
     * [Build Kit](build/buildkit/index.md)
+    * [Build Kit TOML Configuration](build/buildkit/toml-configuration.md)
   - Buildx
     * [Install Docker Buildx](build/buildx/install.md)
     * [Using Multiple Builders](build/buildx/multiple-builders.md)
@@ -220,6 +223,7 @@
       * [Bake File Definition](build/customize/bake/file-definition.md)
       * [User Defined HCL Functions](build/customize/bake/hcl-funcs.md)
       * [High Level Builds With Bake](build/customize/bake/index.md)
+    * [Color Output Controls](build/customize/color-output-controls.md)
   * [Overview Of Docker Build](build/index.md)
   * [Build Release Notes](build/release-notes.md)
 - Ci Cd
@@ -328,9 +332,10 @@
   - Containerd
     * [Containerd Image Store Beta](desktop/containerd/index.md)
   - Dev Environments
-    * [Create An Advanced Dev Environment](desktop/dev-environments/create-compose-dev-env.md)
-    * [Create A Simple Dev Environment](desktop/dev-environments/create-dev-env.md)
+    * [Launch A Dev Environment](desktop/dev-environments/create-dev-env.md)
+    * [Use The Docker Dev CLI Plugin](desktop/dev-environments/dev-cli.md)
     * [Overview](desktop/dev-environments/index.md)
+    * [Set Up A Dev Environment](desktop/dev-environments/set-up.md)
     * [Distribute Your Dev Environment](desktop/dev-environments/share.md)
   - Enterprise
     * [Docker Desktop Enterprise](desktop/enterprise/index.md)
