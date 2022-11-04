@@ -25,6 +25,7 @@
   * [Eula](_includes/eula.md)
   * [Experimental Feature](_includes/experimental-feature.md)
   * [Experimental](_includes/experimental.md)
+  * [Gha Tutorial](_includes/gha-tutorial.md)
   * [Github Issue](_includes/github_issue.md)
   * [Github Pr](_includes/github-pr.md)
   * [Install Script](_includes/install-script.md)
@@ -215,6 +216,11 @@
   - Buildx
     * [Install Docker Buildx](build/buildx/install.md)
     * [Using Multiple Builders](build/buildx/multiple-builders.md)
+  - Ci
+    - Github Actions
+      * [Example Workflows](build/ci/github-actions/examples.md)
+      * [Introduction To Git Hub Actions](build/ci/github-actions/index.md)
+    * [Continuous Integration With Docker](build/ci/index.md)
   - Customize
     - Bake
       * [Defining Additional Build Contexts And Linking Targets](build/customize/bake/build-contexts.md)
@@ -226,9 +232,6 @@
     * [Color Output Controls](build/customize/color-output-controls.md)
   * [Overview Of Docker Build](build/index.md)
   * [Build Release Notes](build/release-notes.md)
-- Ci Cd
-  * [Best Practices For Using Docker Hub For CI CD](ci-cd/best-practices.md)
-  * [Configure Git Hub Actions](ci-cd/github-actions.md)
 - Cloud
   * [Deploying Docker Containers On Azure](cloud/aci-integration.md)
   * [Deploying Docker Containers On ECS](cloud/ecs-integration.md)
