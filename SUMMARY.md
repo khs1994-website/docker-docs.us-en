@@ -205,6 +205,11 @@
       * [Drivers Overview](build/building/drivers/index.md)
       * [Kubernetes Driver](build/building/drivers/kubernetes.md)
       * [Remote Driver](build/building/drivers/remote.md)
+    - Exporters
+      * [Image And Registry Exporters](build/building/exporters/image-registry.md)
+      * [Exporters Overview](build/building/exporters/index.md)
+      * [Local And Tar Exporters](build/building/exporters/local-tar.md)
+      * [OCI And Docker Exporters](build/building/exporters/oci-docker.md)
     * [Multi Platform Images](build/building/multi-platform.md)
     * [Multi Stage Builds](build/building/multi-stage.md)
     * [Packaging Your Software](build/building/packaging.md)
@@ -400,7 +405,7 @@
       * [OAuth 2.0 flow](desktop/extensions-sdk/dev/oauth2-flow.md)
       * [Usage Overview](desktop/extensions-sdk/dev/usage.md)
     - Extensions
-      * [Distribute Your Extension](desktop/extensions-sdk/extensions/DISTRIBUTION.md)
+      * [Packaging Distribution And API Dependencies](desktop/extensions-sdk/extensions/DISTRIBUTION.md)
       * [Publish Your Extension](desktop/extensions-sdk/extensions/index.md)
       * [Extension Image Labels](desktop/extensions-sdk/extensions/labels.md)
       * [Extension Metadata](desktop/extensions-sdk/extensions/METADATA.md)
