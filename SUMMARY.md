@@ -353,7 +353,7 @@
     * [Configure Automated Builds From Git Hub And Bit Bucket](docker-hub/builds/link-source.md)
   - Publish
     * [Docker Verified Publisher Program](docker-hub/publish/index.md)
-    * [Insights Analytics](docker-hub/publish/insights-analytics.md)
+    * [Insights And Analytics](docker-hub/publish/insights-analytics.md)
     * [Migrate Content From The Publisher Center To Docker Hub](docker-hub/publish/publisher-center-migration.md)
   - Repos
     - Access
