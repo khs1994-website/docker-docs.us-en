@@ -78,6 +78,7 @@
     * [Using Multiple Builders](build/buildx/multiple-builders.md)
   - Ci
     - Github Actions
+      * [Configuring Your Builder](build/ci/github-actions/configure-builder.md)
       * [Example Workflows](build/ci/github-actions/examples.md)
       * [Introduction To Git Hub Actions](build/ci/github-actions/index.md)
     * [Continuous Integration With Docker](build/ci/index.md)
