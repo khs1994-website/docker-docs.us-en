@@ -263,6 +263,7 @@
       * [Extension Metadata](desktop/extensions-sdk/extensions/METADATA.md)
       * [Build The Extensions For Multiple Architectures](desktop/extensions-sdk/extensions/multi-arch.md)
     * [Overview](desktop/extensions-sdk/index.md)
+    * [The Build Build And Publish Process](desktop/extensions-sdk/process.md)
     * [Quickstart](desktop/extensions-sdk/quickstart.md)
   - Faqs
     * [Frequently Asked Questions](desktop/faqs/general.md)
