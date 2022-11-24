@@ -64,6 +64,7 @@
       * [Exporters Overview](build/building/exporters/index.md)
       * [Local And Tar Exporters](build/building/exporters/local-tar.md)
       * [OCI And Docker Exporters](build/building/exporters/oci-docker.md)
+    * [Create A Base Image](build/building/base-images.md)
     * [Build Context](build/building/context.md)
     * [Multi Platform Images](build/building/multi-platform.md)
     * [Multi Stage Builds](build/building/multi-stage.md)
@@ -331,9 +332,7 @@
   * [Run Docker Desktop For Windows In A VM Or VDI Environment](desktop/vm-vdi.md)
 - Develop
   - Develop Images
-    * [Create A Base Image](develop/develop-images/baseimages.md)
     * [Best Practices For Writing Dockerfiles](develop/develop-images/dockerfile_best-practices.md)
-    * [Manage Images](develop/develop-images/image_management.md)
   - Scan Images
     * [Best Practices For Scanning Images](develop/scan-images/index.md)
   * [Docker Development Best Practices](develop/dev-best-practices.md)
