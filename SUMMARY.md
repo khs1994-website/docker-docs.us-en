@@ -208,10 +208,9 @@
   - Extensions Sdk
     - Build
       - Set Up
+        * [Set Up An Advanced Frontend Extension](desktop/extensions-sdk/build/set-up/frontend-extension-tutorial.md)
         * [Set Up A Minimal Backend Extension](desktop/extensions-sdk/build/set-up/minimal-backend-extension.md)
         * [Set Up A Minimal Frontend Extension](desktop/extensions-sdk/build/set-up/minimal-frontend-extension.md)
-        * [Set Up A Minimal Extension Invoking Docker Commands](desktop/extensions-sdk/build/set-up/minimal-frontend-using-docker-cli.md)
-        * [Set Up A Minimal React Extension](desktop/extensions-sdk/build/set-up/react-extension.md)
       * [Step Two Build And Install](desktop/extensions-sdk/build/build-install.md)
       * [Step Three Test And Debug](desktop/extensions-sdk/build/test-debug.md)
     - Design
@@ -254,8 +253,6 @@
         * [Dashboard](desktop/extensions-sdk/dev/api/dashboard.md)
         * [Docker](desktop/extensions-sdk/dev/api/docker.md)
         * [Extension UI API](desktop/extensions-sdk/dev/api/overview.md)
-      * [Interacting With Kubernetes From A Docker Extension](desktop/extensions-sdk/dev/kubernetes.md)
-      * [OAuth 2.0 flow](desktop/extensions-sdk/dev/oauth2-flow.md)
       * [Usage Overview](desktop/extensions-sdk/dev/usage.md)
     - Extensions
       * [Packaging Distribution And API Dependencies](desktop/extensions-sdk/extensions/DISTRIBUTION.md)
@@ -263,6 +260,10 @@
       * [Extension Image Labels](desktop/extensions-sdk/extensions/labels.md)
       * [Extension Metadata](desktop/extensions-sdk/extensions/METADATA.md)
       * [Build The Extensions For Multiple Architectures](desktop/extensions-sdk/extensions/multi-arch.md)
+    - Guides
+      * [Invoke Host Binaries](desktop/extensions-sdk/guides/invoke-host-binaries.md)
+      * [Interacting With Kubernetes From A Docker Extension](desktop/extensions-sdk/guides/kubernetes.md)
+      * [OAuth 2.0 flow](desktop/extensions-sdk/guides/oauth2-flow.md)
     * [Overview](desktop/extensions-sdk/index.md)
     * [The Build Build And Publish Process](desktop/extensions-sdk/process.md)
     * [Quickstart](desktop/extensions-sdk/quickstart.md)
@@ -280,7 +281,7 @@
     - Settings Management
       * [Configure](desktop/hardened-desktop/settings-management/configure.md)
       * [Index](desktop/hardened-desktop/settings-management/index.md)
-    * [Hardened Desktop](desktop/hardened-desktop/index.md)
+    * [Hardened Docker Desktop](desktop/hardened-desktop/index.md)
     * [Registry Access Management](desktop/hardened-desktop/registry-access-management.md)
   - Install
     * [Install On Arch Based Distributions](desktop/install/archlinux.md)
