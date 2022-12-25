@@ -1179,24 +1179,16 @@ manuals:
           title: Quickstart
         - sectiontitle: "Part one: Build"
           section:
-            - sectiontitle: "Step one: Create a new extension"
-              section:
-                - title: Create a simple extension
-                  path: /desktop/extensions-sdk/build/set-up/minimal-frontend-extension/
-                - title: Create a more advanced frontend
-                  path: /desktop/extensions-sdk/build/set-up/frontend-extension-tutorial/
-                - title: Add a backend to your extension
-                  path: /desktop/extensions-sdk/build/set-up/backend-extension-tutorial/
-            - title: "Step two: Build and install"
-              path: /desktop/extensions-sdk/build/build-install/
-            - title: "Step three: Test and debug"
-              path: /desktop/extensions-sdk/build/test-debug/
+            - title: Create a simple extension
+              path: /desktop/extensions-sdk/build/minimal-frontend-extension/
+            - title: Create a more advanced frontend
+              path: /desktop/extensions-sdk/build/frontend-extension-tutorial/
+            - title: Add a backend to your extension
+              path: /desktop/extensions-sdk/build/backend-extension-tutorial/
         - sectiontitle: "Part two: Publish"
           section:
             - title: Overview
               path: /desktop/extensions-sdk/extensions/
-            - title: Metadata
-              path: /desktop/extensions-sdk/extensions/METADATA/
             - title: Labels
               path: /desktop/extensions-sdk/extensions/labels/
             - title: Package and release your extension
@@ -1207,6 +1199,12 @@ manuals:
               path: /desktop/extensions-sdk/extensions/publish/
             - title: Build multi-arch extensions
               path: /desktop/extensions-sdk/extensions/multi-arch/
+        - sectiontitle: "Architecture"
+          section:
+            - title: Overview
+              path: /desktop/extensions-sdk/architecture/
+            - title: Metadata
+              path: /desktop/extensions-sdk/architecture/metadata/
         - sectiontitle: "Design and UI styling"
           section:
              - title: Guidelines
@@ -1221,12 +1219,16 @@ manuals:
           section:
             - title: Invoke host binaries
               path: /desktop/extensions-sdk/guides/invoke-host-binaries/
+            - title: Use the Docker socket from the extension backend
+              path: /desktop/extensions-sdk/guides/use-docker-socket-from-backend/
             - title: Interacting with Kubernetes
               path: /desktop/extensions-sdk/guides/kubernetes/
             - title: Authentication
               path: /desktop/extensions-sdk/guides/oauth2-flow/
         - sectiontitle: Developer SDK tools
           section:
+            - title: "Test and debug"
+              path: /desktop/extensions-sdk/dev/test-debug/
             - title: CLI reference
               path: /desktop/extensions-sdk/dev/usage/
             - sectiontitle: Extension APIs
@@ -1555,96 +1557,64 @@ manuals:
   section:
     - path: /build/
       title: Overview
+    - path: /build/install-buildx/
+      title: Install Buildx
     - sectiontitle: Building images
       section:
         - path: /build/building/packaging/
           title: Packaging your software
         - path: /build/building/context/
           title: Build context
-        - sectiontitle: Build drivers
-          section:
-            - path: /build/building/drivers/
-              title: Overview
-            - path: /build/building/drivers/docker/
-              title: Docker driver
-            - path: /build/building/drivers/docker-container/
-              title: Docker container driver
-            - path: /build/building/drivers/kubernetes/
-              title: Kubernetes driver
-            - path: /build/building/drivers/remote/
-              title: Remote driver
-        - sectiontitle: Cache
-          section:
-            - path: /build/building/cache/
-              title: Optimizing builds with cache
-            - path: /build/building/cache/garbage-collection/
-              title: Garbage collection
-            - sectiontitle: Cache backends
-              section:
-                - path: /build/building/cache/backends/
-                  title: Overview
-                - path: /build/building/cache/backends/inline/
-                  title: Inline
-                - path: /build/building/cache/backends/local/
-                  title: Local
-                - path: /build/building/cache/backends/registry/
-                  title: Registry
-                - path: /build/building/cache/backends/gha/
-                  title: GitHub Actions
-                - path: /build/building/cache/backends/azblob/
-                  title: Azure Blob Storage
-                - path: /build/building/cache/backends/s3/
-                  title: Amazon S3
-        - sectiontitle: Exporters
-          section:
-          - path: /build/building/exporters/
-            title: Overview
-          - path: /build/building/exporters/image-registry/
-            title: Image and registry exporters
-          - path: /build/building/exporters/local-tar/
-            title: Local and tar exporters
-          - path: /build/building/exporters/oci-docker/
-            title: OCI and Docker exporters
         - path: /build/building/multi-stage/
           title: Multi-stage builds
         - path: /build/building/multi-platform/
           title: Multi-platform images
         - path: /build/building/base-images/
           title: Create your own base image
-    - sectiontitle: Customizing builds
+    - sectiontitle: Drivers
       section:
-        - sectiontitle: High-level builds with Bake
+        - path: /build/drivers/
+          title: Drivers overview
+        - path: /build/drivers/docker/
+          title: Docker driver
+        - path: /build/drivers/docker-container/
+          title: Docker container driver
+        - path: /build/drivers/kubernetes/
+          title: Kubernetes driver
+        - path: /build/drivers/remote/
+          title: Remote driver
+    - sectiontitle: Cache
+      section:
+        - path: /build/cache/
+          title: Optimizing builds with cache
+        - path: /build/cache/garbage-collection/
+          title: Garbage collection
+        - sectiontitle: Cache backends
           section:
-            - path: /build/customize/bake/
+            - path: /build/cache/backends/
               title: Overview
-            - path: /build/customize/bake/file-definition/
-              title: File definition
-            - path: /build/customize/bake/configuring-build/
-              title: Configuring builds
-            - path: /build/customize/bake/hcl-funcs/
-              title: User defined HCL functions
-            - path: /build/customize/bake/build-contexts/
-              title: Build contexts and linking targets
-            - path: /build/customize/bake/compose-file/
-              title: Building from Compose file
-        - path: /build/customize/color-output-controls/
-          title: Color output controls
-    - sectiontitle: BuildKit
+            - path: /build/cache/backends/inline/
+              title: Inline
+            - path: /build/cache/backends/local/
+              title: Local
+            - path: /build/cache/backends/registry/
+              title: Registry
+            - path: /build/cache/backends/gha/
+              title: GitHub Actions
+            - path: /build/cache/backends/azblob/
+              title: Azure Blob Storage
+            - path: /build/cache/backends/s3/
+              title: Amazon S3
+    - sectiontitle: Exporters
       section:
-        - path: /build/buildkit/
-          title: Overview
-        - path: /build/buildkit/dockerfile-frontend/
-          title: Custom Dockerfile syntax
-        - path: /build/buildkit/configure/
-          title: Configure
-        - path: /build/buildkit/toml-configuration/
-          title: TOML configuration
-    - sectiontitle: Buildx
-      section:
-        - path: /build/buildx/install/
-          title: Install Buildx
-        - path: /build/buildx/multiple-builders/
-          title: Using multiple builders
+      - path: /build/exporters/
+        title: Overview
+      - path: /build/exporters/image-registry/
+        title: Image and registry exporters
+      - path: /build/exporters/local-tar/
+        title: Local and tar exporters
+      - path: /build/exporters/oci-docker/
+        title: OCI and Docker exporters
     - sectiontitle: Continuous integration
       section:
         - path: /build/ci/
@@ -1657,6 +1627,32 @@ manuals:
             title: Examples
           - path: /build/ci/github-actions/configure-builder/
             title: Configuring your builder
+    - sectiontitle: Bake
+      section:
+        - path: /build/bake/
+          title: Overview
+        - path: /build/bake/file-definition/
+          title: File definition
+        - path: /build/bake/configuring-build/
+          title: Configuring builds
+        - path: /build/bake/hcl-funcs/
+          title: User defined HCL functions
+        - path: /build/bake/build-contexts/
+          title: Build contexts and linking targets
+        - path: /build/bake/compose-file/
+          title: Building from Compose file
+    - sectiontitle: BuildKit
+      section:
+        - path: /build/buildkit/
+          title: Overview
+        - path: /build/buildkit/dockerfile-frontend/
+          title: Custom Dockerfile syntax
+        - path: /build/buildkit/configure/
+          title: Configure
+        - path: /build/buildkit/toml-configuration/
+          title: TOML configuration
+        - path: /build/buildkit/color-output-controls/
+          title: Color output controls
     - path: /build/release-notes/
       title: Release notes
 - sectiontitle: Docker Compose
@@ -1711,6 +1707,8 @@ manuals:
 - sectiontitle: Docker Hub
   section:
   - path: /docker-hub/
+    title: Overview
+  - path: /docker-hub/quickstart/
     title: Quickstart
   - path: /docker-id/
     title: Docker ID accounts
@@ -1820,6 +1818,8 @@ manuals:
          title: FAQs
   - path: /docker-hub/scim/
     title: SCIM
+  - path: /docker-hub/domain-audit/
+    title: Domain audit
   - path: /docker-hub/image-access-management/
     title: Image Access Management
 
