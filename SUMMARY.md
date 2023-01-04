@@ -218,8 +218,8 @@
     - Design
       * [Design Guidelines](desktop/extensions-sdk/design/design-guidelines.md)
       * [Docker Design Principles](desktop/extensions-sdk/design/design-principles.md)
+      * [UI Styling Overview](desktop/extensions-sdk/design/index.md)
       * [MUI Best Practices](desktop/extensions-sdk/design/mui-best-practices.md)
-      * [UI Styling Overview](desktop/extensions-sdk/design/overview.md)
     - Dev
       - Api
         - [Reference](desktop/extensions-sdk/dev/api/reference/README.md)
@@ -269,6 +269,7 @@
       * [Invoke Host Binaries](desktop/extensions-sdk/guides/invoke-host-binaries.md)
       * [Interacting With Kubernetes From A Docker Extension](desktop/extensions-sdk/guides/kubernetes.md)
       * [OAuth 2.0 flow](desktop/extensions-sdk/guides/oauth2-flow.md)
+      * [Security](desktop/extensions-sdk/guides/security.md)
       * [Use The Docker Socket From The Extension Backend](desktop/extensions-sdk/guides/use-docker-socket-from-backend.md)
     * [Overview](desktop/extensions-sdk/index.md)
     * [The Build And Publish Process](desktop/extensions-sdk/process.md)
