@@ -328,6 +328,7 @@
   - Windows
     * [Understand Permission Requirements For Windows](desktop/windows/permission-requirements.md)
     * [Docker Desktop WSL 2 Backend On Windows](desktop/windows/wsl.md)
+  * [Allowlist For Docker Desktop](desktop/allow-list.md)
   * [Back Up And Restore Data](desktop/backup-and-restore.md)
   * [Give Feedback](desktop/feedback.md)
   * [Quick Start Guide And Sign In](desktop/get-started.md)
