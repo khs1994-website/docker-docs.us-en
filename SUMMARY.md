@@ -16,6 +16,7 @@
     * [Moby](_includes/content/moby.md)
   * [Api Version Matrix](_includes/api-version-matrix.md)
   * [Beta](_includes/beta.md)
+  * [Build Feature State](_includes/build-feature-state.md)
   * [Cli](_includes/cli.md)
   * [Configure Registry Json](_includes/configure-registry-json.md)
   * [Deploy](_includes/deploy.md)
@@ -26,6 +27,7 @@
   * [Eula](_includes/eula.md)
   * [Experimental Feature](_includes/experimental-feature.md)
   * [Experimental](_includes/experimental.md)
+  * [Extensions Form](_includes/extensions-form.md)
   * [Gha Tutorial](_includes/gha-tutorial.md)
   * [Github Issue](_includes/github_issue.md)
   * [Github Pr](_includes/github-pr.md)
@@ -42,6 +44,12 @@
   * [Introduction To Atomist](atomist/index.md)
   * [Try Atomist](atomist/try-atomist.md)
 - Build
+  - Attestations
+    * [Attestation Storage](build/attestations/attestation-storage.md)
+    * [Build Attestations](build/attestations/index.md)
+    * [SBOM Attestations](build/attestations/sbom.md)
+    * [SLSA Definitions](build/attestations/slsa-definitions.md)
+    * [Provenance Attestations](build/attestations/slsa-provenance.md)
   - Bake
     * [Defining Additional Build Contexts And Linking Targets](build/bake/build-contexts.md)
     * [Building From Compose File](build/bake/compose-file.md)
