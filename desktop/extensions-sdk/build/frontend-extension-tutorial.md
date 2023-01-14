@@ -92,7 +92,7 @@ FROM alpine
 LABEL org.opencontainers.image.title="My extension" \
     org.opencontainers.image.description="Your Desktop Extension Description" \
     org.opencontainers.image.vendor="Awesome Inc." \
-    com.docker.desktop.extension.api.version="0.3.0" \
+    com.docker.desktop.extension.api.version="0.3.3" \
     com.docker.desktop.extension.icon="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" \
     com.docker.extension.screenshots="" \
     com.docker.extension.detailed-description="" \
@@ -141,6 +141,10 @@ COPY --from=client-builder /ui/build ui
 
   </div>
 </div>
+
+> Note
+>
+> In the example Dockerfile, you can see that the image label `com.docker.desktop.extension.icon` is set to an icon URL. The Extensions Marketplace displays this icon without installing the extension. The Dockerfile also includes `COPY docker.svg .` to copy an icon file inside the image. This second icon file is used to display the extension UI in the Dashboard, once the extension is installed.
 
 ## Configure the metadata file
 
@@ -340,6 +344,21 @@ export function App() {
 </div>
 
 ![Screenshot of the container list.](images/react-extension.png)
+
+## Policies enforced for the front-end code
+
+Extension UI code is rendered in a separate electron session and doesn't have a node.js environment initialized, nor direct access to the electron APIs. 
+
+This is to limit the possible unexpected side effects to the overall Docker Dashboard.
+
+The extension UI code can't perform privileged tasks, such as making changes to the system, or spawning sub-processes, except by using the SDK APIs provided with the extension framework.
+The Extension UI code can also perform interactions with Docker Desktop, such as navigating to various places in the Dashboard, only through the extension SDK APIs.
+
+Extensions UI parts are isolated from each other and extension UI code is running in its own session for each extension. Extensions can't access other extensions’ session data.
+
+`localStorage` is one of the mechanisms of a browser’s web storage. It allows users to save data as key-value pairs in the browser for later use. `localStorage` doesn't clear data when the browser (the extension pane) closes. This makes it ideal for persisting data when navigating out of the extension to other parts of Docker Desktop.
+
+If your extension uses `localStorage` to store data, other extensions running in Docker Desktop can't access the local storage of your extension. The extension’s local storage is persisted even after Docker Desktop is stopped or restarted. When an extension is upgraded, its local storage is persisted, whereas when it is uninstalled, its local storage is completely removed.
 
 ## Re-build the extension and update it
 

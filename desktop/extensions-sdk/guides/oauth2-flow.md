@@ -55,7 +55,7 @@ window.ddClient.openExternal("https://authorization-server.com/authorize?
 You can get the authorization code from the extension UI by listing `docker-desktop://dashboard/extension-tab?extensionId=awesome/my-extension` as the `redirect_uri` in the OAuth app you're using and concatenating the authorization code as a query parameter. The extension UI code will then be able to read the corresponding code query-param.
 
 > Note
-> using this feature requires the extension SDK 0.3.2 in Docker Desktop. You need to ensure that the required SDK version for your extension set with `com.docker.desktop.extension.api.version` in [image labels](../extensions/labels.md) is higher than 0.3.2.
+> using this feature requires the extension SDK 0.3.3 in Docker Desktop. You need to ensure that the required SDK version for your extension set with `com.docker.desktop.extension.api.version` in [image labels](../extensions/labels.md) is higher than 0.3.3.
 {: .important}
 
 #### Authorization
@@ -79,10 +79,6 @@ POST https://authorization-server.com/token
 > **Note**
 >
 > The client's credentials are included in the `POST` query params in this example. OAuth authorization servers may require that the credentials are sent as a HTTP Basic Authentication header or might support different formats. See your OAuth provider docs for details.
-
-#### Token Endpoint Response
-
-Finally, you can read the access token from the HTTP response and pass it to the extension UI by having the browser after OAuth be redirected to the backend service. The backend service, in turn, has to explicitly redirect the browser to `docker-desktop://dashboard/open`.
 
 ## Step three: Store the access token
 
