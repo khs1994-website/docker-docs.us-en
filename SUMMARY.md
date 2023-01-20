@@ -221,8 +221,8 @@
       * [Extension Metadata](desktop/extensions-sdk/architecture/metadata.md)
     - Build
       * [Add A Backend To Your Extension](desktop/extensions-sdk/build/backend-extension-tutorial.md)
-      * [Set Up An Advanced Frontend Extension](desktop/extensions-sdk/build/frontend-extension-tutorial.md)
-      * [Set Up A Minimal Frontend Extension](desktop/extensions-sdk/build/minimal-frontend-extension.md)
+      * [Create An Advanced Frontend Extension](desktop/extensions-sdk/build/frontend-extension-tutorial.md)
+      * [Create A Simple Extension](desktop/extensions-sdk/build/minimal-frontend-extension.md)
     - Design
       * [Design Guidelines](desktop/extensions-sdk/design/design-guidelines.md)
       * [Docker Design Principles](desktop/extensions-sdk/design/design-principles.md)
