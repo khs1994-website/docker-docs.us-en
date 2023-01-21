@@ -24,6 +24,7 @@
   * [Desktop License Update](_includes/desktop-license-update.md)
   * [Desktop Linux Launch](_includes/desktop-linux-launch.md)
   * [Desktop Update](_includes/desktop-update.md)
+  * [Dev Envs Changing](_includes/dev-envs-changing.md)
   * [Eula](_includes/eula.md)
   * [Experimental Feature](_includes/experimental-feature.md)
   * [Experimental](_includes/experimental.md)
@@ -112,7 +113,7 @@
     * [Compose File Deploy Reference](compose/compose-file/deploy.md)
     * [Compose Specification](compose/compose-file/index.md)
   - Compose V 2
-    * [Compose V 2 Overview](compose/compose-v2/index.md)
+    * [Evolution Of Compose](compose/compose-v2/index.md)
   - Install
     * [Overview](compose/install/index.md)
     * [Install The Compose Plugin](compose/install/linux.md)
@@ -121,7 +122,6 @@
   - Reference
     * [Compose CLI Environment Variables](compose/reference/envvars.md)
     * [Overview Of Docker Compose CLI](compose/reference/index.md)
-  * [Compose Command Compatibility With Docker Compose](compose/cli-command-compatibility.md)
   * [Declare Default Environment Variables In File](compose/env-file.md)
   * [Environment Variables In Compose](compose/environment-variables.md)
   * [Environment Variables Precedence](compose/envvars-precedence.md)
@@ -789,6 +789,7 @@
     * [Use Containers For Development](language/dotnet/develop.md)
     * [What Will You Learn In This Module](language/dotnet/index.md)
     * [Run Your Image As A Container](language/dotnet/run-containers.md)
+    * [Run Your Tests](language/dotnet/run-tests.md)
   - Golang
     * [Build Your Go Image](language/golang/build-images.md)
     * [Configure CI CD For Your Application](language/golang/configure-ci-cd.md)
