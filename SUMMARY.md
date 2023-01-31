@@ -114,17 +114,19 @@
     * [Compose Specification](compose/compose-file/index.md)
   - Compose V 2
     * [Evolution Of Compose](compose/compose-v2/index.md)
+  - Environment Variables
+    * [Use An Environment File](compose/environment-variables/env-file.md)
+    * [Environment Variables Precedence](compose/environment-variables/envvars-precedence.md)
+    * [Change Pre Defined Environment Variables](compose/environment-variables/envvars.md)
+    * [Overview](compose/environment-variables/index.md)
+    * [Ways To Set Environment Variables In Compose](compose/environment-variables/set-environment-variables.md)
   - Install
     * [Overview](compose/install/index.md)
     * [Install The Compose Plugin](compose/install/linux.md)
     * [Install The Compose Standalone](compose/install/other.md)
     * [Uninstall Docker Compose](compose/install/uninstall.md)
   - Reference
-    * [Compose CLI Environment Variables](compose/reference/envvars.md)
     * [Overview Of Docker Compose CLI](compose/reference/index.md)
-  * [Declare Default Environment Variables In File](compose/env-file.md)
-  * [Environment Variables In Compose](compose/environment-variables.md)
-  * [Environment Variables Precedence](compose/envvars-precedence.md)
   * [Share Compose Configurations Between Files And Projects](compose/extends.md)
   * [Frequently Asked Questions](compose/faq.md)
   * [Key Features And Use Cases](compose/features-uses.md)
