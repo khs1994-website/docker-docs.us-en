@@ -18,6 +18,7 @@
   * [Beta](_includes/beta.md)
   * [Build Feature State](_includes/build-feature-state.md)
   * [Cli](_includes/cli.md)
+  * [Compose Eol](_includes/compose-eol.md)
   * [Configure Registry Json](_includes/configure-registry-json.md)
   * [Deploy](_includes/deploy.md)
   * [Desktop Experimental](_includes/desktop-experimental.md)
@@ -221,6 +222,7 @@
     - Architecture
       * [Extension Architecture](desktop/extensions-sdk/architecture/index.md)
       * [Extension Metadata](desktop/extensions-sdk/architecture/metadata.md)
+      * [Security](desktop/extensions-sdk/architecture/security.md)
     - Build
       * [Add A Backend To Your Extension](desktop/extensions-sdk/build/backend-extension-tutorial.md)
       * [Create An Advanced Frontend Extension](desktop/extensions-sdk/build/frontend-extension-tutorial.md)
@@ -279,7 +281,6 @@
       * [Invoke Host Binaries](desktop/extensions-sdk/guides/invoke-host-binaries.md)
       * [Interacting With Kubernetes From A Docker Extension](desktop/extensions-sdk/guides/kubernetes.md)
       * [OAuth 2.0 flow](desktop/extensions-sdk/guides/oauth2-flow.md)
-      * [Security](desktop/extensions-sdk/guides/security.md)
       * [Use The Docker Socket From The Extension Backend](desktop/extensions-sdk/guides/use-docker-socket-from-backend.md)
     * [Overview](desktop/extensions-sdk/index.md)
     * [The Build And Publish Process](desktop/extensions-sdk/process.md)
