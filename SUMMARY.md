@@ -17,6 +17,7 @@
   * [Api Version Matrix](_includes/api-version-matrix.md)
   * [Beta](_includes/beta.md)
   * [Build Feature State](_includes/build-feature-state.md)
+  * [buildx-v0.10-disclaimer](_includes/buildx-v0.10-disclaimer.md)
   * [Cli](_includes/cli.md)
   * [Compose Eol](_includes/compose-eol.md)
   * [Configure Registry Json](_includes/configure-registry-json.md)
