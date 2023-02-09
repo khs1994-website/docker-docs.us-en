@@ -113,7 +113,7 @@
     * [Compose File Version 3 Reference](compose/compose-file/compose-file-v3.md)
     * [Compose File Versions And Upgrading](compose/compose-file/compose-versioning.md)
     * [Compose File Deploy Reference](compose/compose-file/deploy.md)
-    * [Compose Specification](compose/compose-file/index.md)
+    * [Compose File Specification](compose/compose-file/index.md)
   - Compose V 2
     * [Evolution Of Compose](compose/compose-v2/index.md)
   - Environment Variables
@@ -134,7 +134,7 @@
   * [Key Features And Use Cases](compose/features-uses.md)
   * [Try Docker Compose](compose/gettingstarted.md)
   * [Enabling GPU Access With Compose](compose/gpu-support.md)
-  * [Overview](compose/index.md)
+  * [Docker Compose Overview](compose/index.md)
   * [Networking In Compose](compose/networking.md)
   * [Use Compose In Production](compose/production.md)
   * [Using Profiles With Compose](compose/profiles.md)
@@ -306,10 +306,10 @@
     * [Install On Arch Based Distributions](desktop/install/archlinux.md)
     * [Install On Debian](desktop/install/debian.md)
     * [Install On Fedora](desktop/install/fedora.md)
-    * [Install On Linux](desktop/install/linux-install.md)
-    * [Install On Mac](desktop/install/mac-install.md)
-    * [Install On Ubuntu](desktop/install/ubuntu.md)
-    * [Install On Windows](desktop/install/windows-install.md)
+    * [Install Docker Desktop On Linux](desktop/install/linux-install.md)
+    * [Install Docker Desktop On Mac](desktop/install/mac-install.md)
+    * [Install Docker Desktop On Ubuntu](desktop/install/ubuntu.md)
+    * [Install Docker Desktop On Windows](desktop/install/windows-install.md)
   - Mac
     * [Understand Permission Requirements For Mac](desktop/mac/permission-requirements.md)
   - Previous Versions
@@ -447,8 +447,8 @@
     * [Install Docker Engine On Cent OS](engine/install/centos.md)
     * [Install Docker Engine On Debian](engine/install/debian.md)
     * [Install Docker Engine On Fedora](engine/install/fedora.md)
-    * [Docker Engine Installation Overview](engine/install/index.md)
-    * [Docker Engine Post Installation Steps](engine/install/linux-postinstall.md)
+    * [Install Docker Engine](engine/install/index.md)
+    * [Linux Post Installation Steps For Docker Engine](engine/install/linux-postinstall.md)
     * [Install Docker Engine On RHEL](engine/install/rhel.md)
     * [Install Docker Engine On SLES](engine/install/sles.md)
     * [Troubleshoot Docker Engine Installation](engine/install/troubleshoot.md)
