@@ -483,7 +483,7 @@
       * [Docker Checkpoint](engine/reference/commandline/checkpoint.md)
       * [Docker Commit](engine/reference/commandline/commit.md)
       * [Docker Compose Build](engine/reference/commandline/compose_build.md)
-      * [Docker Compose Convert](engine/reference/commandline/compose_convert.md)
+      * [Docker Compose Config](engine/reference/commandline/compose_config.md)
       * [Docker Compose Cp](engine/reference/commandline/compose_cp.md)
       * [Docker Compose Create](engine/reference/commandline/compose_create.md)
       * [Docker Compose Down](engine/reference/commandline/compose_down.md)
