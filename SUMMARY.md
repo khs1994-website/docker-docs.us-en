@@ -85,9 +85,20 @@
     * [Optimizing Builds With Cache Management](build/cache/index.md)
   - Ci
     - Github Actions
+      * [Cache Management With Git Hub Actions](build/ci/github-actions/cache.md)
       * [Configuring Your Builder](build/ci/github-actions/configure-builder.md)
-      * [Example Workflows](build/ci/github-actions/examples.md)
+      * [Copy Image Between Registries With Git Hub Actions](build/ci/github-actions/copy-image-registries.md)
+      * [Export To Docker With Git Hub Actions](build/ci/github-actions/export-docker.md)
       * [Introduction To Git Hub Actions](build/ci/github-actions/index.md)
+      * [Local Registry With Git Hub Actions](build/ci/github-actions/local-registry.md)
+      * [Manage Tags And Labels With Git Hub Actions](build/ci/github-actions/manage-tags-labels.md)
+      * [Multi Platform Image With Git Hub Actions](build/ci/github-actions/multi-platform.md)
+      * [Named Contexts With Git Hub Actions](build/ci/github-actions/named-contexts.md)
+      * [Push To Multi Registries With Git Hub Actions](build/ci/github-actions/push-multi-registries.md)
+      * [Using Secrets With Git Hub Actions](build/ci/github-actions/secrets.md)
+      * [Share Built Image Between Jobs With Git Hub Actions](build/ci/github-actions/share-image-jobs.md)
+      * [Test Before Push With Git Hub Actions](build/ci/github-actions/test-before-push.md)
+      * [Update Docker Hub Repo Description With Git Hub Actions](build/ci/github-actions/update-dockerhub-desc.md)
     * [Continuous Integration With Docker](build/ci/index.md)
   - Drivers
     * [Docker Container Driver](build/drivers/docker-container.md)
