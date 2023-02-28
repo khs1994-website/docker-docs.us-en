@@ -1,8 +1,6 @@
 # [Docker 英文文档](https://github.com/docker/docker.github.io)
 
 - Includes
-  - Atomist
-    * [Disclaimer](_includes/atomist/disclaimer.md)
   - Content
     - Ssh
       * [Ssh Add Keys To Agent](_includes/content/ssh/ssh-add-keys-to-agent.md)
@@ -36,16 +34,6 @@
   * [Github Pr](_includes/github-pr.md)
   * [Install Script](_includes/install-script.md)
   * [Registry](_includes/registry.md)
-- Atomist
-  - Configure
-    * [Advisory Sources](atomist/configure/advisories.md)
-    * [Settings](atomist/configure/settings.md)
-  - Integrate
-    * [Track Deployments](atomist/integrate/deploys.md)
-    * [Integrate With Git Hub](atomist/integrate/github.md)
-  * [Get Started](atomist/get-started.md)
-  * [Introduction To Atomist](atomist/index.md)
-  * [Try Atomist](atomist/try-atomist.md)
 - Build
   - Attestations
     * [Attestation Storage](build/attestations/attestation-storage.md)
@@ -365,10 +353,9 @@
 - Develop
   - Develop Images
     * [Best Practices For Writing Dockerfiles](develop/develop-images/dockerfile_best-practices.md)
-  - Scan Images
-    * [Best Practices For Scanning Images](develop/scan-images/index.md)
   * [Docker Development Best Practices](develop/dev-best-practices.md)
   * [Develop With Docker](develop/index.md)
+  * [Security Best Practices](develop/security-best-practices.md)
 - Docker Hub
   - 2 Fa
     * [Disable Two Factor Authentication On Docker Hub](docker-hub/2fa/disable-2fa.md)
@@ -423,7 +410,7 @@
   * [Service Accounts](docker-hub/service-accounts.md)
   * [Set Up Docker Hub Notifications In Slack](docker-hub/slack_integration.md)
   * [Single Sign On Connection](docker-hub/sso-connection.md)
-  * [Hub Vulnerability Scanning](docker-hub/vulnerability-scanning.md)
+  * [Basic Vulnerability Scanning](docker-hub/vulnerability-scanning.md)
   * [Docker Hub Webhooks](docker-hub/webhooks.md)
 - Docker Id
   * [Docker ID Accounts](docker-id/index.md)
@@ -634,6 +621,9 @@
       * [Docker Rmi](engine/reference/commandline/rmi.md)
       * [Docker Run](engine/reference/commandline/run.md)
       * [Docker Save](engine/reference/commandline/save.md)
+      * [Docker Scout Cves](engine/reference/commandline/scout_cves.md)
+      * [Docker Scout Version](engine/reference/commandline/scout_version.md)
+      * [Docker Scout](engine/reference/commandline/scout.md)
       * [Docker Search](engine/reference/commandline/search.md)
       * [Docker Secret Create](engine/reference/commandline/secret_create.md)
       * [Docker Secret Inspect](engine/reference/commandline/secret_inspect.md)
@@ -924,6 +914,11 @@
   * [Vue.js samples](samples/vuejs.md)
   * [Wire Guard Samples](samples/wireguard.md)
   * [Word Press Samples](samples/wordpress.md)
+- Scout
+  * [Advanced Image Analysis](scout/advanced-image-analysis.md)
+  * [Artifactory Integration](scout/artifactory.md)
+  * [Image Details View](scout/image-details-view.md)
+  * [Docker Scout](scout/index.md)
 - Security
   * [Docker Security Announcements](security/index.md)
 - Single Sign On
