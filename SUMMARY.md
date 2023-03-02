@@ -51,11 +51,12 @@
   - Building
     * [Create A Base Image](build/building/base-images.md)
     * [Build Context](build/building/context.md)
+    * [Environment Variables For Docker Build](build/building/env-vars.md)
     * [Multi Platform Images](build/building/multi-platform.md)
     * [Multi Stage Builds](build/building/multi-stage.md)
+    * [Open Telemetry Support](build/building/opentelemetry.md)
     * [Packaging Your Software](build/building/packaging.md)
   - Buildkit
-    * [Color Output Controls](build/buildkit/color-output-controls.md)
     * [Configure Build Kit](build/buildkit/configure.md)
     * [Custom Dockerfile Syntax](build/buildkit/dockerfile-frontend.md)
     * [Build Kit](build/buildkit/index.md)
@@ -355,6 +356,7 @@
     * [Best Practices For Writing Dockerfiles](develop/develop-images/dockerfile_best-practices.md)
   * [Docker Development Best Practices](develop/dev-best-practices.md)
   * [Develop With Docker](develop/index.md)
+  * [Using Kubernetes For Remote Development](develop/remote-development.md)
   * [Security Best Practices](develop/security-best-practices.md)
 - Docker Hub
   - 2 Fa
