@@ -34,6 +34,13 @@
   * [Github Pr](_includes/github-pr.md)
   * [Install Script](_includes/install-script.md)
   * [Registry](_includes/registry.md)
+- Billing
+  * [Change Your Billing Cycle](billing/cycle.md)
+  * [Update The Contact Information](billing/details.md)
+  * [FA Qs](billing/faqs.md)
+  * [View Billing History](billing/history.md)
+  * [Billing And Payments](billing/index.md)
+  * [Add Or Update A Payment Method](billing/payment-method.md)
 - Build
   - Attestations
     * [Attestation Storage](build/attestations/attestation-storage.md)
