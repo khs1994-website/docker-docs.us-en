@@ -36,7 +36,7 @@
   * [Registry](_includes/registry.md)
 - Billing
   * [Change Your Billing Cycle](billing/cycle.md)
-  * [Update The Contact Information](billing/details.md)
+  * [Update The Billing Information](billing/details.md)
   * [FA Qs](billing/faqs.md)
   * [View Billing History](billing/history.md)
   * [Billing And Payments](billing/index.md)
