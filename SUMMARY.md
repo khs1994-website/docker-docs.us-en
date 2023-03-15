@@ -953,8 +953,10 @@
   * [Volumes](storage/volumes.md)
 - Subscription
   * [Add Seats To Your Subscription](subscription/add-seats.md)
+  * [Docker Desktop License Agreement](subscription/desktop-license.md)
+  * [Docker Subscriptions And Features](subscription/details.md)
   * [Downgrade Your Subscription](subscription/downgrade.md)
-  * [Subscription Billing FA Qs](subscription/faq.md)
+  * [Subscription FA Qs](subscription/faq.md)
   * [Docker Subscription Overview](subscription/index.md)
   * [Remove Seats From Your Subscription](subscription/remove-seats.md)
   * [Upgrade Your Subscription](subscription/upgrade.md)
