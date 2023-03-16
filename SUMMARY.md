@@ -383,7 +383,6 @@
   - Publish
     * [Docker Verified Publisher Program](docker-hub/publish/index.md)
     * [Insights And Analytics](docker-hub/publish/insights-analytics.md)
-    * [Migrate Content From The Publisher Center To Docker Hub](docker-hub/publish/publisher-center-migration.md)
   - Repos
     - Access
       * [Access Repositories](docker-hub/repos/access/index.md)
