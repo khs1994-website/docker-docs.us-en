@@ -386,8 +386,7 @@
   - Repos
     - Access
       * [Access Repositories](docker-hub/repos/access/index.md)
-    - Configure
-      * [Configure Repositories](docker-hub/repos/configure/index.md)
+    * [Create Repositories](docker-hub/repos/create.md)
     * [Manage Repositories](docker-hub/repos/index.md)
   * [Manage Access Tokens](docker-hub/access-tokens.md)
   * [Audit Logs](docker-hub/audit-log.md)
