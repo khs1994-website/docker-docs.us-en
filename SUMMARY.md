@@ -398,6 +398,7 @@
   * [Deactivating An Account Or An Organization](docker-hub/deactivate-account.md)
   * [Domain Audit](docker-hub/domain-audit.md)
   * [Download Rate Limit](docker-hub/download-rate-limit.md)
+  * [Docker Sponsored Open Source Program](docker-hub/dsos-program.md)
   * [Group Mapping](docker-hub/group-mapping.md)
   * [Image Access Management](docker-hub/image-access-management.md)
   * [Advanced Image Management Dashboard](docker-hub/image-management.md)
