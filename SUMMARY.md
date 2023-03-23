@@ -115,12 +115,24 @@
   * [Deploying Docker Containers On ECS](cloud/ecs-integration.md)
 - Compose
   - Compose File
+    * [Status Of The Specification](compose/compose-file/01-status.md)
+    * [Compose Application Model](compose/compose-file/02-model.md)
+    * [The Compose File](compose/compose-file/03-compose-file.md)
+    * [Version And Name Top Level Element](compose/compose-file/04-version-and-name.md)
+    * [Services Top Level Element](compose/compose-file/05-services.md)
+    * [Networks Top Level Element](compose/compose-file/06-networks.md)
+    * [Volumes Top Level Element](compose/compose-file/07-volumes.md)
+    * [Configs Top Level Element](compose/compose-file/08-configs.md)
+    * [Secrets Top Level Element](compose/compose-file/09-secrets.md)
+    * [Fragments](compose/compose-file/10-fragments.md)
+    * [Extensions](compose/compose-file/11-extension.md)
+    * [Interpolation](compose/compose-file/12-interpolation.md)
     * [Compose File Build Reference](compose/compose-file/build.md)
     * [Compose File Version 2 Reference](compose/compose-file/compose-file-v2.md)
     * [Compose File Version 3 Reference](compose/compose-file/compose-file-v3.md)
     * [Compose File Versions And Upgrading](compose/compose-file/compose-versioning.md)
     * [Compose File Deploy Reference](compose/compose-file/deploy.md)
-    * [Compose File Specification](compose/compose-file/index.md)
+    * [Overview](compose/compose-file/index.md)
   - Compose V 2
     * [Evolution Of Compose](compose/compose-v2/index.md)
   - Environment Variables
