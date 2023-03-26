@@ -401,6 +401,7 @@
     * [Create Repositories](docker-hub/repos/create.md)
     * [Manage Repositories](docker-hub/repos/index.md)
   * [Create And Manage Access Tokens](docker-hub/access-tokens.md)
+  * [Administration](docker-hub/admin-overview.md)
   * [Audit Logs](docker-hub/audit-log.md)
   * [Frequently Asked Questions](docker-hub/company-faqs.md)
   * [Manage Company Owners](docker-hub/company-owner.md)
