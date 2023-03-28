@@ -430,9 +430,9 @@
   * [Service Accounts](docker-hub/service-accounts.md)
   * [Set Up Docker Hub Notifications In Slack](docker-hub/slack_integration.md)
   * [Basic Vulnerability Scanning](docker-hub/vulnerability-scanning.md)
-  * [Docker Hub Webhooks](docker-hub/webhooks.md)
+  * [Webhooks](docker-hub/webhooks.md)
 - Docker Id
-  * [Docker ID Accounts](docker-id/index.md)
+  * [Create An Account](docker-id/index.md)
 - Engine
   - Api
     - Sdk
@@ -797,12 +797,17 @@
   * [Use Docker Compose](get-started/08_using_compose.md)
   * [Image Building Best Practices](get-started/09_image_best.md)
   * [What Next](get-started/11_what_next.md)
+  * [Docker Desktop Hands On Guides](get-started/hands-on-overview.md)
   * [Overview](get-started/index.md)
   * [Deploy To Kubernetes](get-started/kube-deploy.md)
   * [Orchestration](get-started/orchestration.md)
   * [Docker Overview](get-started/overview.md)
+  * [Publish Your Own Image](get-started/publish-your-own-image.md)
   * [Educational Resources](get-started/resources.md)
+  * [Run Docker Hub Images](get-started/run-docker-hub-images.md)
+  * [Run Your Own Container](get-started/run-your-own-container.md)
   * [Deploy To Swarm](get-started/swarm-deploy.md)
+  * [What Is A Container](get-started/what-is-a-container.md)
 - Language
   - Dotnet
     * [Build your .NET image](language/dotnet/build-images.md)
