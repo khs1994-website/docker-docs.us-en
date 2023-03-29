@@ -390,8 +390,11 @@
   - Builds
     * [Advanced Options For Autobuild And Autotest](docker-hub/builds/advanced.md)
     * [Automated Repository Tests](docker-hub/builds/automated-testing.md)
+    * [How Automated Builds Work](docker-hub/builds/how-builds-work.md)
     * [Set Up Automated Builds](docker-hub/builds/index.md)
     * [Configure Automated Builds From Git Hub And Bit Bucket](docker-hub/builds/link-source.md)
+    * [Manage Autobuilds](docker-hub/builds/manage-builds.md)
+    * [Troubleshoot Your Builds](docker-hub/builds/troubleshoot.md)
   - Publish
     * [Docker Verified Publisher Program](docker-hub/publish/index.md)
     * [Insights And Analytics](docker-hub/publish/insights-analytics.md)
@@ -415,7 +418,7 @@
   * [Group Mapping](docker-hub/group-mapping.md)
   * [Image Access Management](docker-hub/image-access-management.md)
   * [Advanced Image Management Dashboard](docker-hub/image-management.md)
-  * [Teams And Organizations](docker-hub/manage-a-team.md)
+  * [Create And Manage A Team](docker-hub/manage-a-team.md)
   * [Manage Members](docker-hub/members.md)
   * [OCI Artifacts On Docker Hub](docker-hub/oci-artifacts.md)
   * [Docker Official Images](docker-hub/official_images.md)
