@@ -805,10 +805,10 @@
   * [Deploy To Kubernetes](get-started/kube-deploy.md)
   * [Orchestration](get-started/orchestration.md)
   * [Docker Overview](get-started/overview.md)
-  * [Publish Your Own Image](get-started/publish-your-own-image.md)
+  * [Publish Your Images](get-started/publish-your-own-image.md)
   * [Educational Resources](get-started/resources.md)
   * [Run Docker Hub Images](get-started/run-docker-hub-images.md)
-  * [Run Your Own Container](get-started/run-your-own-container.md)
+  * [How Do I Run A Container](get-started/run-your-own-container.md)
   * [Deploy To Swarm](get-started/swarm-deploy.md)
   * [What Is A Container](get-started/what-is-a-container.md)
 - Language
