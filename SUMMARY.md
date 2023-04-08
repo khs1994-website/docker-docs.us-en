@@ -34,6 +34,7 @@
   * [Github Pr](_includes/github-pr.md)
   * [Install Script](_includes/install-script.md)
   * [Registry](_includes/registry.md)
+  * [Scout Early Access](_includes/scout-early-access.md)
 - Billing
   * [Change Your Billing Cycle](billing/cycle.md)
   * [Update The Billing Information](billing/details.md)
