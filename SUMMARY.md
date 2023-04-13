@@ -21,6 +21,7 @@
   * [Configure Registry Json](_includes/configure-registry-json.md)
   * [Deploy](_includes/deploy.md)
   * [Desktop Experimental](_includes/desktop-experimental.md)
+  * [Desktop Install](_includes/desktop-install.md)
   * [Desktop License Update](_includes/desktop-license-update.md)
   * [Desktop Linux Launch](_includes/desktop-linux-launch.md)
   * [Desktop Update](_includes/desktop-update.md)
