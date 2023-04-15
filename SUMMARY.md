@@ -26,6 +26,7 @@
   * [Desktop Linux Launch](_includes/desktop-linux-launch.md)
   * [Desktop Update](_includes/desktop-update.md)
   * [Dev Envs Changing](_includes/dev-envs-changing.md)
+  * [Dockerfile Labs Channel](_includes/dockerfile-labs-channel.md)
   * [Eula](_includes/eula.md)
   * [Experimental Feature](_includes/experimental-feature.md)
   * [Experimental](_includes/experimental.md)
@@ -67,7 +68,6 @@
     * [Packaging Your Software](build/building/packaging.md)
   - Buildkit
     * [Configure Build Kit](build/buildkit/configure.md)
-    * [Custom Dockerfile Syntax](build/buildkit/dockerfile-frontend.md)
     * [Build Kit](build/buildkit/index.md)
     * [Build Kit TOML Configuration](build/buildkit/toml-configuration.md)
   - Cache
@@ -98,6 +98,9 @@
       * [Test Before Push With Git Hub Actions](build/ci/github-actions/test-before-push.md)
       * [Update Docker Hub Repo Description With Git Hub Actions](build/ci/github-actions/update-dockerhub-desc.md)
     * [Continuous Integration With Docker](build/ci/index.md)
+  - Dockerfile
+    * [Custom Dockerfile Syntax](build/dockerfile/frontend.md)
+    * [Dockerfile Release Notes](build/dockerfile/release-notes.md)
   - Drivers
     * [Docker Container Driver](build/drivers/docker-container.md)
     * [Docker Driver](build/drivers/docker.md)
