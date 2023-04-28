@@ -381,7 +381,7 @@
   * [Allowlist For Docker Desktop](desktop/allow-list.md)
   * [Back Up And Restore Data](desktop/backup-and-restore.md)
   * [Give Feedback](desktop/feedback.md)
-  * [Quick Start Guide And Sign In](desktop/get-started.md)
+  * [Learning Center And Sign In](desktop/get-started.md)
   * [Docker Desktop](desktop/index.md)
   * [Deploy On Kubernetes](desktop/kubernetes.md)
   * [Explore Networking Features](desktop/networking.md)
@@ -967,6 +967,7 @@
   * [Word Press Samples](samples/wordpress.md)
 - Scout
   * [Advanced Image Analysis](scout/advanced-image-analysis.md)
+  * [Advisory Database Sources And Matching Service](scout/advisory-db-sources.md)
   * [Artifactory Integration](scout/artifactory.md)
   * [Image Details View](scout/image-details-view.md)
   * [Docker Scout](scout/index.md)

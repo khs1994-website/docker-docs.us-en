@@ -1136,7 +1136,7 @@ manuals:
             - path: /desktop/install/archlinux/
               title: Install on Arch
     - path: /desktop/get-started/
-      title: Quick Start Guide and sign in
+      title: Learning Center and sign in
     - sectiontitle: Explore Docker Desktop
       section:
         - path: /desktop/use-desktop/
@@ -1882,6 +1882,8 @@ manuals:
       title: Advanced image analysis
     - path: /scout/artifactory/
       title: Artifactory integration
+    - path: /scout/advisory-db-sources/
+      title: Advisory Database
 
 - sectiontitle: Administration and security
   section:
