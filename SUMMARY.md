@@ -757,8 +757,6 @@
     * [Docker Engine Release Notes](engine/release-notes/prior-releases.md)
   - Sbom
     * [Generate The SBOM For Docker Images](engine/sbom/index.md)
-  - Scan
-    * [Vulnerability Scanning For Docker Local Images](engine/scan/index.md)
   - Security
     - [Https](engine/security/https/README.md)
     - Trust
