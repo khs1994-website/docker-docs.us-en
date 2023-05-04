@@ -124,8 +124,8 @@
     * [Multi Stage](build/guide/multi-stage.md)
     * [Next Steps](build/guide/next-steps.md)
     * [Test](build/guide/test.md)
+  * [Docker Build Architecture](build/architecture.md)
   * [Overview Of Docker Build](build/index.md)
-  * [Install Docker Buildx](build/install-buildx.md)
   * [Build Release Notes](build/release-notes.md)
 - Cloud
   * [Deploying Docker Containers On Azure](cloud/aci-integration.md)
@@ -976,8 +976,6 @@
     * [Configure](single-sign-on/configure/index.md)
   - Manage
     * [Manage SSO](single-sign-on/manage/index.md)
-  - Requirements
-    * [Requirements](single-sign-on/requirements/index.md)
   * [Single Sign On FA Qs](single-sign-on/faqs.md)
   * [Overview](single-sign-on/index.md)
 - Storage

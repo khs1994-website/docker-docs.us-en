@@ -1621,8 +1621,8 @@ manuals:
   section:
     - path: /build/
       title: Overview
-    - path: /build/install-buildx/
-      title: Install Buildx
+    - path: /build/architecture/
+      title: Architecture
     - sectiontitle: Building images
       section:
         - path: /build/building/packaging/
@@ -1913,8 +1913,6 @@ manuals:
     section:
       -  path: /single-sign-on/
          title: Overview
-      -  path: /single-sign-on/requirements/
-         title: Requirements
       -  path: /single-sign-on/configure/
          title: Configure
       -  path: /single-sign-on/manage/
