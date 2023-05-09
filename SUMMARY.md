@@ -825,7 +825,7 @@
   * [Docker Desktop Hands On Guides](get-started/hands-on-overview.md)
   * [Overview](get-started/index.md)
   * [Deploy To Kubernetes](get-started/kube-deploy.md)
-  * [Orchestration](get-started/orchestration.md)
+  * [Deployment And Orchestration](get-started/orchestration.md)
   * [Docker Overview](get-started/overview.md)
   * [Publish Your Images](get-started/publish-your-own-image.md)
   * [Educational Resources](get-started/resources.md)
