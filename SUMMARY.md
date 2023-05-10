@@ -439,6 +439,7 @@
   * [Advanced Image Management Dashboard](docker-hub/image-management.md)
   * [Create And Manage A Team](docker-hub/manage-a-team.md)
   * [Manage Members](docker-hub/members.md)
+  * [Create A Company](docker-hub/new-company.md)
   * [OCI Artifacts On Docker Hub](docker-hub/oci-artifacts.md)
   * [Docker Official Images](docker-hub/official_images.md)
   * [Docker Business Onboarding](docker-hub/onboard-business.md)
