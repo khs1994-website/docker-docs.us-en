@@ -151,8 +151,6 @@
     * [Compose File Versions And Upgrading](compose/compose-file/compose-versioning.md)
     * [Compose File Deploy Reference](compose/compose-file/deploy.md)
     * [Overview](compose/compose-file/index.md)
-  - Compose V 2
-    * [Evolution Of Compose](compose/compose-v2/index.md)
   - Environment Variables
     * [Use An Environment File](compose/environment-variables/env-file.md)
     * [Environment Variables Precedence](compose/environment-variables/envvars-precedence.md)
@@ -162,7 +160,7 @@
   - Install
     * [Overview](compose/install/index.md)
     * [Install The Compose Plugin](compose/install/linux.md)
-    * [Install The Compose Standalone](compose/install/other.md)
+    * [Install Compose Standalone](compose/install/standalone.md)
     * [Uninstall Docker Compose](compose/install/uninstall.md)
   - Reference
     * [Overview Of Docker Compose CLI](compose/reference/index.md)
@@ -172,7 +170,9 @@
   * [Automatically Update Services With File Watch](compose/file-watch.md)
   * [Try Docker Compose](compose/gettingstarted.md)
   * [Enabling GPU Access With Compose](compose/gpu-support.md)
+  * [History Of Compose](compose/history.md)
   * [Docker Compose Overview](compose/index.md)
+  * [Migrate To Compose V 2](compose/migrate.md)
   * [Networking In Compose](compose/networking.md)
   * [Use Compose In Production](compose/production.md)
   * [Using Profiles With Compose](compose/profiles.md)
