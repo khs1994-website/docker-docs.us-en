@@ -59,6 +59,8 @@
     * [Bake File Definition](build/bake/file-definition.md)
     * [User Defined HCL Functions](build/bake/hcl-funcs.md)
     * [High Level Builds With Bake](build/bake/index.md)
+    * [Buildx Bake Reference](build/bake/reference.md)
+    * [Remote Bake File Definition](build/bake/remote-definition.md)
   - Building
     * [Create A Base Image](build/building/base-images.md)
     * [Build Context](build/building/context.md)
