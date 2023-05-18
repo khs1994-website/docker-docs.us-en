@@ -181,6 +181,7 @@
   * [Docker Compose Release Notes](compose/release-notes.md)
   * [Sample Apps With Compose](compose/samples-for-compose.md)
   * [Control Startup And Shutdown Order In Compose](compose/startup-order.md)
+  * [Using Secrets In Compose](compose/use-secrets.md)
 - Config
   - Containers
     - Logging
@@ -419,6 +420,7 @@
   - Publish
     * [Docker Verified Publisher Program](docker-hub/publish/index.md)
     * [Insights And Analytics](docker-hub/publish/insights-analytics.md)
+    * [Repository Logos](docker-hub/publish/repository-logos.md)
   - Repos
     - Access
       * [Access Repositories](docker-hub/repos/access/index.md)
