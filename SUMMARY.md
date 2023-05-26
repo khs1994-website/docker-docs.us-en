@@ -975,6 +975,7 @@
   * [Artifactory Integration](scout/artifactory.md)
   * [Image Details View](scout/image-details-view.md)
   * [Docker Scout](scout/index.md)
+  * [Web App](scout/web-app.md)
 - Security
   * [Docker Security Announcements](security/index.md)
 - Single Sign On
