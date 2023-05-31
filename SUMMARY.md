@@ -337,8 +337,8 @@
       * [How Does It Work](desktop/hardened-desktop/enhanced-container-isolation/how-eci-works.md)
       * [What Is Enhanced Container Isolation](desktop/hardened-desktop/enhanced-container-isolation/index.md)
     - Settings Management
-      * [Configure](desktop/hardened-desktop/settings-management/configure.md)
-      * [Index](desktop/hardened-desktop/settings-management/index.md)
+      * [Configure Settings Management](desktop/hardened-desktop/settings-management/configure.md)
+      * [What Is Settings Management](desktop/hardened-desktop/settings-management/index.md)
     * [Hardened Docker Desktop](desktop/hardened-desktop/index.md)
     * [Registry Access Management](desktop/hardened-desktop/registry-access-management.md)
   - Install
@@ -415,10 +415,6 @@
     * [Configure Automated Builds From Git Hub And Bit Bucket](docker-hub/builds/link-source.md)
     * [Manage Autobuilds](docker-hub/builds/manage-builds.md)
     * [Troubleshoot Your Builds](docker-hub/builds/troubleshoot.md)
-  - Publish
-    * [Docker Verified Publisher Program](docker-hub/publish/index.md)
-    * [Insights And Analytics](docker-hub/publish/insights-analytics.md)
-    * [Repository Logos](docker-hub/publish/repository-logos.md)
   - Repos
     - Access
       * [Access Repositories](docker-hub/repos/access/index.md)
@@ -436,9 +432,11 @@
   * [Domain Audit](docker-hub/domain-audit.md)
   * [Download Rate Limit](docker-hub/download-rate-limit.md)
   * [Docker Sponsored Open Source Program](docker-hub/dsos-program.md)
+  * [Docker Verified Publisher Program](docker-hub/dvp-program.md)
   * [Group Mapping](docker-hub/group-mapping.md)
   * [Image Access Management](docker-hub/image-access-management.md)
   * [Advanced Image Management Dashboard](docker-hub/image-management.md)
+  * [Insights And Analytics](docker-hub/insights-analytics.md)
   * [Create And Manage A Team](docker-hub/manage-a-team.md)
   * [Manage Members](docker-hub/members.md)
   * [Create A Company](docker-hub/new-company.md)
