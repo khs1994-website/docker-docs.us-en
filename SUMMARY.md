@@ -37,6 +37,8 @@
   * [Registry](_includes/registry.md)
   * [Root Errors](_includes/root-errors.md)
   * [Scout Early Access](_includes/scout-early-access.md)
+  * [Swarm Compose Compat](_includes/swarm-compose-compat.md)
+  * [Swarm Mode](_includes/swarm-mode.md)
 - Billing
   * [Change Your Billing Cycle](billing/cycle.md)
   * [Update The Billing Information](billing/details.md)
@@ -971,9 +973,9 @@
   * [Advanced Image Analysis](scout/advanced-image-analysis.md)
   * [Advisory Database Sources And Matching Service](scout/advisory-db-sources.md)
   * [Artifactory Integration](scout/artifactory.md)
+  * [Dashboard](scout/dashboard.md)
   * [Image Details View](scout/image-details-view.md)
   * [Docker Scout](scout/index.md)
-  * [Web App](scout/web-app.md)
 - Security
   * [Docker Security Announcements](security/index.md)
 - Single Sign On
