@@ -334,10 +334,11 @@
     * [Frequently Asked Questions For Windows](desktop/faqs/windowsfaqs.md)
   - Hardened Desktop
     - Enhanced Container Isolation
-      * [FA Qs And Known Issues](desktop/hardened-desktop/enhanced-container-isolation/faq.md)
+      * [FA Qs](desktop/hardened-desktop/enhanced-container-isolation/faq.md)
       * [Key Features And Benefits](desktop/hardened-desktop/enhanced-container-isolation/features-benefits.md)
       * [How Does It Work](desktop/hardened-desktop/enhanced-container-isolation/how-eci-works.md)
       * [What Is Enhanced Container Isolation](desktop/hardened-desktop/enhanced-container-isolation/index.md)
+      * [Limitations](desktop/hardened-desktop/enhanced-container-isolation/limitations.md)
     - Settings Management
       * [Configure Settings Management](desktop/hardened-desktop/settings-management/configure.md)
       * [What Is Settings Management](desktop/hardened-desktop/settings-management/index.md)
