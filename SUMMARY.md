@@ -366,7 +366,7 @@
     * [Change Preferences On Mac](desktop/settings/mac.md)
     * [Change Docker Desktop Settings On Windows](desktop/settings/windows.md)
   - Troubleshoot
-    * [Known Issues For Docker Desktop On Mac](desktop/troubleshoot/known-issues.md)
+    * [Known Issues](desktop/troubleshoot/known-issues.md)
     * [Overview](desktop/troubleshoot/overview.md)
     * [Troubleshoot Topics](desktop/troubleshoot/topics.md)
     * [Workarounds For Common Problems](desktop/troubleshoot/workarounds.md)
