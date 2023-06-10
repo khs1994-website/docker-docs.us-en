@@ -181,7 +181,7 @@
   * [Docker Compose Release Notes](compose/release-notes.md)
   * [Sample Apps With Compose](compose/samples-for-compose.md)
   * [Control Startup And Shutdown Order In Compose](compose/startup-order.md)
-  * [Using Secrets In Compose](compose/use-secrets.md)
+  * [How To Use Secrets In Docker Compose](compose/use-secrets.md)
 - Config
   - Containers
     - Logging
@@ -382,7 +382,7 @@
     * [Understand Permission Requirements For Windows](desktop/windows/permission-requirements.md)
     * [Docker Desktop WSL 2 Backend On Windows](desktop/windows/wsl.md)
   * [Allowlist For Docker Desktop](desktop/allow-list.md)
-  * [Back Up And Restore Data](desktop/backup-and-restore.md)
+  * [How To Back Up And Restore Your Docker Desktop Data](desktop/backup-and-restore.md)
   * [Give Feedback](desktop/feedback.md)
   * [Learning Center And Sign In](desktop/get-started.md)
   * [Docker Desktop](desktop/index.md)
