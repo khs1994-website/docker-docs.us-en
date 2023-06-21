@@ -21,7 +21,7 @@ The quickest way to create a new extension is to run `docker extension init my-e
 > **Tip**
 >
 > The `docker extension init` generates a React based extension. But you can still use it as a starting point for
-> your own extension and use any other frontend framework, like Vue, Angular, Svelte, etc. or event stay with
+> your own extension and use any other frontend framework, like Vue, Angular, Svelte, etc. or even stay with
 > vanilla Javascript.
 {: .tip }
 
@@ -387,6 +387,7 @@ when you need to debug it.
 
 - Add a [backend](./backend-extension-tutorial.md) to your extension.
 - Learn how to [test and debug](../dev/test-debug.md) your extension.
+- Learn how to [setup CI for your extension](../dev/continuous-integration.md).
 - Learn more about extensions [architecture](../architecture/index.md).
 - For more information and guidelines on building the UI, see the [Design and UI styling section](../design/design-guidelines.md).
 - If you want to set up user authentication for the extension, see [Authentication](../guides/oauth2-flow.md).
