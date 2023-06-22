@@ -417,7 +417,10 @@
     * [Docker Wasm Beta](desktop/wasm/index.md)
   - Windows
     * [Understand Permission Requirements For Windows](desktop/windows/permission-requirements.md)
-    * [Docker Desktop WSL 2 Backend On Windows](desktop/windows/wsl.md)
+  - Wsl
+    * [Best Practices](desktop/wsl/best-practices.md)
+    * [Docker Desktop WSL 2 Backend On Windows](desktop/wsl/index.md)
+    * [Use WSL](desktop/wsl/use-wsl.md)
   * [Allowlist For Docker Desktop](desktop/allow-list.md)
   * [How To Back Up And Restore Your Docker Desktop Data](desktop/backup-and-restore.md)
   * [Give Feedback](desktop/feedback.md)
