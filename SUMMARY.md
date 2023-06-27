@@ -547,6 +547,7 @@
       * [Docker Buildx Bake](engine/reference/commandline/buildx_bake.md)
       * [Docker Buildx Build](engine/reference/commandline/buildx_build.md)
       * [Docker Buildx Create](engine/reference/commandline/buildx_create.md)
+      * [Docker Buildx Debug Shell](engine/reference/commandline/buildx_debug-shell.md)
       * [Docker Buildx Du](engine/reference/commandline/buildx_du.md)
       * [Docker Buildx Imagetools Create](engine/reference/commandline/buildx_imagetools_create.md)
       * [Docker Buildx Imagetools Inspect](engine/reference/commandline/buildx_imagetools_inspect.md)
@@ -856,6 +857,7 @@
   - Tutorials
     * [Engine Tutorials](engine/tutorials/index.md)
     * [Network Containers](engine/tutorials/networkingcontainers.md)
+  * [Alternative Container Runtimes](engine/alternative-runtimes.md)
   * [Breaking Changes And Incompatibilities](engine/breaking_changes.md)
   * [Docker Frequently Asked Questions FAQ](engine/faq.md)
   * [Docker Engine Overview](engine/index.md)
@@ -1017,6 +1019,7 @@
   * [Advanced Image Analysis](scout/advanced-image-analysis.md)
   * [Advisory Database Sources And Matching Service](scout/advisory-db-sources.md)
   * [Artifactory Integration](scout/artifactory.md)
+  * [Using Docker Scout In Continuous Integration](scout/ci.md)
   * [Dashboard](scout/dashboard.md)
   * [Image Details View](scout/image-details-view.md)
   * [Docker Scout](scout/index.md)
