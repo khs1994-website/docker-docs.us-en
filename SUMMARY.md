@@ -184,6 +184,7 @@
     * [Interpolation](compose/compose-file/12-interpolation.md)
     * [Merge And Override](compose/compose-file/13-merge.md)
     * [Include](compose/compose-file/14-include.md)
+    * [Profiles](compose/compose-file/15-profiles.md)
     * [Compose File Build Reference](compose/compose-file/build.md)
     * [Compose File Version 2 Reference](compose/compose-file/compose-file-v2.md)
     * [Compose File Version 3 Reference](compose/compose-file/compose-file-v3.md)
