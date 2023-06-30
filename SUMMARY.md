@@ -28,6 +28,7 @@
   * [Compose Eol](_includes/compose-eol.md)
   * [Configure Registry Json](_includes/configure-registry-json.md)
   * [Deploy](_includes/deploy.md)
+  * [Desktop Builders Setting](_includes/desktop-builders-setting.md)
   * [Desktop Experimental](_includes/desktop-experimental.md)
   * [Desktop Install](_includes/desktop-install.md)
   * [Desktop License Update](_includes/desktop-license-update.md)
@@ -78,7 +79,7 @@
 - Billing
   * [Change Your Billing Cycle](billing/cycle.md)
   * [Update The Billing Information](billing/details.md)
-  * [FA Qs](billing/faqs.md)
+  * [Billing FA Qs](billing/faqs.md)
   * [View Billing History](billing/history.md)
   * [Billing And Payments](billing/index.md)
   * [Add Or Update A Payment Method](billing/payment-method.md)
@@ -97,6 +98,9 @@
     * [High Level Builds With Bake](build/bake/index.md)
     * [Buildx Bake Reference](build/bake/reference.md)
     * [Remote Bake File Definition](build/bake/remote-definition.md)
+  - Builders
+    * [Builders](build/builders/index.md)
+    * [Manage Builders](build/builders/manage.md)
   - Building
     * [Create A Base Image](build/building/base-images.md)
     * [Build Context](build/building/context.md)
@@ -205,7 +209,7 @@
   - Reference
     * [Overview Of Docker Compose CLI](compose/reference/index.md)
   * [Share Compose Configurations Between Files And Projects](compose/extends.md)
-  * [Frequently Asked Questions](compose/faq.md)
+  * [Compose FA Qs](compose/faq.md)
   * [Key Features And Use Cases](compose/features-uses.md)
   * [Automatically Update Services With File Watch](compose/file-watch.md)
   * [Try Docker Compose](compose/gettingstarted.md)
@@ -366,10 +370,11 @@
     * [The Build And Publish Process](desktop/extensions-sdk/process.md)
     * [Quickstart](desktop/extensions-sdk/quickstart.md)
   - Faqs
-    * [Frequently Asked Questions](desktop/faqs/general.md)
-    * [Frequently Asked Questions For Linux](desktop/faqs/linuxfaqs.md)
-    * [Frequently Asked Questions For Mac](desktop/faqs/macfaqs.md)
-    * [Frequently Asked Questions For Windows](desktop/faqs/windowsfaqs.md)
+    * [General FA Qs For Desktop](desktop/faqs/general.md)
+    * [FA Qs For Linux](desktop/faqs/linuxfaqs.md)
+    * [FA Qs For Mac](desktop/faqs/macfaqs.md)
+    * [FA Qs On Docker Desktop Releases](desktop/faqs/releases.md)
+    * [FA Qs For Windows](desktop/faqs/windowsfaqs.md)
   - Hardened Desktop
     - Enhanced Container Isolation
       * [FA Qs](desktop/hardened-desktop/enhanced-container-isolation/faq.md)
@@ -410,13 +415,14 @@
     * [Troubleshoot Topics](desktop/troubleshoot/topics.md)
     * [Workarounds For Common Problems](desktop/troubleshoot/workarounds.md)
   - Use Desktop
+    * [Explore Builds Beta](desktop/use-desktop/builds.md)
     * [Explore Containers](desktop/use-desktop/container.md)
     * [Explore Images](desktop/use-desktop/images.md)
     * [Overview](desktop/use-desktop/index.md)
     * [Pause Docker Desktop](desktop/use-desktop/pause.md)
     * [Explore Volumes](desktop/use-desktop/volumes.md)
   - Wasm
-    * [Docker Wasm Beta](desktop/wasm/index.md)
+    * [Wasm Workloads Beta](desktop/wasm/index.md)
   - Windows
     * [Understand Permission Requirements For Windows](desktop/windows/permission-requirements.md)
   - Wsl
@@ -467,7 +473,7 @@
   * [Create And Manage Access Tokens](docker-hub/access-tokens.md)
   * [Administration](docker-hub/admin-overview.md)
   * [Audit Logs](docker-hub/audit-log.md)
-  * [Frequently Asked Questions](docker-hub/onboarding-faqs.md)
+  * [FA Qs On Companies](docker-hub/company-faqs.md)
   * [Manage Company Owners](docker-hub/company-owner.md)
   * [Configure registry.json to enforce sign-in](docker-hub/configure-sign-in.md)
   * [Convert An Account Into An Organization](docker-hub/convert-account.md)
@@ -477,6 +483,7 @@
   * [Download Rate Limit](docker-hub/download-rate-limit.md)
   * [Docker Sponsored Open Source Program](docker-hub/dsos-program.md)
   * [Docker Verified Publisher Program](docker-hub/dvp-program.md)
+  * [General FA Qs For Docker Hub](docker-hub/general-faqs.md)
   * [Group Mapping](docker-hub/group-mapping.md)
   * [Image Access Management](docker-hub/image-access-management.md)
   * [Advanced Image Management Dashboard](docker-hub/image-management.md)
@@ -488,6 +495,7 @@
   * [Docker Official Images](docker-hub/official_images.md)
   * [Docker Business Onboarding](docker-hub/onboard-business.md)
   * [Docker Team Onboarding](docker-hub/onboard-team.md)
+  * [FA Qs On Organizations](docker-hub/organization-faqs.md)
   * [Create Your Organization](docker-hub/orgs.md)
   * [Docker Hub Quickstart](docker-hub/quickstart.md)
   * [Registry Access Management](docker-hub/registry-access-management.md)
@@ -713,6 +721,10 @@
       * [Docker Scout Entitlement](engine/reference/commandline/scout_entitlement.md)
       * [Docker Scout Quickview](engine/reference/commandline/scout_quickview.md)
       * [Docker Scout Recommendations](engine/reference/commandline/scout_recommendations.md)
+      * [Docker Scout Repo Disable](engine/reference/commandline/scout_repo_disable.md)
+      * [Docker Scout Repo Enable](engine/reference/commandline/scout_repo_enable.md)
+      * [Docker Scout Repo List](engine/reference/commandline/scout_repo_list.md)
+      * [Docker Scout Repo](engine/reference/commandline/scout_repo.md)
       * [Docker Scout Sbom](engine/reference/commandline/scout_sbom.md)
       * [Docker Scout Stream](engine/reference/commandline/scout_stream.md)
       * [Docker Scout Version](engine/reference/commandline/scout_version.md)
@@ -861,6 +873,8 @@
   * [Docker Frequently Asked Questions FAQ](engine/faq.md)
   * [Docker Engine Overview](engine/index.md)
   * [Migrate to Engine 1.10](engine/migration.md)
+- Faq
+  * [Frequently Asked Questions](faq/index.md)
 - Get Started
   * [Containerize An Application](get-started/02_our_app.md)
   * [Update The Application](get-started/03_updating_app.md)
@@ -922,6 +936,13 @@
     * [Use Containers For Development](language/python/develop.md)
     * [What Will You Learn In This Module](language/python/index.md)
     * [Run Your Image As A Container](language/python/run-containers.md)
+  - Rust
+    * [Build Your Rust Image](language/rust/build-images.md)
+    * [Configure CI CD For Your Application](language/rust/configure-ci-cd.md)
+    * [Deploy Your App](language/rust/deploy.md)
+    * [Develop Your Rust Application](language/rust/develop.md)
+    * [What Will You Learn In This Module](language/rust/index.md)
+    * [Run Your Rust Image As A Container](language/rust/run-containers.md)
   * [Overview](language/index.md)
 - Network
   - Drivers
@@ -1029,8 +1050,13 @@
     * [Configure](single-sign-on/configure/index.md)
   - Manage
     * [Manage SSO](single-sign-on/manage/index.md)
-  * [Single Sign On FA Qs](single-sign-on/faqs.md)
+  * [Domains](single-sign-on/domain-faqs.md)
+  * [Enforcement](single-sign-on/enforcement-faqs.md)
+  * [General](single-sign-on/faqs.md)
+  * [Identity Providers](single-sign-on/idp-faqs.md)
   * [Overview](single-sign-on/index.md)
+  * [SAML](single-sign-on/saml-faqs.md)
+  * [Manage Users](single-sign-on/users-faqs.md)
 - Storage
   - Storagedriver
     * [Use The AUFS Storage Driver](storage/storagedriver/aufs-driver.md)
