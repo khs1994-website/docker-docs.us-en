@@ -46,6 +46,7 @@
   * [Registry](_includes/registry.md)
   * [Root Errors](_includes/root-errors.md)
   * [Scout Early Access](_includes/scout-early-access.md)
+  * [Scout Plans](_includes/scout-plans.md)
   * [Swarm Compose Compat](_includes/swarm-compose-compat.md)
   * [Swarm Mode](_includes/swarm-mode.md)
 - Admin
@@ -83,6 +84,7 @@
   * [View Billing History](billing/history.md)
   * [Billing And Payments](billing/index.md)
   * [Add Or Update A Payment Method](billing/payment-method.md)
+  * [Docker Scout Billing](billing/scout-billing.md)
 - Build
   - Attestations
     * [Attestation Storage](build/attestations/attestation-storage.md)
@@ -1081,6 +1083,7 @@
   * [Subscription FA Qs](subscription/faq.md)
   * [Docker Subscription Overview](subscription/index.md)
   * [Remove Seats From Your Subscription](subscription/remove-seats.md)
+  * [Docker Scout Subscriptions And Features](subscription/scout-details.md)
   * [Upgrade Your Subscription](subscription/upgrade.md)
 - Support
   * [Get Support](support/index.md)
