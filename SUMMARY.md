@@ -1045,6 +1045,7 @@
   * [Dashboard](scout/dashboard.md)
   * [Image Details View](scout/image-details-view.md)
   * [Docker Scout](scout/index.md)
+  * [Docker Scout Quickstart](scout/quickstart.md)
 - Security
   * [Docker Security Announcements](security/index.md)
 - Single Sign On
