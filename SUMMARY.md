@@ -216,9 +216,13 @@
     * [Install The Compose Plugin](compose/install/linux.md)
     * [Install Compose Standalone](compose/install/standalone.md)
     * [Uninstall Docker Compose](compose/install/uninstall.md)
+  - Multiple Compose Files
+    * [Extend Your Compose File](compose/multiple-compose-files/extends.md)
+    * [Include](compose/multiple-compose-files/include.md)
+    * [Overview](compose/multiple-compose-files/index.md)
+    * [Merge Compose Files](compose/multiple-compose-files/merge.md)
   - Reference
     * [Overview Of Docker Compose CLI](compose/reference/index.md)
-  * [Share Compose Configurations Between Files And Projects](compose/extends.md)
   * [Compose FA Qs](compose/faq.md)
   * [Key Features And Use Cases](compose/features-uses.md)
   * [Automatically Update Services With File Watch](compose/file-watch.md)
