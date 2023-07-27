@@ -515,6 +515,7 @@
   * [Docker Hub Quickstart](docker-hub/quickstart.md)
   * [Registry Access Management](docker-hub/registry-access-management.md)
   * [Docker Hub Release Notes](docker-hub/release-notes.md)
+  * [Roles And Permissions](docker-hub/roles-and-permissions.md)
   * [SCIM](docker-hub/scim.md)
   * [Service Accounts](docker-hub/service-accounts.md)
   * [Set Up Docker Hub Notifications In Slack](docker-hub/slack_integration.md)
