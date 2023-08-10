@@ -1058,6 +1058,7 @@
   * [Artifactory Integration](scout/artifactory.md)
   * [Using Docker Scout In Continuous Integration](scout/ci.md)
   * [Dashboard](scout/dashboard.md)
+  * [Data Collection And Storage In Docker Scout](scout/data-handling.md)
   * [Image Details View](scout/image-details-view.md)
   * [Docker Scout](scout/index.md)
   * [Docker Scout Quickstart](scout/quickstart.md)
