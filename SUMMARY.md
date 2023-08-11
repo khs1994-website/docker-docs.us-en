@@ -139,7 +139,7 @@
   - Ci
     - Github Actions
       * [Cache Management With Git Hub Actions](build/ci/github-actions/cache.md)
-      * [Configuring Your Builder](build/ci/github-actions/configure-builder.md)
+      * [Configuring Your Git Hub Actions Builder](build/ci/github-actions/configure-builder.md)
       * [Copy Image Between Registries With Git Hub Actions](build/ci/github-actions/copy-image-registries.md)
       * [Export To Docker With Git Hub Actions](build/ci/github-actions/export-docker.md)
       * [Introduction To Git Hub Actions](build/ci/github-actions/index.md)
@@ -208,13 +208,13 @@
     * [Compose File Deploy Reference](compose/compose-file/deploy.md)
     * [Overview](compose/compose-file/index.md)
   - Environment Variables
-    * [Use An Environment File](compose/environment-variables/env-file.md)
-    * [Environment Variables Precedence](compose/environment-variables/envvars-precedence.md)
-    * [Change Pre Defined Environment Variables](compose/environment-variables/envvars.md)
+    * [Use An Environment File In Docker Compose](compose/environment-variables/env-file.md)
+    * [Environment Variables Precedence In Docker Compose](compose/environment-variables/envvars-precedence.md)
+    * [Change Pre Defined Environment Variables In Docker Compose](compose/environment-variables/envvars.md)
     * [Overview](compose/environment-variables/index.md)
     * [Ways To Set Environment Variables In Compose](compose/environment-variables/set-environment-variables.md)
   - Install
-    * [Overview](compose/install/index.md)
+    * [Overview Of Installing Docker Compose](compose/install/index.md)
     * [Install The Compose Plugin](compose/install/linux.md)
     * [Install Compose Standalone](compose/install/standalone.md)
     * [Uninstall Docker Compose](compose/install/uninstall.md)
@@ -226,12 +226,12 @@
   - Reference
     * [Overview Of Docker Compose CLI](compose/reference/index.md)
   * [Compose FA Qs](compose/faq.md)
-  * [Key Features And Use Cases](compose/features-uses.md)
-  * [Automatically Update Services With File Watch](compose/file-watch.md)
+  * [Key Features And Use Cases Of Docker Compose](compose/features-uses.md)
+  * [Automatically Update Services With File Watch In Docker Compose](compose/file-watch.md)
   * [Try Docker Compose](compose/gettingstarted.md)
-  * [Enabling GPU Access With Compose](compose/gpu-support.md)
-  * [History Of Compose](compose/history.md)
-  * [Docker Compose Overview](compose/index.md)
+  * [Turn On GPU Access With Docker Compose](compose/gpu-support.md)
+  * [History Of Docker Compose](compose/history.md)
+  * [Overview Of Docker Compose](compose/index.md)
   * [Migrate To Compose V 2](compose/migrate.md)
   * [Networking In Compose](compose/networking.md)
   * [Use Compose In Production](compose/production.md)
@@ -316,20 +316,20 @@
     * [What Are Docker Extensions](desktop/extensions/index.md)
     * [Marketplace Extensions](desktop/extensions/marketplace.md)
     * [Non Marketplace Extensions](desktop/extensions/non-marketplace.md)
-    * [Settings And Feedback](desktop/extensions/settings-feedback.md)
+    * [Settings And Feedback For Docker Extensions](desktop/extensions/settings-feedback.md)
   - Extensions Sdk
     - Architecture
       * [Extension Architecture](desktop/extensions-sdk/architecture/index.md)
       * [Extension Metadata](desktop/extensions-sdk/architecture/metadata.md)
-      * [Security](desktop/extensions-sdk/architecture/security.md)
+      * [Extension Security](desktop/extensions-sdk/architecture/security.md)
     - Build
       * [Add A Backend To Your Extension](desktop/extensions-sdk/build/backend-extension-tutorial.md)
       * [Create An Advanced Frontend Extension](desktop/extensions-sdk/build/frontend-extension-tutorial.md)
       * [Create A Simple Extension](desktop/extensions-sdk/build/minimal-frontend-extension.md)
     - Design
-      * [Design Guidelines](desktop/extensions-sdk/design/design-guidelines.md)
+      * [Design Guidelines For Docker Extensions](desktop/extensions-sdk/design/design-guidelines.md)
       * [Docker Design Principles](desktop/extensions-sdk/design/design-principles.md)
-      * [UI Styling Overview](desktop/extensions-sdk/design/index.md)
+      * [UI Styling Overview For Docker Extensions](desktop/extensions-sdk/design/index.md)
       * [MUI Best Practices](desktop/extensions-sdk/design/mui-best-practices.md)
     - Dev
       - Api
@@ -382,7 +382,7 @@
       * [Interacting With Kubernetes From A Docker Extension](desktop/extensions-sdk/guides/kubernetes.md)
       * [OAuth 2.0 flow](desktop/extensions-sdk/guides/oauth2-flow.md)
       * [Use The Docker Socket From The Extension Backend](desktop/extensions-sdk/guides/use-docker-socket-from-backend.md)
-    * [Overview](desktop/extensions-sdk/index.md)
+    * [Overview Of The Extensions SDK](desktop/extensions-sdk/index.md)
     * [The Build And Publish Process](desktop/extensions-sdk/process.md)
     * [Quickstart](desktop/extensions-sdk/quickstart.md)
   - Faqs
@@ -558,7 +558,7 @@
     * [Install Docker Engine On Fedora](engine/install/fedora.md)
     * [Install Docker Engine](engine/install/index.md)
     * [Linux Post Installation Steps For Docker Engine](engine/install/linux-postinstall.md)
-    * [Install Docker Engine On Raspbian](engine/install/raspbian.md)
+    * [Install Docker Engine On Raspberry Pi OS](engine/install/raspberry-pi-os.md)
     * [Install Docker Engine On RHEL](engine/install/rhel.md)
     * [Install Docker Engine On SLES](engine/install/sles.md)
     * [Troubleshoot Docker Engine Installation](engine/install/troubleshoot.md)
@@ -901,9 +901,9 @@
   * [Multi Container Apps](get-started/07_multi_container.md)
   * [Use Docker Compose](get-started/08_using_compose.md)
   * [Image Building Best Practices](get-started/09_image_best.md)
-  * [What Next](get-started/11_what_next.md)
+  * [What Next After Getting Started](get-started/11_what_next.md)
   * [Docker Desktop Hands On Guides](get-started/hands-on-overview.md)
-  * [Overview](get-started/index.md)
+  * [Overview Of The Get Started Guide](get-started/index.md)
   * [Deploy To Kubernetes](get-started/kube-deploy.md)
   * [Deployment And Orchestration](get-started/orchestration.md)
   * [Docker Overview](get-started/overview.md)
@@ -1053,10 +1053,19 @@
   * [Wire Guard Samples](samples/wireguard.md)
   * [Word Press Samples](samples/wordpress.md)
 - Scout
+  - Integrations
+    - Ci
+      * [Integrate Docker Scout With Microsoft Azure Dev Ops Pipelines](scout/integrations/ci/azure.md)
+      * [Integrate Docker Scout With Circle CI](scout/integrations/ci/circle-ci.md)
+      * [Integrate Docker Scout With Git Hub Actions](scout/integrations/ci/gha.md)
+      * [Integrate Docker Scout With Git Lab CI](scout/integrations/ci/gitlab.md)
+      * [Using Docker Scout In Continuous Integration](scout/integrations/ci/index.md)
+      * [Integrate Docker Scout With Jenkins](scout/integrations/ci/jenkins.md)
+    - Registry
+      * [Artifactory Integration](scout/integrations/registry/artifactory.md)
+    * [Integrating Docker Scout With Other Systems](scout/integrations/index.md)
   * [Advanced Image Analysis](scout/advanced-image-analysis.md)
   * [Advisory Database Sources And Matching Service](scout/advisory-db-sources.md)
-  * [Artifactory Integration](scout/artifactory.md)
-  * [Using Docker Scout In Continuous Integration](scout/ci.md)
   * [Dashboard](scout/dashboard.md)
   * [Data Collection And Storage In Docker Scout](scout/data-handling.md)
   * [Image Details View](scout/image-details-view.md)
