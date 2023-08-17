@@ -1062,6 +1062,8 @@
       * [Integrate Docker Scout With Git Lab CI](scout/integrations/ci/gitlab.md)
       * [Using Docker Scout In Continuous Integration](scout/integrations/ci/index.md)
       * [Integrate Docker Scout With Jenkins](scout/integrations/ci/jenkins.md)
+    - Environment
+      * [Integrating Docker Scout With Environments](scout/integrations/environment/index.md)
     - Registry
       * [Artifactory Integration](scout/integrations/registry/artifactory.md)
     * [Integrating Docker Scout With Other Systems](scout/integrations/index.md)
