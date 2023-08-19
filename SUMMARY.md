@@ -179,6 +179,7 @@
     * [Next Steps](build/guide/next-steps.md)
     * [Test](build/guide/test.md)
   * [Docker Build Architecture](build/architecture.md)
+  * [Hydrobuild](build/hydrobuild.md)
   * [Overview Of Docker Build](build/index.md)
   * [Build Release Notes](build/release-notes.md)
 - Cloud
