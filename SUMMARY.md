@@ -202,11 +202,11 @@
     * [Merge And Override](compose/compose-file/13-merge.md)
     * [Include](compose/compose-file/14-include.md)
     * [Profiles](compose/compose-file/15-profiles.md)
-    * [Compose File Build Reference](compose/compose-file/build.md)
+    * [Compose Build Specification](compose/compose-file/build.md)
     * [Compose File Version 2 Reference](compose/compose-file/compose-file-v2.md)
     * [Compose File Version 3 Reference](compose/compose-file/compose-file-v3.md)
     * [Compose File Versions And Upgrading](compose/compose-file/compose-versioning.md)
-    * [Compose File Deploy Reference](compose/compose-file/deploy.md)
+    * [Compose Deploy Specification](compose/compose-file/deploy.md)
     * [Overview](compose/compose-file/index.md)
   - Environment Variables
     * [Use An Environment File In Docker Compose](compose/environment-variables/env-file.md)
