@@ -20,6 +20,9 @@ FROM base as build-base
 COPY --from=hugo $GOPATH/bin/hugo /bin/hugo
 COPY --from=node /src/node_modules /src/node_modules
 
+FROM build-base as dev
+COPY . .
+
 FROM build-base as build
 ARG HUGO_ENV
 ARG DOCS_URL
@@ -39,3 +42,14 @@ WORKDIR /test
 COPY --from=build /out ./public
 ADD .htmltest.yml .htmltest.yml
 RUN htmltest
+
+FROM build-base as update-modules
+ARG MODULE="-u"
+WORKDIR /src
+COPY . .
+RUN hugo mod get ${MODULE}
+RUN hugo mod vendor
+
+FROM scratch as vendor
+COPY --from=update-modules /src/_vendor /_vendor
+COPY --from=update-modules /src/go.* /

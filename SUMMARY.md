@@ -959,7 +959,6 @@
     * [Admin Org Overview](content/includes/admin-org-overview.md)
     * [Api Version Matrix](content/includes/api-version-matrix.md)
     * [Beta](content/includes/beta.md)
-    * [Build Feature State](content/includes/build-feature-state.md)
     * [buildx-v0.10-disclaimer](content/includes/buildx-v0.10-disclaimer.md)
     * [Compose Eol](content/includes/compose-eol.md)
     * [Configure Registry Json](content/includes/configure-registry-json.md)
