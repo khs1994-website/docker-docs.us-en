@@ -1128,6 +1128,7 @@
         * [Integrating Docker Scout With Environments](content/scout/integrations/environment/_index.md)
       - Registry
         * [Artifactory Integration](content/scout/integrations/registry/artifactory.md)
+        * [Integrate Docker Scout With Amazon ECR](content/scout/integrations/registry/ecr.md)
       * [Integrating Docker Scout With Other Systems](content/scout/integrations/_index.md)
     * [Docker Scout](content/scout/_index.md)
     * [Advanced Image Analysis](content/scout/advanced-image-analysis.md)
@@ -1136,6 +1137,7 @@
     * [Dashboard](content/scout/web-app.md)
     * [Data Collection And Storage In Docker Scout](content/scout/data-handling.md)
     * [Image Details View](content/scout/image-details-view.md)
+    * [Get Started With Policy Evaluation In Docker Scout](content/scout/policy.md)
     * [Docker Scout Quickstart](content/scout/quickstart.md)
   - Single Sign On
     - Configure
