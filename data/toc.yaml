@@ -1826,7 +1826,7 @@ Manuals:
   - path: /compose/networking/
     title: Networking in Compose
   - path: /compose/file-watch/
-    title: Automatically update services with file watch (Experimental)
+    title: Use file watch (Experimental)
   - path: /compose/production/
     title: Using Compose in production
   - path: /compose/use-secrets/
@@ -1901,12 +1901,12 @@ Manuals:
       title: Quickstart
     - path: /scout/image-details-view/
       title: Image details view
-    - path: /scout/advanced-image-analysis/
-      title: Advanced image analysis
+    - path: /scout/image-analysis/
+      title: Image analysis
     - path: /scout/dashboard/
       title: Dashboard
     - path: /scout/advisory-db-sources/
-      title: Advisory Database
+      title: Advisory database
     - path: /scout/data-handling/
       title: Data handling
     - path: /scout/policy/
@@ -2172,6 +2172,8 @@ Contribute:
       title: Cards
     - path: /contribute/components/code-blocks/
       title: Code blocks
+    - path: /contribute/components/icons/
+      title: Icons
     - path: /contribute/components/images/
       title: Images
     - path: /contribute/components/links/
