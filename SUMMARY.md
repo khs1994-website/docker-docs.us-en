@@ -316,6 +316,7 @@
       * [Start The Daemon](content/config/daemon/start.md)
       * [Configure The Daemon With Systemd](content/config/daemon/systemd.md)
       * [Troubleshoot The Docker Daemon](content/config/daemon/troubleshoot.md)
+    * [Filter Commands](content/config/filter.md)
     * [Format Command And Log Output](content/config/formatting.md)
     * [Docker Object Labels](content/config/labels-custom-metadata.md)
     * [Prune Unused Docker Objects](content/config/pruning.md)
