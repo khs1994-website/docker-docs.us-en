@@ -508,7 +508,6 @@
       * [Best Practices For Writing Dockerfiles](content/develop/develop-images/dockerfile_best-practices.md)
     * [Develop With Docker](content/develop/_index.md)
     * [Docker Development Best Practices](content/develop/dev-best-practices.md)
-    * [Using Kubernetes For Remote Development](content/develop/remote-development.md)
     * [Security Best Practices](content/develop/security-best-practices.md)
   - Docker Hub
     - 2 Fa
