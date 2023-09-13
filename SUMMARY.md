@@ -1151,8 +1151,10 @@
     * [Data Collection And Storage In Docker Scout](content/scout/data-handling.md)
     * [Docker Scout Image Analysis](content/scout/image-analysis.md)
     * [Image Details View](content/scout/image-details-view.md)
+    * [Analyze Local Files With Docker Scout](content/scout/local-fs.md)
     * [Get Started With Policy Evaluation In Docker Scout](content/scout/policy.md)
     * [Docker Scout Quickstart](content/scout/quickstart.md)
+    * [Docker Scout SBO Ms](content/scout/sbom.md)
   - Single Sign On
     - Configure
       * [Configure Single Sign On](content/single-sign-on/configure/_index.md)

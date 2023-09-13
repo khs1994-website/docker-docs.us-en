@@ -1917,12 +1917,16 @@ Manuals:
       title: Image analysis
     - path: /scout/dashboard/
       title: Dashboard
+    - path: /scout/local-fs/
+      title: Analyze local files
     - path: /scout/advisory-db-sources/
       title: Advisory database
     - path: /scout/data-handling/
       title: Data handling
     - path: /scout/policy/
       title: Policy
+    - path: /scout/sbom/
+      title: SBOM
     - sectiontitle: Integrations
       section:
       - title: Overview

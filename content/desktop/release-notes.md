@@ -61,13 +61,13 @@ With Docker Scout, you can now:
 - containerd image store:
   - Fixed `failed to read config content` error when interacting with some images.
   - Fixed building Dockerfiles with `FROM scratch` instruction when using the legacy classic builder (`DOCKER_BUILDKIT=0`).
-  -  Fixed `mismatched image rootfs errors` when building images with legacy classic builder (`DOCKER_BUILDKIT=0`).
+  - Fixed `mismatched image rootfs errors` when building images with legacy classic builder (`DOCKER_BUILDKIT=0`).
   - Fixed `ONBUILD` and `MAINTAINER` Dockerfile instruction
   - Fixed healthchecks.
 
 #### For Mac
 
-- All users on macOs 12.5 or greater now have VirtioFS turned on by default. This can be reverted in **Settings** in the **General** tab.
+- All users on macOS 12.5 or greater now have VirtioFS turned on by default. You can revert this in **Settings** in the **General** tab.
 - Improved single-stream TCP throughput.
 - Reinstated the health check for macOS that notifies you if there has been a change on your system which might cause problems running Docker binaries.
 
@@ -79,7 +79,7 @@ With Docker Scout, you can now:
 
 {{< release-date date="2023-08-24" >}}
 
-{{< desktop-install all=true version="4.22.1" build_path="/118664" >}}
+{{< desktop-install all=true version="4.22.1" build_path="/118664/" >}}
 
 ### Bug fixes and enhancements
 
