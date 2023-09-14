@@ -569,7 +569,6 @@
     * [Roles And Permissions](content/docker-hub/roles-and-permissions.md)
     * [SCIM](content/docker-hub/scim.md)
     * [Service Accounts](content/docker-hub/service-accounts.md)
-    * [Set Up Docker Hub Notifications In Slack](content/docker-hub/slack_integration.md)
     * [Basic Vulnerability Scanning](content/docker-hub/vulnerability-scanning.md)
     * [Webhooks](content/docker-hub/webhooks.md)
   - Docker Id
