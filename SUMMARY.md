@@ -988,7 +988,6 @@
     * [Experimental](content/includes/experimental.md)
     * [Extensions Form](content/includes/extensions-form.md)
     * [Gha Tutorial](content/includes/gha-tutorial.md)
-    * [Github Issue](content/includes/github_issue.md)
     * [Index](content/includes/index.md)
     * [Install Script](content/includes/install-script.md)
     * [Registry](content/includes/registry.md)
