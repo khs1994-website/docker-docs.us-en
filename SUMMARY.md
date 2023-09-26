@@ -1135,6 +1135,9 @@
         * [Artifactory Integration](content/scout/integrations/registry/artifactory.md)
         * [Integrate Docker Scout With Amazon ECR](content/scout/integrations/registry/ecr.md)
       * [Integrating Docker Scout With Other Systems](content/scout/integrations/_index.md)
+    - Policy
+      * [Get Started With Policy Evaluation In Docker Scout](content/scout/policy/_index.md)
+      * [View Docker Scout Policy Status](content/scout/policy/view.md)
     * [Docker Scout](content/scout/_index.md)
     * [Advisory Database Sources And Matching Service](content/scout/advisory-db-sources.md)
     * [Dashboard](content/scout/dashboard.md)
@@ -1142,7 +1145,6 @@
     * [Docker Scout Image Analysis](content/scout/image-analysis.md)
     * [Image Details View](content/scout/image-details-view.md)
     * [Analyze Local Files With Docker Scout](content/scout/local-fs.md)
-    * [Get Started With Policy Evaluation In Docker Scout](content/scout/policy.md)
     * [Docker Scout Quickstart](content/scout/quickstart.md)
     * [Docker Scout SBO Ms](content/scout/sbom.md)
   - Single Sign On
