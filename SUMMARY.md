@@ -21,6 +21,7 @@
         * [15 Profiles](_vendor/github.com/compose-spec/compose-spec/15-profiles.md)
         * [Build](_vendor/github.com/compose-spec/compose-spec/build.md)
         * [Deploy](_vendor/github.com/compose-spec/compose-spec/deploy.md)
+        * [Develop](_vendor/github.com/compose-spec/compose-spec/develop.md)
     - Distribution
       - Distribution
         - [Docs](_vendor/github.com/distribution/distribution/docs/README.md)
