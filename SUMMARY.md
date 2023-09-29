@@ -487,6 +487,7 @@
       * [Explore The Containers View In Docker Desktop](content/desktop/use-desktop/container.md)
       * [Explore The Images View In Docker Desktop](content/desktop/use-desktop/images.md)
       * [Pause Docker Desktop](content/desktop/use-desktop/pause.md)
+      * [Docker Desktop S Resource Saver Mode](content/desktop/use-desktop/resource-saver.md)
       * [Explore Volumes](content/desktop/use-desktop/volumes.md)
     - Wasm
       * [Wasm Workloads Beta](content/desktop/wasm/_index.md)
