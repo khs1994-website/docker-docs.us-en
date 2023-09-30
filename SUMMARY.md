@@ -566,7 +566,7 @@
     * [Roles And Permissions](content/docker-hub/roles-and-permissions.md)
     * [SCIM](content/docker-hub/scim.md)
     * [Service Accounts](content/docker-hub/service-accounts.md)
-    * [Basic Vulnerability Scanning](content/docker-hub/vulnerability-scanning.md)
+    * [Static Vulnerability Scanning](content/docker-hub/vulnerability-scanning.md)
     * [Webhooks](content/docker-hub/webhooks.md)
   - Docker Id
     * [Create An Account](content/docker-id/_index.md)
@@ -977,7 +977,6 @@
     * [Beta](content/includes/beta.md)
     * [buildx-v0.10-disclaimer](content/includes/buildx-v0.10-disclaimer.md)
     * [Compose Eol](content/includes/compose-eol.md)
-    * [Configure Registry Json](content/includes/configure-registry-json.md)
     * [Deploy](content/includes/deploy.md)
     * [Desktop Builders Setting](content/includes/desktop-builders-setting.md)
     * [Desktop Experimental](content/includes/desktop-experimental.md)
@@ -1141,6 +1140,7 @@
       - Environment
         * [Integrating Docker Scout With Environments](content/scout/integrations/environment/_index.md)
         * [Generic Environment Integration With CLI](content/scout/integrations/environment/cli.md)
+        * [Integrate Docker Scout With Sysdig](content/scout/integrations/environment/sysdig.md)
       - Registry
         * [Artifactory Integration](content/scout/integrations/registry/artifactory.md)
         * [Integrate Docker Scout With Amazon ECR](content/scout/integrations/registry/ecr.md)
