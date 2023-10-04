@@ -510,7 +510,9 @@
     * [Run Docker Desktop For Windows In A VM Or VDI Environment](content/desktop/vm-vdi.md)
   - Develop
     - Develop Images
-      * [Best Practices For Writing Dockerfiles](content/develop/develop-images/dockerfile_best-practices.md)
+      * [Overview Of Best Practices For Writing Dockerfiles](content/develop/develop-images/dockerfile_best-practices.md)
+      * [General Best Practices For Writing Dockerfiles](content/develop/develop-images/guidelines.md)
+      * [Best Practices For Dockerfile Instructions](content/develop/develop-images/instructions.md)
     * [Develop With Docker](content/develop/_index.md)
     * [Docker Development Best Practices](content/develop/dev-best-practices.md)
     * [Security Best Practices](content/develop/security-best-practices.md)
@@ -1089,6 +1091,7 @@
     * [Work With Notifications](content/registry/notifications.md)
   - Samples
     * [Samples Overview](content/samples/_index.md)
+    * [AI ML Samples](content/samples/ai-ml.md)
     * [Angular Samples](content/samples/angular.md)
     * [Cloudflared Samples](content/samples/cloudflared.md)
     * [Django Samples](content/samples/django.md)
