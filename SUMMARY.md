@@ -994,8 +994,6 @@
     * [Install Script](content/includes/install-script.md)
     * [Registry](content/includes/registry.md)
     * [Root Errors](content/includes/root-errors.md)
-    * [Scout Early Access](content/includes/scout-early-access.md)
-    * [Scout Plans](content/includes/scout-plans.md)
     * [Swarm Compose Compat](content/includes/swarm-compose-compat.md)
     * [Swarm Mode](content/includes/swarm-mode.md)
   - Language
@@ -1159,6 +1157,7 @@
     * [Image Details View](content/scout/image-details-view.md)
     * [Analyze Local Files With Docker Scout](content/scout/local-fs.md)
     * [Docker Scout Quickstart](content/scout/quickstart.md)
+    * [Docker Scout Release Notes](content/scout/release-notes.md)
     * [Docker Scout SBO Ms](content/scout/sbom.md)
   - Single Sign On
     - Configure
