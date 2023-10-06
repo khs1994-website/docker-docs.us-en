@@ -258,7 +258,7 @@
       * [Overview](content/compose/environment-variables/_index.md)
       * [Use An Environment File In Docker Compose](content/compose/environment-variables/env-file.md)
       * [Environment Variables Precedence In Docker Compose](content/compose/environment-variables/envvars-precedence.md)
-      * [Change Pre Defined Environment Variables In Docker Compose](content/compose/environment-variables/envvars.md)
+      * [Set Or Change Pre Defined Environment Variables In Docker Compose](content/compose/environment-variables/envvars.md)
       * [Ways To Set Environment Variables In Compose](content/compose/environment-variables/set-environment-variables.md)
     - Install
       * [Overview Of Installing Docker Compose](content/compose/install/_index.md)
