@@ -998,13 +998,12 @@
     * [Swarm Mode](content/includes/swarm-mode.md)
   - Language
     - Dotnet
-      * [What Will You Learn In This Module](content/language/dotnet/_index.md)
-      * [Build your .NET image](content/language/dotnet/build-images.md)
-      * [Configure CI CD For Your Application](content/language/dotnet/configure-ci-cd.md)
+      * [.NET language-specific guide](content/language/dotnet/_index.md)
+      * [Configure CI/CD for your .NET application](content/language/dotnet/configure-ci-cd.md)
+      * [Containerize a .NET application](content/language/dotnet/containerize.md)
       * [Deploy Your App](content/language/dotnet/deploy.md)
-      * [Use Containers For Development](content/language/dotnet/develop.md)
-      * [Run Your Image As A Container](content/language/dotnet/run-containers.md)
-      * [Run Your Tests](content/language/dotnet/run-tests.md)
+      * [Use containers for .NET development](content/language/dotnet/develop.md)
+      * [Run .NET tests in a container](content/language/dotnet/run-tests.md)
     - Golang
       * [What Will You Learn In This Module](content/language/golang/_index.md)
       * [Build Your Go Image](content/language/golang/build-images.md)
