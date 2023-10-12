@@ -606,7 +606,7 @@
       * [Install Docker Engine On Debian](content/engine/install/debian.md)
       * [Install Docker Engine On Fedora](content/engine/install/fedora.md)
       * [Linux Post Installation Steps For Docker Engine](content/engine/install/linux-postinstall.md)
-      * [Install Docker Engine On Raspberry Pi OS](content/engine/install/raspberry-pi-os.md)
+      * [Install Docker Engine On Raspberry Pi OS 32 Bit](content/engine/install/raspberry-pi-os.md)
       * [Install Docker Engine On RHEL](content/engine/install/rhel.md)
       * [Install Docker Engine On SLES](content/engine/install/sles.md)
       * [Troubleshoot Docker Engine Installation](content/engine/install/troubleshoot.md)
