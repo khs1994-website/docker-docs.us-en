@@ -317,7 +317,7 @@
     * [Use Compose Watch](content/compose/file-watch.md)
     * [Try Docker Compose](content/compose/gettingstarted.md)
     * [Turn On GPU Access With Docker Compose](content/compose/gpu-support.md)
-    * [History Of Docker Compose](content/compose/history.md)
+    * [History And Development Of Docker Compose](content/compose/history.md)
     * [Migrate To Compose V 2](content/compose/migrate.md)
     * [Networking In Compose](content/compose/networking.md)
     * [Use Compose In Production](content/compose/production.md)
