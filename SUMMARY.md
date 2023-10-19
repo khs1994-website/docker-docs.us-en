@@ -166,7 +166,6 @@
   - Admin
     - Company
       - Settings
-        * [Domain Management](content/admin/company/settings/domains.md)
         * [Group Mapping](content/admin/company/settings/group-mapping.md)
         * [SCIM](content/admin/company/settings/scim.md)
         * [Configure Single Sign On For A Company](content/admin/company/settings/sso-configuration.md)
@@ -178,7 +177,6 @@
       * [Manage Company Users](content/admin/company/users.md)
     - Organization
       - Security Settings
-        * [Domain Management](content/admin/organization/security-settings/domains.md)
         * [Group Mapping](content/admin/organization/security-settings/group-mapping.md)
         * [SCIM](content/admin/organization/security-settings/scim.md)
         * [Configure Single Sign On For An Organization](content/admin/organization/security-settings/sso-configuration.md)
@@ -188,10 +186,8 @@
       * [Organization Administration Overview](content/admin/organization/_index.md)
       * [Activity Logs](content/admin/organization/activity-logs.md)
       * [General Organization Settings](content/admin/organization/general-settings.md)
-      * [Image Access Management](content/admin/organization/image-access.md)
       * [Manage Organization Members](content/admin/organization/members.md)
       * [Onboard Your Organization](content/admin/organization/onboard.md)
-      * [Registry Access Management](content/admin/organization/registry-access.md)
     * [Docker Admin Overview](content/admin/_index.md)
   - Billing
     * [Billing And Payments](content/billing/_index.md)
@@ -490,8 +486,6 @@
         * [What Is Settings Management](content/desktop/hardened-desktop/settings-management/_index.md)
         * [Configure Settings Management](content/desktop/hardened-desktop/settings-management/configure.md)
       * [Overview Of Hardened Docker Desktop](content/desktop/hardened-desktop/_index.md)
-      * [Image Access Management](content/desktop/hardened-desktop/image-access-management.md)
-      * [Registry Access Management](content/desktop/hardened-desktop/registry-access-management.md)
     - Install
       * [Install Docker Desktop On Arch Based Distributions](content/desktop/install/archlinux.md)
       * [Install Docker Desktop On Debian](content/desktop/install/debian.md)
@@ -555,11 +549,6 @@
     * [Docker Development Best Practices](content/develop/dev-best-practices.md)
     * [Security Best Practices](content/develop/security-best-practices.md)
   - Docker Hub
-    - 2 Fa
-      * [Enable Two Factor Authentication For Docker Hub](content/docker-hub/2fa/_index.md)
-      * [Disable Two Factor Authentication On Docker Hub](content/docker-hub/2fa/disable-2fa.md)
-      * [Generate A New Recovery Code](content/docker-hub/2fa/new-recovery-code.md)
-      * [Recover Your Docker Account](content/docker-hub/2fa/recover-hub-account.md)
     - Api
       * [Docker Hub API V 1 Deprecated](content/docker-hub/api/deprecated.md)
       * [Dvp](content/docker-hub/api/dvp.md)
@@ -578,20 +567,16 @@
       * [Manage Repositories](content/docker-hub/repos/_index.md)
       * [Create Repositories](content/docker-hub/repos/create.md)
     * [Overview Of Docker Hub](content/docker-hub/_index.md)
-    * [Create And Manage Access Tokens](content/docker-hub/access-tokens.md)
     * [Administration](content/docker-hub/admin-overview.md)
     * [Audit Logs](content/docker-hub/audit-log.md)
     * [FA Qs On Companies](content/docker-hub/company-faqs.md)
     * [Manage Company Owners](content/docker-hub/company-owner.md)
-    * [Enforce Sign In For Desktop](content/docker-hub/configure-sign-in.md)
     * [Convert An Account Into An Organization](content/docker-hub/convert-account.md)
     * [Overview](content/docker-hub/creating-companies.md)
     * [Deactivating An Account Or An Organization](content/docker-hub/deactivate-account.md)
-    * [Domain Audit](content/docker-hub/domain-audit.md)
     * [Docker Hub Rate Limit](content/docker-hub/download-rate-limit.md)
     * [General FA Qs For Docker Hub](content/docker-hub/general-faqs.md)
     * [Group Mapping](content/docker-hub/group-mapping.md)
-    * [Image Access Management](content/docker-hub/image-access-management.md)
     * [Advanced Image Management Dashboard](content/docker-hub/image-management.md)
     * [Create And Manage A Team](content/docker-hub/manage-a-team.md)
     * [Manage Members](content/docker-hub/members.md)
@@ -601,7 +586,6 @@
     * [FA Qs On Organizations](content/docker-hub/organization-faqs.md)
     * [Create Your Organization](content/docker-hub/orgs.md)
     * [Docker Hub Quickstart](content/docker-hub/quickstart.md)
-    * [Registry Access Management](content/docker-hub/registry-access-management.md)
     * [Docker Hub Release Notes](content/docker-hub/release-notes.md)
     * [Roles And Permissions](content/docker-hub/roles-and-permissions.md)
     * [SCIM](content/docker-hub/scim.md)
@@ -1046,7 +1030,7 @@
       * [.NET language-specific guide](content/language/dotnet/_index.md)
       * [Configure CI/CD for your .NET application](content/language/dotnet/configure-ci-cd.md)
       * [Containerize a .NET application](content/language/dotnet/containerize.md)
-      * [Deploy Your App](content/language/dotnet/deploy.md)
+      * [Test your .NET deployment](content/language/dotnet/deploy.md)
       * [Use containers for .NET development](content/language/dotnet/develop.md)
       * [Run .NET tests in a container](content/language/dotnet/run-tests.md)
     - Golang
@@ -1074,11 +1058,10 @@
       * [Run Node.js tests in a container](content/language/nodejs/run-tests.md)
     - Python
       * [What Will You Learn In This Module](content/language/python/_index.md)
-      * [Build Your Python Image](content/language/python/build-images.md)
-      * [Configure CI CD For Your Application](content/language/python/configure-ci-cd.md)
-      * [Deploy Your App](content/language/python/deploy.md)
-      * [Use Containers For Development](content/language/python/develop.md)
-      * [Run Your Image As A Container](content/language/python/run-containers.md)
+      * [Configure CI CD For Your Python Application](content/language/python/configure-ci-cd.md)
+      * [Containerize A Python Application](content/language/python/containerize.md)
+      * [Test Your Python Deployment](content/language/python/deploy.md)
+      * [Use Containers For Python Development](content/language/python/develop.md)
     - Rust
       * [Rust Language Specific Guide](content/language/rust/_index.md)
       * [Build Your Rust Image](content/language/rust/build-images.md)
@@ -1203,6 +1186,21 @@
     * [Docker Scout Quickstart](content/scout/quickstart.md)
     * [Docker Scout Release Notes](content/scout/release-notes.md)
     * [Docker Scout SBO Ms](content/scout/sbom.md)
+  - Security
+    - For Admins
+      * [Enforce Sign In For Desktop](content/security/for-admins/configure-sign-in.md)
+      * [Domain Audit](content/security/for-admins/domain-audit.md)
+      * [Image Access Management](content/security/for-admins/image-access-management.md)
+      * [Registry Access Management](content/security/for-admins/registry-access-management.md)
+    - For Developers
+      - 2 Fa
+        * [Enable Two Factor Authentication For Docker Hub](content/security/for-developers/2fa/_index.md)
+        * [Disable Two Factor Authentication On Docker Hub](content/security/for-developers/2fa/disable-2fa.md)
+        * [Generate A New Recovery Code](content/security/for-developers/2fa/new-recovery-code.md)
+        * [Recover Your Docker Account](content/security/for-developers/2fa/recover-hub-account.md)
+      * [Create And Manage Access Tokens](content/security/for-developers/access-tokens.md)
+    * [Security](content/security/_index.md)
+    * [Docker Security Announcements](content/security/security-announcements.md)
   - Single Sign On
     - Configure
       * [Configure Single Sign On](content/single-sign-on/configure/_index.md)
@@ -1253,7 +1251,6 @@
   * [Reference Documentation](content/reference.md)
   * [Product Release Lifecycle](content/release-lifecycle.md)
   * [Docker Release Notes](content/release-notes.md)
-  * [Docker Security Announcements](content/security.md)
   * [Get Support](content/support.md)
 - Layouts
   - Shortcodes
