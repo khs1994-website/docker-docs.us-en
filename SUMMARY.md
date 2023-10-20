@@ -22,26 +22,6 @@
         * [Build](_vendor/github.com/compose-spec/compose-spec/build.md)
         * [Deploy](_vendor/github.com/compose-spec/compose-spec/deploy.md)
         * [Develop](_vendor/github.com/compose-spec/compose-spec/develop.md)
-    - Distribution
-      - Distribution
-        - [Docs](_vendor/github.com/distribution/distribution/docs/README.md)
-          - Spec
-            - Auth
-              * [Docker Registry Token Authentication](_vendor/github.com/distribution/distribution/docs/spec/auth/index.md)
-              * [Token Authentication Implementation](_vendor/github.com/distribution/distribution/docs/spec/auth/jwt.md)
-              * [Oauth 2 Token Authentication](_vendor/github.com/distribution/distribution/docs/spec/auth/oauth.md)
-              * [Token Scope Documentation](_vendor/github.com/distribution/distribution/docs/spec/auth/scope.md)
-              * [Token Authentication Specification](_vendor/github.com/distribution/distribution/docs/spec/auth/token.md)
-            * [HTTP API V 2](_vendor/github.com/distribution/distribution/docs/spec/api.md)
-            * [Update Deprecated Schema Image Manifest Version 2 V 1 Images](_vendor/github.com/distribution/distribution/docs/spec/deprecated-schema-v1.md)
-            * [Implementations](_vendor/github.com/distribution/distribution/docs/spec/implementations.md)
-            * [Reference Overview](_vendor/github.com/distribution/distribution/docs/spec/index.md)
-            * [Docker Distribution JSON Canonicalization](_vendor/github.com/distribution/distribution/docs/spec/json.md)
-            * [Image Manifest V 2 Schema 1](_vendor/github.com/distribution/distribution/docs/spec/manifest-v2-1.md)
-            * [Image Manifest V 2 Schema 2](_vendor/github.com/distribution/distribution/docs/spec/manifest-v2-2.md)
-            * [Reference](_vendor/github.com/distribution/distribution/docs/spec/menu.md)
-          * [Architecture](_vendor/github.com/distribution/distribution/docs/architecture.md)
-          * [Configuring A Registry](_vendor/github.com/distribution/distribution/docs/configuration.md)
     - Docker
       - Buildx
         - Docs
@@ -580,6 +560,7 @@
     * [Advanced Image Management Dashboard](content/docker-hub/image-management.md)
     * [Create And Manage A Team](content/docker-hub/manage-a-team.md)
     * [Manage Members](content/docker-hub/members.md)
+    * [Registry As A Pull Through Cache](content/docker-hub/mirror.md)
     * [Create A Company](content/docker-hub/new-company.md)
     * [OCI Artifacts On Docker Hub](content/docker-hub/oci-artifacts.md)
     * [Onboard Your Organization](content/docker-hub/onboard.md)
@@ -1021,7 +1002,6 @@
     * [Gha Tutorial](content/includes/gha-tutorial.md)
     * [Index](content/includes/index.md)
     * [Install Script](content/includes/install-script.md)
-    * [Registry](content/includes/registry.md)
     * [Root Errors](content/includes/root-errors.md)
     * [Swarm Compose Compat](content/includes/swarm-compose-compat.md)
     * [Swarm Mode](content/includes/swarm-mode.md)
@@ -1053,7 +1033,7 @@
       * [Node.js language-specific guide](content/language/nodejs/_index.md)
       * [Configure CI/CD for your Node.js application](content/language/nodejs/configure-ci-cd.md)
       * [Containerize a Node.js application](content/language/nodejs/containerize.md)
-      * [Test Your Deployment](content/language/nodejs/deploy.md)
+      * [Test your Node.js deployment](content/language/nodejs/deploy.md)
       * [Use containers for Node.js development](content/language/nodejs/develop.md)
       * [Run Node.js tests in a container](content/language/nodejs/run-tests.md)
     - Python
@@ -1069,7 +1049,7 @@
       * [Deploy Your Rust App](content/language/rust/deploy.md)
       * [Develop Your Rust Application](content/language/rust/develop.md)
       * [Run Your Rust Image As A Container](content/language/rust/run-containers.md)
-    * [Overview](content/language/_index.md)
+    * [Language Specific Guides Overview](content/language/_index.md)
   - Network
     - Drivers
       * [Network Drivers Overview](content/network/drivers/_index.md)
@@ -1087,33 +1067,6 @@
     * [Networking With Standalone Containers](content/network/network-tutorial-standalone.md)
     * [Packet Filtering And Firewalls](content/network/packet-filtering-firewalls.md)
     * [Configure Docker To Use A Proxy Server](content/network/proxy.md)
-  - Registry
-    - Recipes
-      * [Recipes Overview](content/registry/recipes/_index.md)
-      * [Authenticate Proxy With Apache](content/registry/recipes/apache.md)
-      * [Registry As A Pull Through Cache](content/registry/recipes/mirror.md)
-      * [Authenticate Proxy With Nginx](content/registry/recipes/nginx.md)
-      * [Mac OS Setup Guide](content/registry/recipes/osx-setup-guide.md)
-    - Storage Drivers
-      * [Docker Registry Storage Driver](content/registry/storage-drivers/_index.md)
-      * [Microsoft Azure Storage Driver](content/registry/storage-drivers/azure.md)
-      * [Filesystem Storage Driver](content/registry/storage-drivers/filesystem.md)
-      * [Google Cloud Storage Driver](content/registry/storage-drivers/gcs.md)
-      * [In Memory Storage Driver Testing Only](content/registry/storage-drivers/inmemory.md)
-      * [Aliyun OSS Storage Driver](content/registry/storage-drivers/oss.md)
-      * [S 3 Storage Driver](content/registry/storage-drivers/s3.md)
-      * [Open Stack Swift Storage Driver](content/registry/storage-drivers/swift.md)
-    * [Docker Registry](content/registry/_index.md)
-    * [Registry Compatibility](content/registry/compatibility.md)
-    * [Deploy A Registry Server](content/registry/deploying.md)
-    * [Docker Registry Deprecation](content/registry/deprecated.md)
-    * [Garbage Collection](content/registry/garbage-collection.md)
-    * [Glossary](content/registry/glossary.md)
-    * [Get Help](content/registry/help.md)
-    * [Test An Insecure Registry](content/registry/insecure.md)
-    * [About Registry](content/registry/introduction.md)
-    * [Migration](content/registry/migration.md)
-    * [Work With Notifications](content/registry/notifications.md)
   - Samples
     * [Samples Overview](content/samples/_index.md)
     * [AI ML Samples](content/samples/ai-ml.md)
@@ -1249,6 +1202,7 @@
   * [Get Docker](content/get-docker.md)
   * [Glossary](content/glossary.md)
   * [Reference Documentation](content/reference.md)
+  * [Registry](content/registry.md)
   * [Product Release Lifecycle](content/release-lifecycle.md)
   * [Docker Release Notes](content/release-notes.md)
   * [Get Support](content/support.md)
