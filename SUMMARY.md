@@ -459,7 +459,6 @@
     - Hardened Desktop
       - Enhanced Container Isolation
         * [What Is Enhanced Container Isolation](content/desktop/hardened-desktop/enhanced-container-isolation/_index.md)
-        * [FA Qs](content/desktop/hardened-desktop/enhanced-container-isolation/faq.md)
         * [Key Features And Benefits](content/desktop/hardened-desktop/enhanced-container-isolation/features-benefits.md)
         * [How Does It Work](content/desktop/hardened-desktop/enhanced-container-isolation/how-eci-works.md)
         * [Limitations](content/desktop/hardened-desktop/enhanced-container-isolation/limitations.md)
@@ -960,6 +959,9 @@
     * [Docker Frequently Asked Questions FAQ](content/engine/faq.md)
     * [Migrate to Engine 1.10](content/engine/migration.md)
   - Faq
+    - Security
+      * [FA Qs](content/faq/security/eci-faq.md)
+      * [Security FA Qs](content/faq/security/general.md)
     * [Frequently Asked Questions](content/faq/_index.md)
   - Get Started
     * [Overview Of The Get Started Guide](content/get-started/_index.md)
