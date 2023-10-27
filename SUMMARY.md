@@ -518,6 +518,7 @@
     * [Explore Networking Features On Docker Desktop](content/desktop/networking.md)
     * [Docker Desktop Release Notes](content/desktop/release-notes.md)
     * [Get Support](content/desktop/support.md)
+    * [Synchronized File Sharing](content/desktop/synchronized-file-sharing.md)
     * [Uninstall Docker Desktop](content/desktop/uninstall.md)
     * [Run Docker Desktop For Windows In A VM Or VDI Environment](content/desktop/vm-vdi.md)
   - Develop
@@ -998,6 +999,7 @@
     * [Desktop License Update](content/includes/desktop-license-update.md)
     * [Desktop Linux Launch](content/includes/desktop-linux-launch.md)
     * [Desktop Network Setting](content/includes/desktop-network-setting.md)
+    * [Desktop Notifications Settings](content/includes/desktop-notifications-settings.md)
     * [Dev Envs Changing](content/includes/dev-envs-changing.md)
     * [Dockerfile Labs Channel](content/includes/dockerfile-labs-channel.md)
     * [Experimental](content/includes/experimental.md)
