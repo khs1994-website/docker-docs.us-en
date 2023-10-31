@@ -1030,7 +1030,7 @@
       * [Java Language Specific Guide](content/language/java/_index.md)
       * [Build Your Java Image](content/language/java/build-images.md)
       * [Configure CI CD For Your Java Application](content/language/java/configure-ci-cd.md)
-      * [Deploy Your Java App](content/language/java/deploy.md)
+      * [Test Your Java Deployment](content/language/java/deploy.md)
       * [Use Containers For Java Development](content/language/java/develop.md)
       * [Run Your Java Image As A Container](content/language/java/run-containers.md)
       * [Run Your Java Tests](content/language/java/run-tests.md)
