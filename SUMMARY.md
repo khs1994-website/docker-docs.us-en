@@ -1051,7 +1051,7 @@
       * [Rust Language Specific Guide](content/language/rust/_index.md)
       * [Build Your Rust Image](content/language/rust/build-images.md)
       * [Configure CI CD For Your Rust Application](content/language/rust/configure-ci-cd.md)
-      * [Deploy Your Rust App](content/language/rust/deploy.md)
+      * [Test Your Rust Deployment](content/language/rust/deploy.md)
       * [Develop Your Rust Application](content/language/rust/develop.md)
       * [Run Your Rust Image As A Container](content/language/rust/run-containers.md)
     * [Language Specific Guides Overview](content/language/_index.md)
