@@ -1022,7 +1022,7 @@
       * [Go Language Specific Guide](content/language/golang/_index.md)
       * [Build Your Go Image](content/language/golang/build-images.md)
       * [Configure CI CD For Your Go Application](content/language/golang/configure-ci-cd.md)
-      * [Deploy Your Go App](content/language/golang/deploy.md)
+      * [Test Your Go Deployment](content/language/golang/deploy.md)
       * [Use Containers For Go Development](content/language/golang/develop.md)
       * [Run Your Go Image As A Container](content/language/golang/run-containers.md)
       * [Run Your Tests Using Go Test](content/language/golang/run-tests.md)
