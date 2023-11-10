@@ -146,24 +146,11 @@
 - Content
   - Admin
     - Company
-      - Settings
-        * [Group Mapping](content/admin/company/settings/group-mapping.md)
-        * [SCIM](content/admin/company/settings/scim.md)
-        * [Configure Single Sign On For A Company](content/admin/company/settings/sso-configuration.md)
-        * [Manage Single Sign On For A Company](content/admin/company/settings/sso-management.md)
-        * [Single Sign On Overview For Companies](content/admin/company/settings/sso.md)
       * [Overview](content/admin/company/_index.md)
       * [Manage Organizations](content/admin/company/organizations.md)
       * [Manage Company Owners](content/admin/company/owners.md)
       * [Manage Company Users](content/admin/company/users.md)
     - Organization
-      - Security Settings
-        * [Group Mapping](content/admin/organization/security-settings/group-mapping.md)
-        * [SCIM](content/admin/organization/security-settings/scim.md)
-        * [Configure Single Sign On For An Organization](content/admin/organization/security-settings/sso-configuration.md)
-        * [Single Sign On FA Qs](content/admin/organization/security-settings/sso-faq.md)
-        * [Manage Single Sign On For An Organization](content/admin/organization/security-settings/sso-management.md)
-        * [Single Sign On Overview For Organizations](content/admin/organization/security-settings/sso.md)
       * [Organization Administration Overview](content/admin/organization/_index.md)
       * [Activity Logs](content/admin/organization/activity-logs.md)
       * [General Organization Settings](content/admin/organization/general-settings.md)
@@ -557,7 +544,6 @@
     * [Deactivating An Account Or An Organization](content/docker-hub/deactivate-account.md)
     * [Docker Hub Rate Limit](content/docker-hub/download-rate-limit.md)
     * [General FA Qs For Docker Hub](content/docker-hub/general-faqs.md)
-    * [Group Mapping](content/docker-hub/group-mapping.md)
     * [Advanced Image Management Dashboard](content/docker-hub/image-management.md)
     * [Create And Manage A Team](content/docker-hub/manage-a-team.md)
     * [Manage Members](content/docker-hub/members.md)
@@ -569,8 +555,6 @@
     * [Create Your Organization](content/docker-hub/orgs.md)
     * [Docker Hub Quickstart](content/docker-hub/quickstart.md)
     * [Docker Hub Release Notes](content/docker-hub/release-notes.md)
-    * [Roles And Permissions](content/docker-hub/roles-and-permissions.md)
-    * [SCIM](content/docker-hub/scim.md)
     * [Service Accounts](content/docker-hub/service-accounts.md)
     * [Static Vulnerability Scanning](content/docker-hub/vulnerability-scanning.md)
     * [Webhooks](content/docker-hub/webhooks.md)
@@ -961,6 +945,13 @@
     * [Migrate to Engine 1.10](content/engine/migration.md)
   - Faq
     - Security
+      - Single Sign On
+        * [Domains](content/faq/security/single-sign-on/domain-faqs.md)
+        * [Enforcement](content/faq/security/single-sign-on/enforcement-faqs.md)
+        * [General](content/faq/security/single-sign-on/faqs.md)
+        * [Identity Providers](content/faq/security/single-sign-on/idp-faqs.md)
+        * [SAML](content/faq/security/single-sign-on/saml-faqs.md)
+        * [Manage Users](content/faq/security/single-sign-on/users-faqs.md)
       * [FA Qs](content/faq/security/eci-faq.md)
       * [Security FA Qs](content/faq/security/general.md)
     * [Frequently Asked Questions](content/faq/_index.md)
@@ -1146,10 +1137,19 @@
     * [Docker Scout SBO Ms](content/scout/sbom.md)
   - Security
     - For Admins
+      - Single Sign On
+        - Configure
+          * [Configure Single Sign On](content/security/for-admins/single-sign-on/configure/_index.md)
+        - Manage
+          * [Manage Single Sign On](content/security/for-admins/single-sign-on/manage/_index.md)
+        * [Single Sign On Overview](content/security/for-admins/single-sign-on/_index.md)
       * [Enforce Sign In For Desktop](content/security/for-admins/configure-sign-in.md)
       * [Domain Audit](content/security/for-admins/domain-audit.md)
+      * [Group Mapping](content/security/for-admins/group-mapping.md)
       * [Image Access Management](content/security/for-admins/image-access-management.md)
       * [Registry Access Management](content/security/for-admins/registry-access-management.md)
+      * [Roles And Permissions](content/security/for-admins/roles-and-permissions.md)
+      * [SCIM](content/security/for-admins/scim.md)
     - For Developers
       - 2 Fa
         * [Enable Two Factor Authentication For Docker Hub](content/security/for-developers/2fa/_index.md)
@@ -1159,18 +1159,6 @@
       * [Create And Manage Access Tokens](content/security/for-developers/access-tokens.md)
     * [Security](content/security/_index.md)
     * [Docker Security Announcements](content/security/security-announcements.md)
-  - Single Sign On
-    - Configure
-      * [Configure Single Sign On](content/single-sign-on/configure/_index.md)
-    - Manage
-      * [Manage Single Sign On](content/single-sign-on/manage/_index.md)
-    * [Single Sign On Overview](content/single-sign-on/_index.md)
-    * [Domains](content/single-sign-on/domain-faqs.md)
-    * [Enforcement](content/single-sign-on/enforcement-faqs.md)
-    * [General](content/single-sign-on/faqs.md)
-    * [Identity Providers](content/single-sign-on/idp-faqs.md)
-    * [SAML](content/single-sign-on/saml-faqs.md)
-    * [Manage Users](content/single-sign-on/users-faqs.md)
   - Storage
     - Storagedriver
       * [About Storage Drivers](content/storage/storagedriver/_index.md)
@@ -1218,5 +1206,4 @@
     * [Admin Sso Config](layouts/shortcodes/admin-sso-config.md)
     * [Admin Sso Management Orgs](layouts/shortcodes/admin-sso-management-orgs.md)
     * [Admin Sso Management](layouts/shortcodes/admin-sso-management.md)
-    * [Admin Sso](layouts/shortcodes/admin-sso.md)
 * [CONTRIBUTING](CONTRIBUTING.md)
