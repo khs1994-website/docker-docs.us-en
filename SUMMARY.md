@@ -953,7 +953,9 @@
         * [SAML](content/faq/security/single-sign-on/saml-faqs.md)
         * [Manage Users](content/faq/security/single-sign-on/users-faqs.md)
       * [FA Qs](content/faq/security/eci-faq.md)
-      * [Security FA Qs](content/faq/security/general.md)
+      * [General Security FA Qs](content/faq/security/general.md)
+      * [Network And VM FA Qs](content/faq/security/networking-and-vms.md)
+      * [Settings Management FA Qs](content/faq/security/settings-management.md)
     * [Frequently Asked Questions](content/faq/_index.md)
   - Get Started
     * [Overview Of The Get Started Guide](content/get-started/_index.md)
