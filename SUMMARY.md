@@ -530,9 +530,8 @@
       * [Manage Autobuilds](content/docker-hub/builds/manage-builds.md)
       * [Troubleshoot Your Autobuilds](content/docker-hub/builds/troubleshoot.md)
     - Repos
-      - Access
-        * [Access Repositories](content/docker-hub/repos/access/_index.md)
       * [Manage Repositories](content/docker-hub/repos/_index.md)
+      * [Access Repositories](content/docker-hub/repos/access.md)
       * [Create Repositories](content/docker-hub/repos/create.md)
     * [Overview Of Docker Hub](content/docker-hub/_index.md)
     * [Administration](content/docker-hub/admin-overview.md)
@@ -973,6 +972,17 @@
     * [Docker Overview](content/get-started/overview.md)
     * [Educational Resources](content/get-started/resources.md)
     * [Deploy To Swarm](content/get-started/swarm-deploy.md)
+  - Guides
+    - Walkthroughs
+      * [Walkthroughs Overview](content/guides/walkthroughs/_index.md)
+      * [Access A Local Folder From A Container](content/guides/walkthroughs/access-local-folder.md)
+      * [Containerize Your Application](content/guides/walkthroughs/containerize-your-app.md)
+      * [Run Multi Container Applications](content/guides/walkthroughs/multi-container-apps.md)
+      * [Persist Data Between Containers](content/guides/walkthroughs/persist-data.md)
+      * [Publish Your Image](content/guides/walkthroughs/publish-your-image.md)
+      * [How Do I Run A Container](content/guides/walkthroughs/run-a-container.md)
+      * [Run Docker Hub Images](content/guides/walkthroughs/run-hub-images.md)
+      * [What Is A Container](content/guides/walkthroughs/what-is-a-container.md)
   - Includes
     - Content
       * [Compose Extfields Sub](content/includes/content/compose-extfields-sub.md)
@@ -1000,6 +1010,7 @@
     * [Gha Tutorial](content/includes/gha-tutorial.md)
     * [Index](content/includes/index.md)
     * [Install Script](content/includes/install-script.md)
+    * [Open Terminal](content/includes/open-terminal.md)
     * [Root Errors](content/includes/root-errors.md)
     * [Swarm Compose Compat](content/includes/swarm-compose-compat.md)
     * [Swarm Mode](content/includes/swarm-mode.md)
@@ -1035,7 +1046,7 @@
       * [Use containers for Node.js development](content/language/nodejs/develop.md)
       * [Run Node.js tests in a container](content/language/nodejs/run-tests.md)
     - Python
-      * [What Will You Learn In This Module](content/language/python/_index.md)
+      * [Python Language Specific Guide](content/language/python/_index.md)
       * [Configure CI CD For Your Python Application](content/language/python/configure-ci-cd.md)
       * [Containerize A Python Application](content/language/python/containerize.md)
       * [Test Your Python Deployment](content/language/python/deploy.md)
