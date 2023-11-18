@@ -188,6 +188,7 @@
       * [Multi Stage Builds](content/build/building/multi-stage.md)
       * [Open Telemetry Support](content/build/building/opentelemetry.md)
       * [Packaging Your Software](content/build/building/packaging.md)
+      * [Build Secrets](content/build/building/secrets.md)
     - Buildkit
       * [Build Kit](content/build/buildkit/_index.md)
       * [Configure Build Kit](content/build/buildkit/configure.md)
@@ -585,7 +586,7 @@
       * [v1.42](content/engine/api/v1.42.md)
       * [v1.43](content/engine/api/v1.43.md)
     - Context
-      * [Docker Context](content/engine/context/working-with-contexts.md)
+      * [Docker Contexts](content/engine/context/working-with-contexts.md)
     - Install
       * [Install Docker Engine](content/engine/install/_index.md)
       * [Install Docker Engine From Binaries](content/engine/install/binaries.md)
@@ -608,7 +609,8 @@
         * [Docker Buildx Bake](content/engine/reference/commandline/buildx_bake.md)
         * [Docker Buildx Build](content/engine/reference/commandline/buildx_build.md)
         * [Docker Buildx Create](content/engine/reference/commandline/buildx_create.md)
-        * [Docker Buildx Debug Shell](content/engine/reference/commandline/buildx_debug-shell.md)
+        * [Docker Buildx Debug Build](content/engine/reference/commandline/buildx_debug_build.md)
+        * [Docker Buildx Debug](content/engine/reference/commandline/buildx_debug.md)
         * [Docker Buildx Du](content/engine/reference/commandline/buildx_du.md)
         * [Docker Buildx Imagetools Create](content/engine/reference/commandline/buildx_imagetools_create.md)
         * [Docker Buildx Imagetools Inspect](content/engine/reference/commandline/buildx_imagetools_inspect.md)
