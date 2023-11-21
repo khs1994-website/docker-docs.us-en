@@ -206,6 +206,7 @@
     - Ci
       - Github Actions
         * [Introduction To Git Hub Actions](content/build/ci/github-actions/_index.md)
+        * [Add SBOM And Provenance Attestations With Git Hub Actions](content/build/ci/github-actions/attestations.md)
         * [Cache Management With Git Hub Actions](content/build/ci/github-actions/cache.md)
         * [Configuring Your Git Hub Actions Builder](content/build/ci/github-actions/configure-builder.md)
         * [Copy Image Between Registries With Git Hub Actions](content/build/ci/github-actions/copy-image-registries.md)
