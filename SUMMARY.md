@@ -1140,6 +1140,8 @@
       * [Integrating Docker Scout With Other Systems](content/scout/integrations/_index.md)
     - Policy
       * [Get Started With Policy Evaluation In Docker Scout](content/scout/policy/_index.md)
+      * [Evaluate Policy Compliance In CI](content/scout/policy/ci.md)
+      * [Configure Policies](content/scout/policy/configure.md)
       * [View Docker Scout Policy Status](content/scout/policy/view.md)
     * [Docker Scout](content/scout/_index.md)
     * [Advisory Database Sources And Matching Service](content/scout/advisory-db-sources.md)
