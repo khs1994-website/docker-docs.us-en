@@ -356,8 +356,6 @@
     * [Contribute To Docker S Docs](content/contribute/overview.md)
     * [UI Elements In Content](content/contribute/ui.md)
   - Desktop
-    - Containerd
-      * [Containerd Image Store Beta](content/desktop/containerd/_index.md)
     - Dev Environments
       * [Overview Of Dev Environments](content/desktop/dev-environments/_index.md)
       * [Launch A Dev Environment](content/desktop/dev-environments/create-dev-env.md)
@@ -490,8 +488,6 @@
       * [Pause Docker Desktop](content/desktop/use-desktop/pause.md)
       * [Docker Desktop S Resource Saver Mode](content/desktop/use-desktop/resource-saver.md)
       * [Explore Volumes](content/desktop/use-desktop/volumes.md)
-    - Wasm
-      * [Wasm Workloads Beta](content/desktop/wasm/_index.md)
     - Windows
       * [Understand Permission Requirements For Windows](content/desktop/windows/permission-requirements.md)
     - Wsl
@@ -501,6 +497,7 @@
     * [Overview Of Docker Desktop](content/desktop/_index.md)
     * [Allowlist For Docker Desktop](content/desktop/allow-list.md)
     * [How To Back Up And Restore Your Docker Desktop Data](content/desktop/backup-and-restore.md)
+    * [Containerd Image Store Beta](content/desktop/containerd.md)
     * [Give Feedback](content/desktop/feedback.md)
     * [Sign In To Docker Desktop](content/desktop/get-started.md)
     * [Deploy On Kubernetes With Docker Desktop](content/desktop/kubernetes.md)
@@ -510,6 +507,7 @@
     * [Synchronized File Sharing](content/desktop/synchronized-file-sharing.md)
     * [Uninstall Docker Desktop](content/desktop/uninstall.md)
     * [Run Docker Desktop For Windows In A VM Or VDI Environment](content/desktop/vm-vdi.md)
+    * [Wasm Workloads Beta](content/desktop/wasm.md)
   - Develop
     - Develop Images
       * [Overview Of Best Practices For Writing Dockerfiles](content/develop/develop-images/dockerfile_best-practices.md)
