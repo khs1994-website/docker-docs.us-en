@@ -368,6 +368,7 @@
       * [What Are Docker Extensions](content/desktop/extensions/_index.md)
       * [Marketplace Extensions](content/desktop/extensions/marketplace.md)
       * [Non Marketplace Extensions](content/desktop/extensions/non-marketplace.md)
+      * [Configure A Private Marketplace For Extensions](content/desktop/extensions/private-marketplace.md)
       * [Settings And Feedback For Docker Extensions](content/desktop/extensions/settings-feedback.md)
     - Extensions Sdk
       - Architecture
