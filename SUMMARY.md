@@ -86,13 +86,6 @@
               * [Compose Wait](_vendor/github.com/docker/compose/v2/docs/reference/compose_wait.md)
               * [Compose Watch](_vendor/github.com/docker/compose/v2/docs/reference/compose_watch.md)
               * [Compose](_vendor/github.com/docker/compose/v2/docs/reference/compose.md)
-      - Compose Cli
-        - Docs
-          * [ACI Integration Compose Features](_vendor/github.com/docker/compose-cli/docs/aci-compose-features.md)
-          * [ACI Integration Container Features](_vendor/github.com/docker/compose-cli/docs/aci-container-features.md)
-          * [ECS Integration Architecture](_vendor/github.com/docker/compose-cli/docs/ecs-architecture.md)
-          * [ECS Integration Composefile Examples](_vendor/github.com/docker/compose-cli/docs/ecs-compose-examples.md)
-          * [ECS Integration Compose Features](_vendor/github.com/docker/compose-cli/docs/ecs-compose-features.md)
       - Scout Cli
         - Docs
           * [Scout Cache Df](_vendor/github.com/docker/scout-cli/docs/scout_cache_df.md)
@@ -251,8 +244,7 @@
     * [Hydrobuild](content/build/hydrobuild.md)
     * [Build Release Notes](content/build/release-notes.md)
   - Cloud
-    * [Deploying Docker Containers On Azure](content/cloud/aci-integration.md)
-    * [Deploying Docker Containers On ECS](content/cloud/ecs-integration.md)
+    * [Cloud Integrations](content/cloud/_index.md)
   - Compose
     - Compose File
       * [Overview](content/compose/compose-file/_index.md)
