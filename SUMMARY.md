@@ -1138,6 +1138,7 @@
     * [Advisory Database Sources And Matching Service](content/scout/advisory-db-sources.md)
     * [Dashboard](content/scout/dashboard.md)
     * [Data Collection And Storage In Docker Scout](content/scout/data-handling.md)
+    * [Environment Variables Used By Docker Scout](content/scout/env-vars.md)
     * [Docker Scout Image Analysis](content/scout/image-analysis.md)
     * [Image Details View](content/scout/image-details-view.md)
     * [Analyze Local Files With Docker Scout](content/scout/local-fs.md)
