@@ -192,10 +192,8 @@ Guides:
 
 - sectiontitle: Contribute
   section:
-  - path: /contribute/overview/
+  - path: /contribute/
     title: Contribute to Docker's docs
-  - path: /contribute/contribute-guide/
-    title: Contribution guidelines
   - sectiontitle: Style guide
     section:
     - path: /contribute/style/grammar/
@@ -1392,6 +1390,8 @@ Manuals:
           path: /scout/integrations/registry/artifactory/
         - title: Elastic Container Registry
           path: /scout/integrations/registry/ecr/
+        - title: Azure Container Registry
+          path: /scout/integrations/registry/acr/
       - sectiontitle: Continuous integration
         section:
         - title: GitHub Actions

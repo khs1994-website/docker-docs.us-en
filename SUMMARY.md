@@ -342,10 +342,9 @@
       * [Recommended Word List](content/contribute/style/recommended-words.md)
       * [Docker Terminology](content/contribute/style/terminology.md)
       * [Voice And Tone](content/contribute/style/voice-tone.md)
+    * [Contribute To Docker S Docs](content/contribute/_index.md)
     * [Writing Checklist](content/contribute/checklist.md)
-    * [Contributing Guidelines](content/contribute/contribute-guide.md)
     * [Source File Conventions](content/contribute/file-conventions.md)
-    * [Contribute To Docker S Docs](content/contribute/overview.md)
     * [UI Elements In Content](content/contribute/ui.md)
   - Desktop
     - Dev Environments
@@ -1126,6 +1125,7 @@
         * [Generic Environment Integration With CLI](content/scout/integrations/environment/cli.md)
         * [Integrate Docker Scout With Sysdig](content/scout/integrations/environment/sysdig.md)
       - Registry
+        * [Azure Container Registry Integration](content/scout/integrations/registry/acr.md)
         * [Artifactory Integration](content/scout/integrations/registry/artifactory.md)
         * [Integrate Docker Scout With Amazon ECR](content/scout/integrations/registry/ecr.md)
       * [Integrating Docker Scout With Other Systems](content/scout/integrations/_index.md)
