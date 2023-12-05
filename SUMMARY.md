@@ -474,7 +474,7 @@
       * [Workarounds For Common Problems](content/desktop/troubleshoot/workarounds.md)
     - Use Desktop
       * [Explore Docker Desktop](content/desktop/use-desktop/_index.md)
-      * [Explore Builds Beta](content/desktop/use-desktop/builds.md)
+      * [Explore Builds](content/desktop/use-desktop/builds.md)
       * [Explore The Containers View In Docker Desktop](content/desktop/use-desktop/container.md)
       * [Explore The Images View In Docker Desktop](content/desktop/use-desktop/images.md)
       * [Pause Docker Desktop](content/desktop/use-desktop/pause.md)
@@ -966,12 +966,13 @@
     * [Educational Resources](content/get-started/resources.md)
     * [Deploy To Swarm](content/get-started/swarm-deploy.md)
   - Guides
+    - Get Started
+      * [Overview Of Get Started](content/guides/get-started/_index.md)
     - Walkthroughs
-      * [Walkthroughs Overview](content/guides/walkthroughs/_index.md)
       * [Access A Local Folder From A Container](content/guides/walkthroughs/access-local-folder.md)
       * [Containerize Your Application](content/guides/walkthroughs/containerize-your-app.md)
       * [Run Multi Container Applications](content/guides/walkthroughs/multi-container-apps.md)
-      * [Persist Data Between Containers](content/guides/walkthroughs/persist-data.md)
+      * [Persist Container Data](content/guides/walkthroughs/persist-data.md)
       * [Publish Your Image](content/guides/walkthroughs/publish-your-image.md)
       * [How Do I Run A Container](content/guides/walkthroughs/run-a-container.md)
       * [Run Docker Hub Images](content/guides/walkthroughs/run-hub-images.md)
@@ -1001,6 +1002,7 @@
     * [Experimental](content/includes/experimental.md)
     * [Extensions Form](content/includes/extensions-form.md)
     * [Gha Tutorial](content/includes/gha-tutorial.md)
+    * [Guides Get Docker](content/includes/guides-get-docker.md)
     * [Index](content/includes/index.md)
     * [Install Script](content/includes/install-script.md)
     * [Open Terminal](content/includes/open-terminal.md)
