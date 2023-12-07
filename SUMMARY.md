@@ -253,10 +253,11 @@
       * [Compose File Versions And Upgrading](content/compose/compose-file/compose-versioning.md)
     - Environment Variables
       * [Overview](content/compose/environment-variables/_index.md)
-      * [Use An Environment File In Docker Compose](content/compose/environment-variables/env-file.md)
+      * [Best Practices For Working With Environment Variables In Docker Compose](content/compose/environment-variables/best-practices.md)
+      * [Syntax For Environment Files In Docker Compose](content/compose/environment-variables/env-file.md)
       * [Environment Variables Precedence In Docker Compose](content/compose/environment-variables/envvars-precedence.md)
       * [Set Or Change Pre Defined Environment Variables In Docker Compose](content/compose/environment-variables/envvars.md)
-      * [Ways To Set Environment Variables In Compose](content/compose/environment-variables/set-environment-variables.md)
+      * [Ways To Set Environment Variables With Compose](content/compose/environment-variables/set-environment-variables.md)
     - Install
       * [Overview Of Installing Docker Compose](content/compose/install/_index.md)
       * [Install The Compose Plugin](content/compose/install/linux.md)
@@ -1122,6 +1123,8 @@
         * [Integrate Docker Scout With Git Hub Actions](content/scout/integrations/ci/gha.md)
         * [Integrate Docker Scout With Git Lab CI](content/scout/integrations/ci/gitlab.md)
         * [Integrate Docker Scout With Jenkins](content/scout/integrations/ci/jenkins.md)
+      - Code Quality
+        * [Integrate Docker Scout With Sonar Qube](content/scout/integrations/code-quality/sonarqube.md)
       - Environment
         * [Integrating Docker Scout With Environments](content/scout/integrations/environment/_index.md)
         * [Generic Environment Integration With CLI](content/scout/integrations/environment/cli.md)
