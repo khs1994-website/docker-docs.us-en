@@ -1041,6 +1041,13 @@
       * [Test your Node.js deployment](content/language/nodejs/deploy.md)
       * [Use containers for Node.js development](content/language/nodejs/develop.md)
       * [Run Node.js tests in a container](content/language/nodejs/run-tests.md)
+    - Php
+      * [PHP Language Specific Guide](content/language/php/_index.md)
+      * [Configure CI CD For Your PHP Application](content/language/php/configure-ci-cd.md)
+      * [Containerize A PHP Application](content/language/php/containerize.md)
+      * [Test Your PHP Deployment](content/language/php/deploy.md)
+      * [Use Containers For PHP Development](content/language/php/develop.md)
+      * [Run PHP Tests In A Container](content/language/php/run-tests.md)
     - Python
       * [Python Language Specific Guide](content/language/python/_index.md)
       * [Configure CI CD For Your Python Application](content/language/python/configure-ci-cd.md)
