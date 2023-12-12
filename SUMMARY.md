@@ -536,7 +536,6 @@
     * [Deactivating An Account Or An Organization](content/docker-hub/deactivate-account.md)
     * [Docker Hub Rate Limit](content/docker-hub/download-rate-limit.md)
     * [General FA Qs For Docker Hub](content/docker-hub/general-faqs.md)
-    * [Advanced Image Management Dashboard](content/docker-hub/image-management.md)
     * [Create And Manage A Team](content/docker-hub/manage-a-team.md)
     * [Manage Members](content/docker-hub/members.md)
     * [Registry As A Pull Through Cache](content/docker-hub/mirror.md)
