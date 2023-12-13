@@ -966,8 +966,6 @@
     * [Educational Resources](content/get-started/resources.md)
     * [Deploy To Swarm](content/get-started/swarm-deploy.md)
   - Guides
-    - Get Started
-      * [Overview Of Get Started](content/guides/get-started/_index.md)
     - Walkthroughs
       * [Access A Local Folder From A Container](content/guides/walkthroughs/access-local-folder.md)
       * [Containerize Your Application](content/guides/walkthroughs/containerize-your-app.md)
