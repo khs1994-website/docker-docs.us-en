@@ -174,6 +174,7 @@
       * [Builders](content/build/builders/_index.md)
       * [Manage Builders](content/build/builders/manage.md)
     - Building
+      * [Annotations](content/build/building/annotations.md)
       * [Create A Base Image](content/build/building/base-images.md)
       * [Build Context](content/build/building/context.md)
       * [Environment Variables For Docker Build](content/build/building/env-vars.md)
@@ -199,6 +200,7 @@
     - Ci
       - Github Actions
         * [Introduction To Git Hub Actions](content/build/ci/github-actions/_index.md)
+        * [Add Image Annotations With Git Hub Actions](content/build/ci/github-actions/annotations.md)
         * [Add SBOM And Provenance Attestations With Git Hub Actions](content/build/ci/github-actions/attestations.md)
         * [Cache Management With Git Hub Actions](content/build/ci/github-actions/cache.md)
         * [Configuring Your Git Hub Actions Builder](content/build/ci/github-actions/configure-builder.md)
@@ -432,10 +434,10 @@
       * [Quickstart](content/desktop/extensions-sdk/quickstart.md)
     - Faqs
       * [General FA Qs For Desktop](content/desktop/faqs/general.md)
-      * [FA Qs For Linux](content/desktop/faqs/linuxfaqs.md)
-      * [FA Qs For Mac](content/desktop/faqs/macfaqs.md)
+      * [FA Qs For Docker Desktop For Linux](content/desktop/faqs/linuxfaqs.md)
+      * [FA Qs For Docker Desktop For Mac](content/desktop/faqs/macfaqs.md)
       * [FA Qs On Docker Desktop Releases](content/desktop/faqs/releases.md)
-      * [FA Qs For Windows](content/desktop/faqs/windowsfaqs.md)
+      * [FA Qs For Docker Desktop For Windows](content/desktop/faqs/windowsfaqs.md)
     - Hardened Desktop
       - Enhanced Container Isolation
         * [What Is Enhanced Container Isolation](content/desktop/hardened-desktop/enhanced-container-isolation/_index.md)
@@ -535,7 +537,7 @@
     * [Overview](content/docker-hub/creating-companies.md)
     * [Deactivating An Account Or An Organization](content/docker-hub/deactivate-account.md)
     * [Docker Hub Rate Limit](content/docker-hub/download-rate-limit.md)
-    * [General FA Qs For Docker Hub](content/docker-hub/general-faqs.md)
+    * [General FA Qs For Docker Accounts](content/docker-hub/general-faqs.md)
     * [Create And Manage A Team](content/docker-hub/manage-a-team.md)
     * [Manage Members](content/docker-hub/members.md)
     * [Registry As A Pull Through Cache](content/docker-hub/mirror.md)
@@ -940,7 +942,7 @@
       - Single Sign On
         * [Domains](content/faq/security/single-sign-on/domain-faqs.md)
         * [Enforcement](content/faq/security/single-sign-on/enforcement-faqs.md)
-        * [General](content/faq/security/single-sign-on/faqs.md)
+        * [General FA Qs On SSO](content/faq/security/single-sign-on/faqs.md)
         * [Identity Providers](content/faq/security/single-sign-on/idp-faqs.md)
         * [SAML](content/faq/security/single-sign-on/saml-faqs.md)
         * [Manage Users](content/faq/security/single-sign-on/users-faqs.md)
@@ -1215,8 +1217,8 @@
   * [Glossary](content/glossary.md)
   * [Reference Documentation](content/reference.md)
   * [Registry](content/registry.md)
-  * [Product Release Lifecycle](content/release-lifecycle.md)
-  * [Docker Release Notes](content/release-notes.md)
+  * [Docker S Product Release Lifecycle](content/release-lifecycle.md)
+  * [Release Notes For Docker](content/release-notes.md)
   * [Get Support](content/support.md)
 - Layouts
   - Shortcodes
