@@ -152,6 +152,7 @@
     * [Docker Admin Overview](content/admin/_index.md)
   - Billing
     * [Billing And Payments](content/billing/_index.md)
+    * [Docker Build Cloud Billing](content/billing/build-billing.md)
     * [Change Your Billing Cycle](content/billing/cycle.md)
     * [Update The Billing Information](content/billing/details.md)
     * [Billing FA Qs](content/billing/faqs.md)
@@ -216,6 +217,13 @@
         * [Test Before Push With Git Hub Actions](content/build/ci/github-actions/test-before-push.md)
         * [Update Docker Hub Description With Git Hub Actions](content/build/ci/github-actions/update-dockerhub-desc.md)
       * [Continuous Integration With Docker](content/build/ci/_index.md)
+    - Cloud
+      * [Docker Build Cloud](content/build/cloud/_index.md)
+      * [Use Docker Build Cloud In CI](content/build/cloud/ci.md)
+      * [Docker Build Cloud FAQ](content/build/cloud/faq.md)
+      * [Optimize For Building In The Cloud](content/build/cloud/optimization.md)
+      * [Docker Build Cloud Setup](content/build/cloud/setup.md)
+      * [Building With Docker Build Cloud](content/build/cloud/usage.md)
     - Dockerfile
       * [Custom Dockerfile Syntax](content/build/dockerfile/frontend.md)
       * [Dockerfile Release Notes](content/build/dockerfile/release-notes.md)
@@ -243,7 +251,6 @@
       * [Test](content/build/guide/test.md)
     * [Overview Of Docker Build](content/build/_index.md)
     * [Docker Build Architecture](content/build/architecture.md)
-    * [Hydrobuild](content/build/hydrobuild.md)
     * [Build Release Notes](content/build/release-notes.md)
   - Cloud
     * [Cloud Integrations](content/cloud/_index.md)
@@ -1199,6 +1206,7 @@
   - Subscription
     * [Docker Subscription Overview](content/subscription/_index.md)
     * [Add Seats To Your Subscription](content/subscription/add-seats.md)
+    * [Docker Build Cloud Subscriptions And Features](content/subscription/build-details.md)
     * [Docker Desktop License Agreement](content/subscription/desktop-license.md)
     * [Docker Subscriptions And Features](content/subscription/details.md)
     * [Downgrade Your Subscription](content/subscription/downgrade.md)
