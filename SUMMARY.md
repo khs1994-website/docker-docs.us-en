@@ -140,6 +140,7 @@
   - Admin
     - Company
       * [Overview](content/admin/company/_index.md)
+      * [Create A Company](content/admin/company/new-company.md)
       * [Manage Organizations](content/admin/company/organizations.md)
       * [Manage Company Owners](content/admin/company/owners.md)
       * [Manage Company Users](content/admin/company/users.md)
@@ -147,9 +148,13 @@
       * [Organization Administration Overview](content/admin/organization/_index.md)
       * [Activity Logs](content/admin/organization/activity-logs.md)
       * [General Organization Settings](content/admin/organization/general-settings.md)
+      * [Create And Manage A Team](content/admin/organization/manage-a-team.md)
       * [Manage Organization Members](content/admin/organization/members.md)
       * [Onboard Your Organization](content/admin/organization/onboard.md)
-    * [Docker Admin Overview](content/admin/_index.md)
+      * [Create Your Organization](content/admin/organization/orgs.md)
+    * [Administration Overview](content/admin/_index.md)
+    * [Convert An Account Into An Organization](content/admin/convert-account.md)
+    * [Deactivating An Account Or An Organization](content/admin/deactivate-account.md)
   - Billing
     * [Billing And Payments](content/billing/_index.md)
     * [Docker Build Cloud Billing](content/billing/build-billing.md)
@@ -536,23 +541,10 @@
       * [Access Repositories](content/docker-hub/repos/access.md)
       * [Create Repositories](content/docker-hub/repos/create.md)
     * [Overview Of Docker Hub](content/docker-hub/_index.md)
-    * [Administration](content/docker-hub/admin-overview.md)
-    * [Audit Logs](content/docker-hub/audit-log.md)
-    * [FA Qs On Companies](content/docker-hub/company-faqs.md)
-    * [Manage Company Owners](content/docker-hub/company-owner.md)
-    * [Convert An Account Into An Organization](content/docker-hub/convert-account.md)
-    * [Overview](content/docker-hub/creating-companies.md)
-    * [Deactivating An Account Or An Organization](content/docker-hub/deactivate-account.md)
     * [Docker Hub Rate Limit](content/docker-hub/download-rate-limit.md)
-    * [General FA Qs For Docker Accounts](content/docker-hub/general-faqs.md)
-    * [Create And Manage A Team](content/docker-hub/manage-a-team.md)
-    * [Manage Members](content/docker-hub/members.md)
     * [Registry As A Pull Through Cache](content/docker-hub/mirror.md)
-    * [Create A Company](content/docker-hub/new-company.md)
     * [OCI Artifacts On Docker Hub](content/docker-hub/oci-artifacts.md)
     * [Onboard Your Organization](content/docker-hub/onboard.md)
-    * [FA Qs On Organizations](content/docker-hub/organization-faqs.md)
-    * [Create Your Organization](content/docker-hub/orgs.md)
     * [Docker Hub Quickstart](content/docker-hub/quickstart.md)
     * [Docker Hub Release Notes](content/docker-hub/release-notes.md)
     * [Service Accounts](content/docker-hub/service-accounts.md)
@@ -945,6 +937,10 @@
     * [Docker Frequently Asked Questions FAQ](content/engine/faq.md)
     * [Migrate to Engine 1.10](content/engine/migration.md)
   - Faq
+    - Admin
+      * [FA Qs On Companies](content/faq/admin/company-faqs.md)
+      * [General FA Qs For Docker Accounts](content/faq/admin/general-faqs.md)
+      * [FA Qs On Organizations](content/faq/admin/organization-faqs.md)
     - Security
       - Single Sign On
         * [Domains](content/faq/security/single-sign-on/domain-faqs.md)
