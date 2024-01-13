@@ -2,26 +2,6 @@
 
 - Vendor
   - github.com
-    - Compose Spec
-      - Compose Spec
-        * [01 Status](_vendor/github.com/compose-spec/compose-spec/01-status.md)
-        * [02 Model](_vendor/github.com/compose-spec/compose-spec/02-model.md)
-        * [03 Compose File](_vendor/github.com/compose-spec/compose-spec/03-compose-file.md)
-        * [04 Version And Name](_vendor/github.com/compose-spec/compose-spec/04-version-and-name.md)
-        * [05 Services](_vendor/github.com/compose-spec/compose-spec/05-services.md)
-        * [06 Networks](_vendor/github.com/compose-spec/compose-spec/06-networks.md)
-        * [07 Volumes](_vendor/github.com/compose-spec/compose-spec/07-volumes.md)
-        * [08 Configs](_vendor/github.com/compose-spec/compose-spec/08-configs.md)
-        * [09 Secrets](_vendor/github.com/compose-spec/compose-spec/09-secrets.md)
-        * [10 Fragments](_vendor/github.com/compose-spec/compose-spec/10-fragments.md)
-        * [11 Extension](_vendor/github.com/compose-spec/compose-spec/11-extension.md)
-        * [12 Interpolation](_vendor/github.com/compose-spec/compose-spec/12-interpolation.md)
-        * [13 Merge](_vendor/github.com/compose-spec/compose-spec/13-merge.md)
-        * [14 Include](_vendor/github.com/compose-spec/compose-spec/14-include.md)
-        * [15 Profiles](_vendor/github.com/compose-spec/compose-spec/15-profiles.md)
-        * [Build](_vendor/github.com/compose-spec/compose-spec/build.md)
-        * [Deploy](_vendor/github.com/compose-spec/compose-spec/deploy.md)
-        * [Develop](_vendor/github.com/compose-spec/compose-spec/develop.md)
     - Docker
       - Buildx
         - Docs
@@ -57,6 +37,7 @@
               * [Compose Alpha Viz](_vendor/github.com/docker/compose/v2/docs/reference/compose_alpha_viz.md)
               * [Compose Alpha Watch](_vendor/github.com/docker/compose/v2/docs/reference/compose_alpha_watch.md)
               * [Compose Alpha](_vendor/github.com/docker/compose/v2/docs/reference/compose_alpha.md)
+              * [Compose Attach](_vendor/github.com/docker/compose/v2/docs/reference/compose_attach.md)
               * [Compose Build](_vendor/github.com/docker/compose/v2/docs/reference/compose_build.md)
               * [Compose Config](_vendor/github.com/docker/compose/v2/docs/reference/compose_config.md)
               * [Compose Cp](_vendor/github.com/docker/compose/v2/docs/reference/compose_cp.md)
@@ -78,6 +59,7 @@
               * [Compose Run](_vendor/github.com/docker/compose/v2/docs/reference/compose_run.md)
               * [Compose Scale](_vendor/github.com/docker/compose/v2/docs/reference/compose_scale.md)
               * [Compose Start](_vendor/github.com/docker/compose/v2/docs/reference/compose_start.md)
+              * [Compose Stats](_vendor/github.com/docker/compose/v2/docs/reference/compose_stats.md)
               * [Compose Stop](_vendor/github.com/docker/compose/v2/docs/reference/compose_stop.md)
               * [Compose Top](_vendor/github.com/docker/compose/v2/docs/reference/compose_top.md)
               * [Compose Unpause](_vendor/github.com/docker/compose/v2/docs/reference/compose_unpause.md)
@@ -262,9 +244,24 @@
   - Compose
     - Compose File
       * [Overview](content/compose/compose-file/_index.md)
+      * [Version And Name Top Level Elements](content/compose/compose-file/04-version-and-name.md)
+      * [Services Top Level Elements](content/compose/compose-file/05-services.md)
+      * [Networks Top Level Elements](content/compose/compose-file/06-networks.md)
+      * [Volumes Top Level Elements](content/compose/compose-file/07-volumes.md)
+      * [Configs Top Level Elements](content/compose/compose-file/08-configs.md)
+      * [Secrets Top Level Elements](content/compose/compose-file/09-secrets.md)
+      * [Fragments](content/compose/compose-file/10-fragments.md)
+      * [Extensions](content/compose/compose-file/11-extension.md)
+      * [Interpolation](content/compose/compose-file/12-interpolation.md)
+      * [Merge](content/compose/compose-file/13-merge.md)
+      * [Include](content/compose/compose-file/14-include.md)
+      * [Profiles](content/compose/compose-file/15-profiles.md)
+      * [Compose Build Specification](content/compose/compose-file/build.md)
       * [Compose File Version 2 Reference](content/compose/compose-file/compose-file-v2.md)
       * [Compose File Version 3 Reference](content/compose/compose-file/compose-file-v3.md)
       * [Compose File Versions And Upgrading](content/compose/compose-file/compose-versioning.md)
+      * [Compose Deploy Specification](content/compose/compose-file/deploy.md)
+      * [Compose Develop Specification](content/compose/compose-file/develop.md)
     - Environment Variables
       * [Overview](content/compose/environment-variables/_index.md)
       * [Best Practices For Working With Environment Variables In Docker Compose](content/compose/environment-variables/best-practices.md)
@@ -285,6 +282,8 @@
     - Reference
       * [Overview Of Docker Compose CLI](content/compose/reference/_index.md)
     * [Docker Compose Overview](content/compose/_index.md)
+    * [Understand The Compose Application Model](content/compose/compose-application-model.md)
+    * [Understand The Compose File](content/compose/compose-yaml-file.md)
     * [Compose FA Qs](content/compose/faq.md)
     * [Key Features And Use Cases Of Docker Compose](content/compose/features-uses.md)
     * [Use Compose Watch](content/compose/file-watch.md)
