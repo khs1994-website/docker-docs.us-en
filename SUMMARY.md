@@ -988,7 +988,6 @@
     * [Admin Company Overview](content/includes/admin-company-overview.md)
     * [Admin Early Access](content/includes/admin-early-access.md)
     * [Admin Org Overview](content/includes/admin-org-overview.md)
-    * [Api Version Matrix](content/includes/api-version-matrix.md)
     * [Beta](content/includes/beta.md)
     * [buildx-v0.10-disclaimer](content/includes/buildx-v0.10-disclaimer.md)
     * [Compose Eol](content/includes/compose-eol.md)
