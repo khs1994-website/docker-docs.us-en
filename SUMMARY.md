@@ -274,6 +274,9 @@
       * [Install The Compose Plugin](content/compose/install/linux.md)
       * [Install Compose Standalone](content/compose/install/standalone.md)
       * [Uninstall Docker Compose](content/compose/install/uninstall.md)
+    - Intro
+      * [Why Use Compose](content/compose/intro/features-uses.md)
+      * [History And Development Of Docker Compose](content/compose/intro/history.md)
     - Multiple Compose Files
       * [Overview](content/compose/multiple-compose-files/_index.md)
       * [Extend Your Compose File](content/compose/multiple-compose-files/extends.md)
@@ -282,14 +285,11 @@
     - Reference
       * [Overview Of Docker Compose CLI](content/compose/reference/_index.md)
     * [Docker Compose Overview](content/compose/_index.md)
-    * [Understand The Compose Application Model](content/compose/compose-application-model.md)
-    * [Understand The Compose File](content/compose/compose-yaml-file.md)
+    * [How Compose Works](content/compose/compose-application-model.md)
     * [Compose FA Qs](content/compose/faq.md)
-    * [Key Features And Use Cases Of Docker Compose](content/compose/features-uses.md)
     * [Use Compose Watch](content/compose/file-watch.md)
     * [Try Docker Compose](content/compose/gettingstarted.md)
     * [Turn On GPU Access With Docker Compose](content/compose/gpu-support.md)
-    * [History And Development Of Docker Compose](content/compose/history.md)
     * [Migrate To Compose V 2](content/compose/migrate.md)
     * [Networking In Compose](content/compose/networking.md)
     * [Use Compose In Production](content/compose/production.md)
@@ -1220,6 +1220,7 @@
   * [Home](content/_index.md)
   * [Get Docker](content/get-docker.md)
   * [Glossary](content/glossary.md)
+  * [Manuals](content/manuals.md)
   * [Reference Documentation](content/reference.md)
   * [Registry](content/registry.md)
   * [Docker S Product Release Lifecycle](content/release-lifecycle.md)
