@@ -899,7 +899,6 @@
     * [Alternative Container Runtimes](content/engine/alternative-runtimes.md)
     * [Breaking Changes And Incompatibilities](content/engine/breaking_changes.md)
     * [Docker Frequently Asked Questions FAQ](content/engine/faq.md)
-    * [Migrate to Engine 1.10](content/engine/migration.md)
   - Faq
     - Admin
       * [FA Qs On Companies](content/faq/admin/company-faqs.md)
