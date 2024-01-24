@@ -287,6 +287,7 @@
     * [Docker Compose Overview](content/compose/_index.md)
     * [How Compose Works](content/compose/compose-application-model.md)
     * [Compose FA Qs](content/compose/faq.md)
+    * [Give Feedback](content/compose/feedback.md)
     * [Use Compose Watch](content/compose/file-watch.md)
     * [Try Docker Compose](content/compose/gettingstarted.md)
     * [Turn On GPU Access With Docker Compose](content/compose/gpu-support.md)
