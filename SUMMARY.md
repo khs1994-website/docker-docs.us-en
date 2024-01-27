@@ -452,7 +452,7 @@
     - Hardened Desktop
       - Enhanced Container Isolation
         * [What Is Enhanced Container Isolation](content/desktop/hardened-desktop/enhanced-container-isolation/_index.md)
-        * [Enhanced Container Isolation Configuration](content/desktop/hardened-desktop/enhanced-container-isolation/config.md)
+        * [Advanced Configuration Options](content/desktop/hardened-desktop/enhanced-container-isolation/config.md)
         * [Key Features And Benefits](content/desktop/hardened-desktop/enhanced-container-isolation/features-benefits.md)
         * [How Does It Work](content/desktop/hardened-desktop/enhanced-container-isolation/how-eci-works.md)
         * [Limitations](content/desktop/hardened-desktop/enhanced-container-isolation/limitations.md)
