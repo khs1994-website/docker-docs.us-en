@@ -942,6 +942,8 @@
         * [Generative AI Guide](content/guides/use-case/genai-pdf-bot/_index.md)
         * [Containerize A Generative AI Application](content/guides/use-case/genai-pdf-bot/containerize.md)
         * [Use Containers For Generative AI Development](content/guides/use-case/genai-pdf-bot/develop.md)
+      - Genai Video Bot
+        * [Gen AI Video Transcription And Chat](content/guides/use-case/genai-video-bot/_index.md)
     - Walkthroughs
       * [Access A Local Folder From A Container](content/guides/walkthroughs/access-local-folder.md)
       * [Containerize Your Application](content/guides/walkthroughs/containerize-your-app.md)
