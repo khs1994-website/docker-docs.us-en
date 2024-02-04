@@ -70,6 +70,8 @@
               * [Compose](_vendor/github.com/docker/compose/v2/docs/reference/compose.md)
       - Scout Cli
         - Docs
+          * [Scout Attestation Add](_vendor/github.com/docker/scout-cli/docs/scout_attestation_add.md)
+          * [Scout Attestation](_vendor/github.com/docker/scout-cli/docs/scout_attestation.md)
           * [Scout Cache Df](_vendor/github.com/docker/scout-cli/docs/scout_cache_df.md)
           * [Scout Cache Prune](_vendor/github.com/docker/scout-cli/docs/scout_cache_prune.md)
           * [Scout Cache](_vendor/github.com/docker/scout-cli/docs/scout_cache.md)
@@ -110,12 +112,6 @@
       - Moby
         - Docs
           - Api
-            * [Engine API v1.18](_vendor/github.com/moby/moby/docs/api/v1.18.md)
-            * [Engine API v1.19](_vendor/github.com/moby/moby/docs/api/v1.19.md)
-            * [Engine API v1.20](_vendor/github.com/moby/moby/docs/api/v1.20.md)
-            * [Engine API v1.21](_vendor/github.com/moby/moby/docs/api/v1.21.md)
-            * [Engine API v1.22](_vendor/github.com/moby/moby/docs/api/v1.22.md)
-            * [Engine API v1.23](_vendor/github.com/moby/moby/docs/api/v1.23.md)
             * [Engine API v1.24](_vendor/github.com/moby/moby/docs/api/v1.24.md)
             * [Engine API Version History](_vendor/github.com/moby/moby/docs/api/version-history.md)
 - Content
@@ -743,6 +739,8 @@
         * [Docker Plugin Set](content/engine/reference/commandline/plugin_set.md)
         * [Docker Plugin Upgrade](content/engine/reference/commandline/plugin_upgrade.md)
         * [Docker Plugin](content/engine/reference/commandline/plugin.md)
+        * [Docker Scout Attestation Add](content/engine/reference/commandline/scout_attestation_add.md)
+        * [Docker Scout Attestation](content/engine/reference/commandline/scout_attestation.md)
         * [Docker Scout Cache Df](content/engine/reference/commandline/scout_cache_df.md)
         * [Docker Scout Cache Prune](content/engine/reference/commandline/scout_cache_prune.md)
         * [Docker Scout Cache](content/engine/reference/commandline/scout_cache.md)
