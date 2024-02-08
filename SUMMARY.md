@@ -942,6 +942,13 @@
         * [Use Containers For Generative AI Development](content/guides/use-case/genai-pdf-bot/develop.md)
       - Genai Video Bot
         * [Gen AI Video Transcription And Chat](content/guides/use-case/genai-video-bot/_index.md)
+      - Nlp
+        * [Natural Language Processing Guides](content/guides/use-case/nlp/_index.md)
+        * [Build A Language Translation App](content/guides/use-case/nlp/language-translation.md)
+        * [Build A Named Entity Recognition App](content/guides/use-case/nlp/named-entity-recognition.md)
+        * [Build A Sentiment Analysis App](content/guides/use-case/nlp/sentiment-analysis.md)
+        * [Build A Text Recognition App](content/guides/use-case/nlp/text-classification.md)
+        * [Build A Text Summarization App](content/guides/use-case/nlp/text-summarization.md)
     - Walkthroughs
       * [Access A Local Folder From A Container](content/guides/walkthroughs/access-local-folder.md)
       * [Containerize Your Application](content/guides/walkthroughs/containerize-your-app.md)
