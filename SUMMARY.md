@@ -203,7 +203,6 @@
     - Cloud
       * [Docker Build Cloud](content/build/cloud/_index.md)
       * [Use Docker Build Cloud In CI](content/build/cloud/ci.md)
-      * [Docker Build Cloud FAQ](content/build/cloud/faq.md)
       * [Optimize For Building In The Cloud](content/build/cloud/optimization.md)
       * [Docker Build Cloud Setup](content/build/cloud/setup.md)
       * [Building With Docker Build Cloud](content/build/cloud/usage.md)
@@ -503,6 +502,7 @@
     * [Containerd Image Store](content/desktop/containerd.md)
     * [Give Feedback](content/desktop/feedback.md)
     * [Sign In To Docker Desktop](content/desktop/get-started.md)
+    * [GPU Support In Docker Desktop](content/desktop/gpu.md)
     * [Deploy On Kubernetes With Docker Desktop](content/desktop/kubernetes.md)
     * [Explore Networking Features On Docker Desktop](content/desktop/networking.md)
     * [Docker Desktop Release Notes](content/desktop/release-notes.md)
