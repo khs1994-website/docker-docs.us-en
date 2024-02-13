@@ -913,7 +913,7 @@
         * [Identity Providers](content/faq/security/single-sign-on/idp-faqs.md)
         * [SAML](content/faq/security/single-sign-on/saml-faqs.md)
         * [Manage Users](content/faq/security/single-sign-on/users-faqs.md)
-      * [FA Qs](content/faq/security/eci-faq.md)
+      * [Enhanced Container Isolation ECI FA Qs](content/faq/security/eci-faq.md)
       * [General Security FA Qs](content/faq/security/general.md)
       * [Network And VM FA Qs](content/faq/security/networking-and-vms.md)
       * [Settings Management FA Qs](content/faq/security/settings-management.md)
