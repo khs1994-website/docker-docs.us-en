@@ -290,6 +290,7 @@
     * [Networking In Compose](content/compose/networking.md)
     * [Use Compose In Production](content/compose/production.md)
     * [Using Profiles With Compose](content/compose/profiles.md)
+    * [Specify A Project Name](content/compose/project-name.md)
     * [Docker Compose Release Notes](content/compose/release-notes.md)
     * [Sample Apps With Compose](content/compose/samples-for-compose.md)
     * [Control Startup And Shutdown Order In Compose](content/compose/startup-order.md)
