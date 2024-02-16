@@ -20,8 +20,8 @@ difference is in where and how that build gets executed.
 
 By default when you invoke a build command, the build runs on a local instance
 of BuildKit, bundled with the Docker daemon. With Docker Build Cloud, you send
-the build request to a BuildKit instance running remotely, in the cloud. The
-build request is transmitted over a secure, end-to-end encrypted connection.
+the build request to a BuildKit instance running remotely, in the cloud.
+All data is encrypted in transit.
 
 The remote builder executes the build steps, and sends the resulting build
 output to the destination that you specify. For example, back to your local
@@ -37,7 +37,7 @@ And the best part: you don't need to worry about managing builders or
 infrastructure. Just connect to your builders, and start building.
 Each cloud builder provisioned to an organization is completely
 isolated to a single Amazon EC2 instance, with a dedicated EBS volume for build
-cache, and end-to-end encryption. That means there are no shared processes or
+cache, and encryption in transit. That means there are no shared processes or
 data between cloud builders.
 
 > **Note**

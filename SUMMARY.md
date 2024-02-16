@@ -1102,6 +1102,8 @@
     * [Wire Guard Samples](content/samples/wireguard.md)
     * [Word Press Samples](content/samples/wordpress.md)
   - Scout
+    - Guides
+      * [Suppress Image Vulnerabilities With VEX](content/scout/guides/vex.md)
     - Integrations
       - Ci
         * [Using Docker Scout In Continuous Integration](content/scout/integrations/ci/_index.md)
