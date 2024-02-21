@@ -161,12 +161,12 @@
       * [Annotations](content/build/building/annotations.md)
       * [Create A Base Image](content/build/building/base-images.md)
       * [Build Context](content/build/building/context.md)
-      * [Environment Variables For Docker Build](content/build/building/env-vars.md)
       * [Multi Platform Images](content/build/building/multi-platform.md)
       * [Multi Stage Builds](content/build/building/multi-stage.md)
       * [Open Telemetry Support](content/build/building/opentelemetry.md)
       * [Packaging Your Software](content/build/building/packaging.md)
       * [Build Secrets](content/build/building/secrets.md)
+      * [Build Variables](content/build/building/variables.md)
     - Buildkit
       * [Build Kit](content/build/buildkit/_index.md)
       * [Configure Build Kit](content/build/buildkit/configure.md)
