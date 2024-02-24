@@ -718,6 +718,7 @@
         * [Build A Sentiment Analysis App](content/guides/use-case/nlp/sentiment-analysis.md)
         * [Build A Text Recognition App](content/guides/use-case/nlp/text-classification.md)
         * [Build A Text Summarization App](content/guides/use-case/nlp/text-summarization.md)
+      * [Data Science With Jupyter Lab](content/guides/use-case/jupyter.md)
     - Walkthroughs
       * [Access A Local Folder From A Container](content/guides/walkthroughs/access-local-folder.md)
       * [Containerize Your Application](content/guides/walkthroughs/containerize-your-app.md)
@@ -1167,7 +1168,7 @@
     * [Environment Variables Used By Docker Scout](content/scout/env-vars.md)
     * [Docker Scout Image Analysis](content/scout/image-analysis.md)
     * [Image Details View](content/scout/image-details-view.md)
-    * [Analyze Local Files With Docker Scout](content/scout/local-fs.md)
+    * [Specify Artifact Type Or Location With Prefixes](content/scout/image-prefix.md)
     * [Docker Scout Quickstart](content/scout/quickstart.md)
     * [Docker Scout Release Notes](content/scout/release-notes.md)
     * [Docker Scout SBO Ms](content/scout/sbom.md)

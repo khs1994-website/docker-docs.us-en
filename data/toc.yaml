@@ -179,6 +179,9 @@ Guides:
         title: Text summarization
     - path: /scout/guides/vex/
       title: Suppress CVEs with VEX
+    - path: /guides/use-case/jupyter/
+      title: Data science with JupyterLab
+
 
 - sectiontitle: Develop with Docker
   section:
@@ -1332,8 +1335,8 @@ Manuals:
       section:
       - path: /scout/image-analysis/
         title: Image analysis
-      - path: /scout/local-fs/
-        title: Analyze local files
+      - path: /scout/image-prefix/
+        title: Specify artifact type or location
       - path: /scout/sbom/
         title: SBOM
       - path: /scout/env-vars/
