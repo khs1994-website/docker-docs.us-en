@@ -718,6 +718,7 @@
         * [Build A Sentiment Analysis App](content/guides/use-case/nlp/sentiment-analysis.md)
         * [Build A Text Recognition App](content/guides/use-case/nlp/text-classification.md)
         * [Build A Text Summarization App](content/guides/use-case/nlp/text-summarization.md)
+      * [Use Case Guides](content/guides/use-case/_index.md)
       * [Data Science With Jupyter Lab](content/guides/use-case/jupyter.md)
     - Walkthroughs
       * [Access A Local Folder From A Container](content/guides/walkthroughs/access-local-folder.md)
