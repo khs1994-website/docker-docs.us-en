@@ -1170,6 +1170,7 @@
     * [Docker Scout Image Analysis](content/scout/image-analysis.md)
     * [Image Details View](content/scout/image-details-view.md)
     * [Specify Artifact Type Or Location With Prefixes](content/scout/image-prefix.md)
+    * [Install Docker Scout](content/scout/install.md)
     * [Docker Scout Quickstart](content/scout/quickstart.md)
     * [Docker Scout Release Notes](content/scout/release-notes.md)
     * [Docker Scout SBO Ms](content/scout/sbom.md)
