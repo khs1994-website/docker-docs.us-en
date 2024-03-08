@@ -134,13 +134,14 @@
     * [Convert An Account Into An Organization](content/admin/convert-account.md)
     * [Deactivating An Account Or An Organization](content/admin/deactivate-account.md)
   - Billing
+    - Core Billing
+      * [Change Your Billing Cycle](content/billing/core-billing/cycle.md)
+      * [Update The Billing Information](content/billing/core-billing/details.md)
+      * [View Billing History](content/billing/core-billing/history.md)
+      * [Add Or Update A Payment Method](content/billing/core-billing/payment-method.md)
     * [Billing And Payments](content/billing/_index.md)
     * [Docker Build Cloud Billing](content/billing/build-billing.md)
-    * [Change Your Billing Cycle](content/billing/cycle.md)
-    * [Update The Billing Information](content/billing/details.md)
     * [Billing FA Qs](content/billing/faqs.md)
-    * [View Billing History](content/billing/history.md)
-    * [Add Or Update A Payment Method](content/billing/payment-method.md)
     * [Docker Scout Billing](content/billing/scout-billing.md)
   - Build
     - Attestations
@@ -428,12 +429,12 @@
         * [Package And Release Your Extension](content/desktop/extensions-sdk/extensions/DISTRIBUTION.md)
         * [Extension Image Labels](content/desktop/extensions-sdk/extensions/labels.md)
         * [Build The Extensions For Multiple Architectures](content/desktop/extensions-sdk/extensions/multi-arch.md)
-        * [Publish Your Extension To The Marketplace](content/desktop/extensions-sdk/extensions/publish.md)
+        * [Publish Your Extension In The Marketplace](content/desktop/extensions-sdk/extensions/publish.md)
         * [Share Your Extension](content/desktop/extensions-sdk/extensions/share.md)
         * [Validate Your Extension](content/desktop/extensions-sdk/extensions/validate.md)
       - Guides
         * [Invoke Host Binaries](content/desktop/extensions-sdk/guides/invoke-host-binaries.md)
-        * [Interacting With Kubernetes From A Docker Extension](content/desktop/extensions-sdk/guides/kubernetes.md)
+        * [Interacting With Kubernetes From An Extension](content/desktop/extensions-sdk/guides/kubernetes.md)
         * [OAuth 2.0 flow](content/desktop/extensions-sdk/guides/oauth2-flow.md)
         * [Use The Docker Socket From The Extension Backend](content/desktop/extensions-sdk/guides/use-docker-socket-from-backend.md)
       * [Overview Of The Extensions SDK](content/desktop/extensions-sdk/_index.md)
@@ -685,7 +686,6 @@
       * [Enhanced Container Isolation ECI FA Qs](content/faq/security/eci-faq.md)
       * [General Security FA Qs](content/faq/security/general.md)
       * [Network And VM FA Qs](content/faq/security/networking-and-vms.md)
-      * [Settings Management FA Qs](content/faq/security/settings-management.md)
     * [Frequently Asked Questions](content/faq/_index.md)
   - Get Started
     * [Overview Of The Get Started Guide](content/get-started/_index.md)
@@ -1215,16 +1215,17 @@
     * [Troubleshoot Storage Errors](content/storage/troubleshooting_volume_errors.md)
     * [Volumes](content/storage/volumes.md)
   - Subscription
+    - Core Subscription
+      * [Add Seats To Your Subscription](content/subscription/core-subscription/add-seats.md)
+      * [Docker Subscriptions And Features](content/subscription/core-subscription/details.md)
+      * [Downgrade Your Subscription](content/subscription/core-subscription/downgrade.md)
+      * [Remove Seats From Your Subscription](content/subscription/core-subscription/remove-seats.md)
+      * [Upgrade Your Subscription](content/subscription/core-subscription/upgrade.md)
     * [Docker Subscription Overview](content/subscription/_index.md)
-    * [Add Seats To Your Subscription](content/subscription/add-seats.md)
     * [Docker Build Cloud Subscriptions And Features](content/subscription/build-details.md)
     * [Docker Desktop License Agreement](content/subscription/desktop-license.md)
-    * [Docker Subscriptions And Features](content/subscription/details.md)
-    * [Downgrade Your Subscription](content/subscription/downgrade.md)
     * [Subscription FA Qs](content/subscription/faq.md)
-    * [Remove Seats From Your Subscription](content/subscription/remove-seats.md)
     * [Docker Scout Subscriptions And Features](content/subscription/scout-details.md)
-    * [Upgrade Your Subscription](content/subscription/upgrade.md)
   - Trusted Content
     * [Trusted Content](content/trusted-content/_index.md)
     * [Docker Sponsored Open Source Program](content/trusted-content/dsos-program.md)
