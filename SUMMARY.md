@@ -576,6 +576,7 @@
       * [v1.42](content/engine/api/v1.42.md)
       * [v1.43](content/engine/api/v1.43.md)
       * [v1.44](content/engine/api/v1.44.md)
+      * [v1.45](content/engine/api/v1.45.md)
     - Context
       * [Docker Contexts](content/engine/context/working-with-contexts.md)
     - Install
