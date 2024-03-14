@@ -180,8 +180,9 @@
         * [Local Cache](content/build/cache/backends/local.md)
         * [Registry Cache](content/build/cache/backends/registry.md)
         * [Amazon S 3 Cache](content/build/cache/backends/s3.md)
-      * [Optimizing Builds With Cache Management](content/build/cache/_index.md)
+      * [Docker Build Cache](content/build/cache/_index.md)
       * [Build Garbage Collection](content/build/cache/garbage-collection.md)
+      * [Build Cache Invalidation](content/build/cache/invalidation.md)
     - Ci
       - Github Actions
         * [Introduction To Git Hub Actions](content/build/ci/github-actions/_index.md)
@@ -196,6 +197,7 @@
         * [Multi Platform Image With Git Hub Actions](content/build/ci/github-actions/multi-platform.md)
         * [Named Contexts With Git Hub Actions](content/build/ci/github-actions/named-contexts.md)
         * [Push To Multiple Registries With Git Hub Actions](content/build/ci/github-actions/push-multi-registries.md)
+        * [Reproducible Builds With Git Hub Actions](content/build/ci/github-actions/reproducible-builds.md)
         * [Using Secrets With Git Hub Actions](content/build/ci/github-actions/secrets.md)
         * [Share Built Image Between Jobs With Git Hub Actions](content/build/ci/github-actions/share-image-jobs.md)
         * [Test Before Push With Git Hub Actions](content/build/ci/github-actions/test-before-push.md)
