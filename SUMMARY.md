@@ -723,6 +723,7 @@
         * [Build A Text Summarization App](content/guides/use-case/nlp/text-summarization.md)
       * [Use Case Guides](content/guides/use-case/_index.md)
       * [Data Science With Jupyter Lab](content/guides/use-case/jupyter.md)
+      * [Face detection with TensorFlow.js](content/guides/use-case/tensorflowjs.md)
     - Walkthroughs
       * [Access A Local Folder From A Container](content/guides/walkthroughs/access-local-folder.md)
       * [Containerize Your Application](content/guides/walkthroughs/containerize-your-app.md)
@@ -1182,6 +1183,9 @@
       - Single Sign On
         - Configure
           * [Configure Single Sign On](content/security/for-admins/single-sign-on/configure/_index.md)
+          * [Configure Your Id P](content/security/for-admins/single-sign-on/configure/configure-idp.md)
+        - Connect
+          * [Complete Your Single Sign On Connection](content/security/for-admins/single-sign-on/connect/_index.md)
         - Manage
           * [Manage Single Sign On](content/security/for-admins/single-sign-on/manage/_index.md)
         * [Single Sign On Overview](content/security/for-admins/single-sign-on/_index.md)
@@ -1191,7 +1195,7 @@
       * [Image Access Management](content/security/for-admins/image-access-management.md)
       * [Registry Access Management](content/security/for-admins/registry-access-management.md)
       * [Roles And Permissions](content/security/for-admins/roles-and-permissions.md)
-      * [SCIM](content/security/for-admins/scim.md)
+      * [SCIM Overview](content/security/for-admins/scim.md)
     - For Developers
       - 2 Fa
         * [Enable Two Factor Authentication For Docker Hub](content/security/for-developers/2fa/_index.md)
@@ -1248,6 +1252,7 @@
     * [Admin Domain Audit](layouts/shortcodes/admin-domain-audit.md)
     * [Admin Org Onboarding](layouts/shortcodes/admin-org-onboarding.md)
     * [Admin Sso Config](layouts/shortcodes/admin-sso-config.md)
+    * [Admin Sso Connect](layouts/shortcodes/admin-sso-connect.md)
     * [Admin Sso Management Orgs](layouts/shortcodes/admin-sso-management-orgs.md)
     * [Admin Sso Management](layouts/shortcodes/admin-sso-management.md)
 * [CONTRIBUTING](CONTRIBUTING.md)
