@@ -1222,6 +1222,9 @@
     * [Troubleshoot Storage Errors](content/storage/troubleshooting_volume_errors.md)
     * [Volumes](content/storage/volumes.md)
   - Subscription
+    - Build Cloud
+      * [Subscriptions And Features](content/subscription/build-cloud/build-details.md)
+      * [Manage Seats And Invites](content/subscription/build-cloud/manage-seats.md)
     - Core Subscription
       * [Add Seats To Your Subscription](content/subscription/core-subscription/add-seats.md)
       * [Docker Subscriptions And Features](content/subscription/core-subscription/details.md)
@@ -1229,7 +1232,6 @@
       * [Remove Seats From Your Subscription](content/subscription/core-subscription/remove-seats.md)
       * [Upgrade Your Subscription](content/subscription/core-subscription/upgrade.md)
     * [Docker Subscription Overview](content/subscription/_index.md)
-    * [Docker Build Cloud Subscriptions And Features](content/subscription/build-details.md)
     * [Docker Desktop License Agreement](content/subscription/desktop-license.md)
     * [Subscription FA Qs](content/subscription/faq.md)
     * [Docker Scout Subscriptions And Features](content/subscription/scout-details.md)
