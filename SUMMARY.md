@@ -615,6 +615,7 @@
       * [Docker Engine 23.0 release notes](content/engine/release-notes/23.0.md)
       * [Docker Engine 24.0 release notes](content/engine/release-notes/24.0.md)
       * [Docker Engine 25.0 release notes](content/engine/release-notes/25.0.md)
+      * [Docker Engine 26.0 release notes](content/engine/release-notes/26.0.md)
       * [Docker Engine Release Notes](content/engine/release-notes/prior-releases.md)
     - Sbom
       * [Generate The SBOM For Docker Images](content/engine/sbom/_index.md)
