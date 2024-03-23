@@ -465,6 +465,7 @@
       * [Install Docker Desktop On Fedora](content/desktop/install/fedora.md)
       * [Install Docker Desktop On Linux](content/desktop/install/linux-install.md)
       * [Install Docker Desktop On Mac](content/desktop/install/mac-install.md)
+      * [Install Docker Desktop On RHEL](content/desktop/install/rhel.md)
       * [Install Docker Desktop On Ubuntu](content/desktop/install/ubuntu.md)
       * [Install Docker Desktop On Windows](content/desktop/install/windows-install.md)
     - Mac
