@@ -68,36 +68,6 @@
               * [Compose Wait](_vendor/github.com/docker/compose/v2/docs/reference/compose_wait.md)
               * [Compose Watch](_vendor/github.com/docker/compose/v2/docs/reference/compose_watch.md)
               * [Compose](_vendor/github.com/docker/compose/v2/docs/reference/compose.md)
-      - Scout Cli
-        - Docs
-          * [Scout Attestation Add](_vendor/github.com/docker/scout-cli/docs/scout_attestation_add.md)
-          * [Scout Attestation](_vendor/github.com/docker/scout-cli/docs/scout_attestation.md)
-          * [Scout Cache Df](_vendor/github.com/docker/scout-cli/docs/scout_cache_df.md)
-          * [Scout Cache Prune](_vendor/github.com/docker/scout-cli/docs/scout_cache_prune.md)
-          * [Scout Cache](_vendor/github.com/docker/scout-cli/docs/scout_cache.md)
-          * [Scout Compare](_vendor/github.com/docker/scout-cli/docs/scout_compare.md)
-          * [Scout Config](_vendor/github.com/docker/scout-cli/docs/scout_config.md)
-          * [Scout Cves](_vendor/github.com/docker/scout-cli/docs/scout_cves.md)
-          * [Scout Enroll](_vendor/github.com/docker/scout-cli/docs/scout_enroll.md)
-          * [Scout Environment](_vendor/github.com/docker/scout-cli/docs/scout_environment.md)
-          * [Scout Help](_vendor/github.com/docker/scout-cli/docs/scout_help.md)
-          * [Scout Integration Configure](_vendor/github.com/docker/scout-cli/docs/scout_integration_configure.md)
-          * [Scout Integration Delete](_vendor/github.com/docker/scout-cli/docs/scout_integration_delete.md)
-          * [Scout Integration List](_vendor/github.com/docker/scout-cli/docs/scout_integration_list.md)
-          * [Scout Integration](_vendor/github.com/docker/scout-cli/docs/scout_integration.md)
-          * [Scout Policy](_vendor/github.com/docker/scout-cli/docs/scout_policy.md)
-          * [Scout Push](_vendor/github.com/docker/scout-cli/docs/scout_push.md)
-          * [Scout Quickview](_vendor/github.com/docker/scout-cli/docs/scout_quickview.md)
-          * [Scout Recommendations](_vendor/github.com/docker/scout-cli/docs/scout_recommendations.md)
-          * [Scout Repo Disable](_vendor/github.com/docker/scout-cli/docs/scout_repo_disable.md)
-          * [Scout Repo Enable](_vendor/github.com/docker/scout-cli/docs/scout_repo_enable.md)
-          * [Scout Repo List](_vendor/github.com/docker/scout-cli/docs/scout_repo_list.md)
-          * [Scout Repo](_vendor/github.com/docker/scout-cli/docs/scout_repo.md)
-          * [Scout Sbom](_vendor/github.com/docker/scout-cli/docs/scout_sbom.md)
-          * [Scout Stream](_vendor/github.com/docker/scout-cli/docs/scout_stream.md)
-          * [Scout Version](_vendor/github.com/docker/scout-cli/docs/scout_version.md)
-          * [Scout Watch](_vendor/github.com/docker/scout-cli/docs/scout_watch.md)
-          * [Scout](_vendor/github.com/docker/scout-cli/docs/scout.md)
     - Moby
       - Buildkit
         - Docs
@@ -709,6 +679,12 @@
     * [Educational Resources](content/get-started/resources.md)
     * [Deploy To Swarm](content/get-started/swarm-deploy.md)
   - Guides
+    - Docker Concepts
+      - The Basics
+        * [What Is A Container](content/guides/docker-concepts/the-basics/what-is-a-container.md)
+        * [What Is A Registry](content/guides/docker-concepts/the-basics/what-is-a-registry.md)
+        * [What Is An Image](content/guides/docker-concepts/the-basics/what-is-an-image.md)
+        * [What Is Docker Compose](content/guides/docker-concepts/the-basics/what-is-docker-compose.md)
     - Use Case
       - Genai Pdf Bot
         * [Generative AI Guide](content/guides/use-case/genai-pdf-bot/_index.md)
