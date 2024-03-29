@@ -1144,6 +1144,9 @@
       * [Configure Policies](content/scout/policy/configure.md)
       * [Remediation With Docker Scout](content/scout/policy/remediation.md)
       * [View Docker Scout Policy Status](content/scout/policy/view.md)
+    - Release Notes
+      * [Docker Scout CLI Release Notes](content/scout/release-notes/cli.md)
+      * [Docker Scout Release Notes](content/scout/release-notes/platform.md)
     * [Docker Scout](content/scout/_index.md)
     * [Advisory Database Sources And Matching Service](content/scout/advisory-db-sources.md)
     * [Dashboard](content/scout/dashboard.md)
@@ -1154,7 +1157,6 @@
     * [Specify Artifact Type Or Location With Prefixes](content/scout/image-prefix.md)
     * [Install Docker Scout](content/scout/install.md)
     * [Docker Scout Quickstart](content/scout/quickstart.md)
-    * [Docker Scout Release Notes](content/scout/release-notes.md)
     * [Docker Scout SBO Ms](content/scout/sbom.md)
   - Security
     - For Admins
