@@ -427,6 +427,7 @@
         * [Limitations](content/desktop/hardened-desktop/enhanced-container-isolation/limitations.md)
       - Settings Management
         * [What Is Settings Management](content/desktop/hardened-desktop/settings-management/_index.md)
+        * [Configure Air Gapped Containers With Settings Management](content/desktop/hardened-desktop/settings-management/air-gapped-containers.md)
         * [Configure Settings Management](content/desktop/hardened-desktop/settings-management/configure.md)
       * [Overview Of Hardened Docker Desktop](content/desktop/hardened-desktop/_index.md)
     - Install
@@ -588,8 +589,6 @@
       * [Docker Engine 25.0 release notes](content/engine/release-notes/25.0.md)
       * [Docker Engine 26.0 release notes](content/engine/release-notes/26.0.md)
       * [Docker Engine Release Notes](content/engine/release-notes/prior-releases.md)
-    - Sbom
-      * [Generate The SBOM For Docker Images](content/engine/sbom/_index.md)
     - Security
       - [Https](content/engine/security/https/README.md)
       - Trust
