@@ -1234,6 +1234,8 @@
     * [Admin Org Onboarding](layouts/shortcodes/admin-org-onboarding.md)
     * [Admin Sso Config](layouts/shortcodes/admin-sso-config.md)
     * [Admin Sso Connect](layouts/shortcodes/admin-sso-connect.md)
+    * [Admin Sso Management Connections](layouts/shortcodes/admin-sso-management-connections.md)
     * [Admin Sso Management Orgs](layouts/shortcodes/admin-sso-management-orgs.md)
+    * [Admin Sso Management Users](layouts/shortcodes/admin-sso-management-users.md)
     * [Admin Sso Management](layouts/shortcodes/admin-sso-management.md)
 * [CONTRIBUTING](CONTRIBUTING.md)
