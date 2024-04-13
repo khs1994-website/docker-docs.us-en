@@ -1215,11 +1215,14 @@
     * [Subscription FA Qs](content/subscription/faq.md)
     * [Docker Scout Subscriptions And Features](content/subscription/scout-details.md)
   - Trusted Content
+    - Official Images
+      * [Docker Official Images](content/trusted-content/official-images/_index.md)
+      * [Contributing To Docker Official Images](content/trusted-content/official-images/contributing.md)
+      * [Using Docker Official Images](content/trusted-content/official-images/using.md)
     * [Trusted Content](content/trusted-content/_index.md)
     * [Docker Sponsored Open Source Program](content/trusted-content/dsos-program.md)
     * [Docker Verified Publisher Program](content/trusted-content/dvp-program.md)
     * [Insights And Analytics](content/trusted-content/insights-analytics.md)
-    * [Docker Official Images](content/trusted-content/official-images.md)
   * [Home](content/_index.md)
   * [Get Docker](content/get-docker.md)
   * [Glossary](content/glossary.md)
