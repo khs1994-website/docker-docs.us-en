@@ -995,6 +995,7 @@
           * [Docker Scout Enroll](content/reference/cli/docker/scout/enroll.md)
           * [Docker Scout Environment](content/reference/cli/docker/scout/environment.md)
           * [Docker Scout Policy](content/reference/cli/docker/scout/policy.md)
+          * [Docker Scout Push](content/reference/cli/docker/scout/push.md)
           * [Docker Scout Quickview](content/reference/cli/docker/scout/quickview.md)
           * [Docker Scout Recommendations](content/reference/cli/docker/scout/recommendations.md)
           * [Docker Scout Sbom](content/reference/cli/docker/scout/sbom.md)
