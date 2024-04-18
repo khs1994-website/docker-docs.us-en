@@ -814,6 +814,12 @@
       * [Containerize A Python Application](content/language/python/containerize.md)
       * [Test Your Python Deployment](content/language/python/deploy.md)
       * [Use Containers For Python Development](content/language/python/develop.md)
+    - R
+      * [R Language Specific Guide](content/language/r/_index.md)
+      * [Configure CI CD For Your R Application](content/language/r/configure-ci-cd.md)
+      * [Containerize A R Application](content/language/r/containerize.md)
+      * [Test Your R Deployment](content/language/r/deploy.md)
+      * [Use Containers For R Development](content/language/r/develop.md)
     - Rust
       * [Rust Language Specific Guide](content/language/rust/_index.md)
       * [Build Your Rust Image](content/language/rust/build-images.md)
