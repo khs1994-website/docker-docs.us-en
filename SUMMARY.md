@@ -541,6 +541,7 @@
     - Repos
       * [Manage Repositories](content/docker-hub/repos/_index.md)
       * [Access Repositories](content/docker-hub/repos/access.md)
+      * [Categories In Docker Hub](content/docker-hub/repos/categories.md)
       * [Create Repositories](content/docker-hub/repos/create.md)
     * [Overview Of Docker Hub](content/docker-hub/_index.md)
     * [Docker Hub Rate Limit](content/docker-hub/download-rate-limit.md)
