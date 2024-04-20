@@ -287,7 +287,7 @@
     * [Compose FA Qs](content/compose/faq.md)
     * [Give Feedback](content/compose/feedback.md)
     * [Use Compose Watch](content/compose/file-watch.md)
-    * [Try Docker Compose](content/compose/gettingstarted.md)
+    * [Docker Compose Quickstart](content/compose/gettingstarted.md)
     * [Turn On GPU Access With Docker Compose](content/compose/gpu-support.md)
     * [Migrate To Compose V 2](content/compose/migrate.md)
     * [Networking In Compose](content/compose/networking.md)
@@ -369,7 +369,7 @@
     - Enterprise
       * [Docker Desktop Enterprise](content/desktop/enterprise/_index.md)
     - Extensions
-      * [What Are Docker Extensions](content/desktop/extensions/_index.md)
+      * [Overview Of Docker Extensions](content/desktop/extensions/_index.md)
       * [Marketplace Extensions](content/desktop/extensions/marketplace.md)
       * [Non Marketplace Extensions](content/desktop/extensions/non-marketplace.md)
       * [Configure A Private Marketplace For Extensions](content/desktop/extensions/private-marketplace.md)
