@@ -333,6 +333,7 @@
     * [Filter Commands](content/config/filter.md)
     * [Format Command And Log Output](content/config/formatting.md)
     * [Docker Object Labels](content/config/labels-custom-metadata.md)
+    * [Open Telemetry For The Docker CLI](content/config/otel.md)
     * [Prune Unused Docker Objects](content/config/pruning.md)
   - Contribute
     - Components
@@ -619,6 +620,7 @@
       * [Docker Engine 24.0 release notes](content/engine/release-notes/24.0.md)
       * [Docker Engine 25.0 release notes](content/engine/release-notes/25.0.md)
       * [Docker Engine 26.0 release notes](content/engine/release-notes/26.0.md)
+      * [Docker Engine 26.1 release notes](content/engine/release-notes/26.1.md)
       * [Docker Engine Release Notes](content/engine/release-notes/prior-releases.md)
     - Security
       - [Https](content/engine/security/https/README.md)
@@ -710,6 +712,12 @@
     * [Deploy To Swarm](content/get-started/swarm-deploy.md)
   - Guides
     - Docker Concepts
+      - Building Images
+        * [Build Tag And Publish An Image](content/guides/docker-concepts/building-images/build-tag-and-publish-an-image.md)
+        * [Multi Stage Builds](content/guides/docker-concepts/building-images/multi-stage-builds.md)
+        * [Understanding The Image Layers](content/guides/docker-concepts/building-images/understanding-image-layers.md)
+        * [Using The Build Cache](content/guides/docker-concepts/building-images/using-the-build-cache.md)
+        * [Writing A Dockerfile](content/guides/docker-concepts/building-images/writing-a-dockerfile.md)
       - The Basics
         * [What Is A Container](content/guides/docker-concepts/the-basics/what-is-a-container.md)
         * [What Is A Registry](content/guides/docker-concepts/the-basics/what-is-a-registry.md)
