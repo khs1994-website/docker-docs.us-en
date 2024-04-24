@@ -122,6 +122,10 @@
       * [Manage Organizations](content/admin/company/organizations.md)
       * [Manage Company Owners](content/admin/company/owners.md)
       * [Manage Company Users](content/admin/company/users.md)
+    - Faqs
+      * [FA Qs On Companies](content/admin/faqs/company-faqs.md)
+      * [General FA Qs For Docker Accounts](content/admin/faqs/general-faqs.md)
+      * [FA Qs On Organizations](content/admin/faqs/organization-faqs.md)
     - Organization
       * [Organization Administration Overview](content/admin/organization/_index.md)
       * [Activity Logs](content/admin/organization/activity-logs.md)
@@ -677,23 +681,6 @@
     * [Alternative Container Runtimes](content/engine/alternative-runtimes.md)
     * [Breaking Changes And Incompatibilities](content/engine/breaking_changes.md)
     * [Docker Frequently Asked Questions FAQ](content/engine/faq.md)
-  - Faq
-    - Admin
-      * [FA Qs On Companies](content/faq/admin/company-faqs.md)
-      * [General FA Qs For Docker Accounts](content/faq/admin/general-faqs.md)
-      * [FA Qs On Organizations](content/faq/admin/organization-faqs.md)
-    - Security
-      - Single Sign On
-        * [Domains](content/faq/security/single-sign-on/domain-faqs.md)
-        * [Enforcement](content/faq/security/single-sign-on/enforcement-faqs.md)
-        * [General FA Qs On SSO](content/faq/security/single-sign-on/faqs.md)
-        * [Identity Providers](content/faq/security/single-sign-on/idp-faqs.md)
-        * [SAML](content/faq/security/single-sign-on/saml-faqs.md)
-        * [Manage Users](content/faq/security/single-sign-on/users-faqs.md)
-      * [Enhanced Container Isolation ECI FA Qs](content/faq/security/eci-faq.md)
-      * [General Security FA Qs](content/faq/security/general.md)
-      * [Network And VM FA Qs](content/faq/security/networking-and-vms.md)
-    * [Frequently Asked Questions](content/faq/_index.md)
   - Get Started
     * [Overview Of The Get Started Guide](content/get-started/_index.md)
     * [Containerize An Application](content/get-started/02_our_app.md)
@@ -1204,6 +1191,17 @@
     * [Docker Scout Quickstart](content/scout/quickstart.md)
     * [Docker Scout SBO Ms](content/scout/sbom.md)
   - Security
+    - Faqs
+      - Single Sign On
+        * [Domains](content/security/faqs/single-sign-on/domain-faqs.md)
+        * [Enforcement](content/security/faqs/single-sign-on/enforcement-faqs.md)
+        * [General FA Qs On SSO](content/security/faqs/single-sign-on/faqs.md)
+        * [Identity Providers](content/security/faqs/single-sign-on/idp-faqs.md)
+        * [SAML](content/security/faqs/single-sign-on/saml-faqs.md)
+        * [Manage Users](content/security/faqs/single-sign-on/users-faqs.md)
+      * [Enhanced Container Isolation ECI FA Qs](content/security/faqs/eci-faq.md)
+      * [General Security FA Qs](content/security/faqs/general.md)
+      * [Network And VM FA Qs](content/security/faqs/networking-and-vms.md)
     - For Admins
       - Single Sign On
         - Configure
@@ -1260,6 +1258,18 @@
     * [Docker Desktop License Agreement](content/subscription/desktop-license.md)
     * [Subscription FA Qs](content/subscription/faq.md)
     * [Docker Scout Subscriptions And Features](content/subscription/scout-details.md)
+  - Tags
+    - Best Practices
+      * [Best Practices](content/tags/best-practices/_index.md)
+    - Faq
+      * [FAQ](content/tags/faq/_index.md)
+    - Release Notes
+      * [Release Notes](content/tags/release-notes/_index.md)
+    - Secrets
+      * [Secrets](content/tags/secrets/_index.md)
+    - Troubleshooting
+      * [Troubleshooting](content/tags/troubleshooting/_index.md)
+    * [Tags](content/tags/_index.md)
   - Trusted Content
     - Official Images
       * [Docker Official Images](content/trusted-content/official-images/_index.md)
@@ -1275,7 +1285,6 @@
   * [Manuals](content/manuals.md)
   * [Registry](content/registry.md)
   * [Docker S Product Release Lifecycle](content/release-lifecycle.md)
-  * [Release Notes For Docker](content/release-notes.md)
   * [Get Support](content/support.md)
 - Layouts
   - Shortcodes
