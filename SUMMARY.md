@@ -108,7 +108,7 @@
         - Frontend
           - Dockerfile
             - Docs
-              * [Reference](_vendor/github.com/moby/buildkit/frontend/dockerfile/docs/reference.md)
+              * [Dockerfile Reference](_vendor/github.com/moby/buildkit/frontend/dockerfile/docs/reference.md)
       - Moby
         - Docs
           - Api
@@ -736,6 +736,7 @@
       * [How Do I Run A Container](content/guides/walkthroughs/run-a-container.md)
       * [Run Docker Hub Images](content/guides/walkthroughs/run-hub-images.md)
       * [What Is A Container](content/guides/walkthroughs/what-is-a-container.md)
+    * [Guides](content/guides/_index.md)
   - Includes
     - Content
       * [Compose Extfields Sub](content/includes/content/compose-extfields-sub.md)
