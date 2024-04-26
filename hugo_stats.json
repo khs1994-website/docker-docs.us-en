@@ -275,7 +275,6 @@
       "lg:grid-cols-main-lg",
       "lg:hidden",
       "lg:max-w-[300px]",
-      "lg:ml-auto",
       "lg:no-underline",
       "lg:pb-2",
       "lg:scale-100",
