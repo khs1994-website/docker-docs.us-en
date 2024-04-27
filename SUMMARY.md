@@ -78,6 +78,7 @@
           * [Scout Compare](_vendor/github.com/docker/scout-cli/docs/scout_compare.md)
           * [Scout Config](_vendor/github.com/docker/scout-cli/docs/scout_config.md)
           * [Scout Cves](_vendor/github.com/docker/scout-cli/docs/scout_cves.md)
+          * [Scout Docker Cli Plugin Hooks](_vendor/github.com/docker/scout-cli/docs/scout_docker-cli-plugin-hooks.md)
           * [Scout Enroll](_vendor/github.com/docker/scout-cli/docs/scout_enroll.md)
           * [Scout Environment](_vendor/github.com/docker/scout-cli/docs/scout_environment.md)
           * [Scout Help](_vendor/github.com/docker/scout-cli/docs/scout_help.md)
