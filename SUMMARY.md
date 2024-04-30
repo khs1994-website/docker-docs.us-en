@@ -245,6 +245,10 @@
   - Cloud
     * [Cloud Integrations](content/cloud/_index.md)
   - Compose
+    - Bridge
+      * [Overview Of Docker Compose Bridge](content/compose/bridge/_index.md)
+      * [Compose Bridge Templates](content/compose/bridge/templates.md)
+      * [Compose Bridge Default Transformation](content/compose/bridge/transformation.md)
     - Compose File
       * [Overview](content/compose/compose-file/_index.md)
       * [Version And Name Top Level Elements](content/compose/compose-file/04-version-and-name.md)
@@ -749,6 +753,7 @@
     * [Admin Org Overview](content/includes/admin-org-overview.md)
     * [Beta](content/includes/beta.md)
     * [buildx-v0.10-disclaimer](content/includes/buildx-v0.10-disclaimer.md)
+    * [Compose Bridge Early Access](content/includes/compose-bridge-early-access.md)
     * [Compose Eol](content/includes/compose-eol.md)
     * [Deploy](content/includes/deploy.md)
     * [Desktop Builders Setting](content/includes/desktop-builders-setting.md)
@@ -1190,6 +1195,7 @@
     * [Image Details View](content/scout/image-details-view.md)
     * [Specify Artifact Type Or Location With Prefixes](content/scout/image-prefix.md)
     * [Install Docker Scout](content/scout/install.md)
+    * [Docker Scout Metrics Exporter](content/scout/metrics-exporter.md)
     * [Docker Scout Quickstart](content/scout/quickstart.md)
     * [Docker Scout SBO Ms](content/scout/sbom.md)
   - Security
