@@ -264,11 +264,9 @@
       * [Include](content/compose/compose-file/14-include.md)
       * [Profiles](content/compose/compose-file/15-profiles.md)
       * [Compose Build Specification](content/compose/compose-file/build.md)
-      * [Compose File Version 2 Reference](content/compose/compose-file/compose-file-v2.md)
-      * [Compose File Version 3 Reference](content/compose/compose-file/compose-file-v3.md)
-      * [Compose File Versions And Upgrading](content/compose/compose-file/compose-versioning.md)
       * [Compose Deploy Specification](content/compose/compose-file/deploy.md)
       * [Compose Develop Specification](content/compose/compose-file/develop.md)
+      * [Legacy Versions](content/compose/compose-file/legacy-versions.md)
     - Environment Variables
       * [Overview](content/compose/environment-variables/_index.md)
       * [Best Practices For Working With Environment Variables In Docker Compose](content/compose/environment-variables/best-practices.md)
@@ -557,7 +555,6 @@
     * [Docker Hub Rate Limit](content/docker-hub/download-rate-limit.md)
     * [Registry As A Pull Through Cache](content/docker-hub/mirror.md)
     * [OCI Artifacts On Docker Hub](content/docker-hub/oci-artifacts.md)
-    * [Onboard Your Organization](content/docker-hub/onboard.md)
     * [Docker Hub Quickstart](content/docker-hub/quickstart.md)
     * [Docker Hub Release Notes](content/docker-hub/release-notes.md)
     * [Service Accounts](content/docker-hub/service-accounts.md)
@@ -743,10 +740,6 @@
       * [What Is A Container](content/guides/walkthroughs/what-is-a-container.md)
     * [Guides](content/guides/_index.md)
   - Includes
-    - Content
-      * [Compose Extfields Sub](content/includes/content/compose-extfields-sub.md)
-      * [Compose Matrix](content/includes/content/compose-matrix.md)
-      * [Compose Var Sub](content/includes/content/compose-var-sub.md)
     * [Aci Ecs Eol](content/includes/aci-ecs-eol.md)
     * [Admin Company Overview](content/includes/admin-company-overview.md)
     * [Admin Early Access](content/includes/admin-early-access.md)
