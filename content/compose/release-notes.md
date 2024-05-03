@@ -1,14 +1,12 @@
 ---
 title: Docker Compose release notes
-description: Release notes for Docker Compose
+description: Learn about the new features, bug fixes, and breaking changes for the newest Docker Compose release
 keywords: release notes, compose
 tags: [Release notes]
 toc_max: 2
 aliases:
 - /release-notes/docker-compose/
 ---
-
-{{< include "compose-eol.md" >}}
 
 For more detailed information, see the [release notes in the Compose repo](https://github.com/docker/compose/releases/).
 
