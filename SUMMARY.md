@@ -460,6 +460,7 @@
       - Enhanced Container Isolation
         * [What Is Enhanced Container Isolation](content/desktop/hardened-desktop/enhanced-container-isolation/_index.md)
         * [Advanced Configuration Options](content/desktop/hardened-desktop/enhanced-container-isolation/config.md)
+        * [Enhanced Container Isolation ECI FA Qs](content/desktop/hardened-desktop/enhanced-container-isolation/faq.md)
         * [Key Features And Benefits](content/desktop/hardened-desktop/enhanced-container-isolation/features-benefits.md)
         * [How Does It Work](content/desktop/hardened-desktop/enhanced-container-isolation/how-eci-works.md)
         * [Limitations](content/desktop/hardened-desktop/enhanced-container-isolation/limitations.md)
@@ -727,6 +728,7 @@
         * [Build A Text Recognition App](content/guides/use-case/nlp/text-classification.md)
         * [Build A Text Summarization App](content/guides/use-case/nlp/text-summarization.md)
       * [Use Case Guides](content/guides/use-case/_index.md)
+      * [Use Containerized Databases](content/guides/use-case/databases.md)
       * [Data Science With Jupyter Lab](content/guides/use-case/jupyter.md)
       * [Face detection with TensorFlow.js](content/guides/use-case/tensorflowjs.md)
     - Walkthroughs
@@ -1200,7 +1202,7 @@
         * [Identity Providers](content/security/faqs/single-sign-on/idp-faqs.md)
         * [SAML](content/security/faqs/single-sign-on/saml-faqs.md)
         * [Manage Users](content/security/faqs/single-sign-on/users-faqs.md)
-      * [Enhanced Container Isolation ECI FA Qs](content/security/faqs/eci-faq.md)
+      * [Container Security FA Qs](content/security/faqs/containers.md)
       * [General Security FA Qs](content/security/faqs/general.md)
       * [Network And VM FA Qs](content/security/faqs/networking-and-vms.md)
     - For Admins
