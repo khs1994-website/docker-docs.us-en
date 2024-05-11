@@ -337,6 +337,7 @@
       * [Start The Daemon](content/config/daemon/start.md)
       * [Configure The Daemon With Systemd](content/config/daemon/systemd.md)
       * [Troubleshooting The Docker Daemon](content/config/daemon/troubleshoot.md)
+    * [CLI Completion](content/config/completion.md)
     * [Filter Commands](content/config/filter.md)
     * [Format Command And Log Output](content/config/formatting.md)
     * [Docker Object Labels](content/config/labels-custom-metadata.md)
@@ -466,9 +467,9 @@
         * [Limitations](content/desktop/hardened-desktop/enhanced-container-isolation/limitations.md)
       - Settings Management
         * [What Is Settings Management](content/desktop/hardened-desktop/settings-management/_index.md)
-        * [Configure Air Gapped Containers With Settings Management](content/desktop/hardened-desktop/settings-management/air-gapped-containers.md)
         * [Configure Settings Management](content/desktop/hardened-desktop/settings-management/configure.md)
       * [Overview Of Hardened Docker Desktop](content/desktop/hardened-desktop/_index.md)
+      * [Air Gapped Containers](content/desktop/hardened-desktop/air-gapped-containers.md)
     - Install
       * [Install Docker Desktop On Arch Based Distributions](content/desktop/install/archlinux.md)
       * [Install Docker Desktop On Debian](content/desktop/install/debian.md)
