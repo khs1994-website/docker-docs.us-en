@@ -709,6 +709,11 @@
         * [Understanding The Image Layers](content/guides/docker-concepts/building-images/understanding-image-layers.md)
         * [Using The Build Cache](content/guides/docker-concepts/building-images/using-the-build-cache.md)
         * [Writing A Dockerfile](content/guides/docker-concepts/building-images/writing-a-dockerfile.md)
+      - Running Containers
+        * [Multi Container Applications](content/guides/docker-concepts/running-containers/multi-container-applications.md)
+        * [Overriding Container Defaults](content/guides/docker-concepts/running-containers/overriding-container-defaults.md)
+        * [Persisting Container Data](content/guides/docker-concepts/running-containers/persisting-container-data.md)
+        * [Publishing And Exposing Ports](content/guides/docker-concepts/running-containers/publishing-ports.md)
       - The Basics
         * [What Is A Container](content/guides/docker-concepts/the-basics/what-is-a-container.md)
         * [What Is A Registry](content/guides/docker-concepts/the-basics/what-is-a-registry.md)
