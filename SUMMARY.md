@@ -602,7 +602,7 @@
       * [Linux Post Installation Steps For Docker Engine](content/engine/install/linux-postinstall.md)
       * [Install Docker Engine On Raspberry Pi OS 32 Bit](content/engine/install/raspberry-pi-os.md)
       * [Install Docker Engine On RHEL S 390 X](content/engine/install/rhel.md)
-      * [Install Docker Engine On SLES](content/engine/install/sles.md)
+      * [Install Docker Engine On SLES S 390 X](content/engine/install/sles.md)
       * [Troubleshoot Docker Engine Installation](content/engine/install/troubleshoot.md)
       * [Install Docker Engine On Ubuntu](content/engine/install/ubuntu.md)
     - Release Notes
