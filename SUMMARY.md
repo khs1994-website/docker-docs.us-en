@@ -1237,6 +1237,10 @@
       * [General Security FA Qs](content/security/faqs/general.md)
       * [Network And VM FA Qs](content/security/faqs/networking-and-vms.md)
     - For Admins
+      - Provisioning
+        * [Group Mapping](content/security/for-admins/provisioning/group-mapping.md)
+        * [Just In Time Provisioning](content/security/for-admins/provisioning/just-in-time.md)
+        * [SCIM Provisioning](content/security/for-admins/provisioning/scim.md)
       - Single Sign On
         - Configure
           * [Configure Single Sign On](content/security/for-admins/single-sign-on/configure/_index.md)
@@ -1248,11 +1252,9 @@
         * [Single Sign On Overview](content/security/for-admins/single-sign-on/_index.md)
       * [Enforce Sign In For Desktop](content/security/for-admins/configure-sign-in.md)
       * [Domain Audit](content/security/for-admins/domain-audit.md)
-      * [Group Mapping](content/security/for-admins/group-mapping.md)
       * [Image Access Management](content/security/for-admins/image-access-management.md)
       * [Registry Access Management](content/security/for-admins/registry-access-management.md)
       * [Roles And Permissions](content/security/for-admins/roles-and-permissions.md)
-      * [SCIM Overview](content/security/for-admins/scim.md)
     - For Developers
       - 2 Fa
         * [Enable Two Factor Authentication For Docker Hub](content/security/for-developers/2fa/_index.md)
