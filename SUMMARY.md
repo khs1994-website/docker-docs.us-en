@@ -737,15 +737,6 @@
       * [Use Containerized Databases](content/guides/use-case/databases.md)
       * [Data Science With Jupyter Lab](content/guides/use-case/jupyter.md)
       * [Face detection with TensorFlow.js](content/guides/use-case/tensorflowjs.md)
-    - Walkthroughs
-      * [Access A Local Folder From A Container](content/guides/walkthroughs/access-local-folder.md)
-      * [Containerize Your Application](content/guides/walkthroughs/containerize-your-app.md)
-      * [Run Multi Container Applications](content/guides/walkthroughs/multi-container-apps.md)
-      * [Persist Container Data](content/guides/walkthroughs/persist-data.md)
-      * [Publish Your Image](content/guides/walkthroughs/publish-your-image.md)
-      * [How Do I Run A Container](content/guides/walkthroughs/run-a-container.md)
-      * [Run Docker Hub Images](content/guides/walkthroughs/run-hub-images.md)
-      * [What Is A Container](content/guides/walkthroughs/what-is-a-container.md)
     * [Guides](content/guides/_index.md)
   - Includes
     - Compose
