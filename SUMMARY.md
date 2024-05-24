@@ -254,7 +254,7 @@
       * [Version And Name Top Level Elements](content/compose/compose-file/04-version-and-name.md)
       * [Services Top Level Elements](content/compose/compose-file/05-services.md)
       * [Networks Top Level Elements](content/compose/compose-file/06-networks.md)
-      * [Volumes Top Level Elements](content/compose/compose-file/07-volumes.md)
+      * [Volumes Top Level Element](content/compose/compose-file/07-volumes.md)
       * [Configs Top Level Elements](content/compose/compose-file/08-configs.md)
       * [Secrets Top Level Elements](content/compose/compose-file/09-secrets.md)
       * [Fragments](content/compose/compose-file/10-fragments.md)
@@ -714,6 +714,7 @@
         * [Overriding Container Defaults](content/guides/docker-concepts/running-containers/overriding-container-defaults.md)
         * [Persisting Container Data](content/guides/docker-concepts/running-containers/persisting-container-data.md)
         * [Publishing And Exposing Ports](content/guides/docker-concepts/running-containers/publishing-ports.md)
+        * [Sharing Local Files With Containers](content/guides/docker-concepts/running-containers/sharing-local-files.md)
       - The Basics
         * [What Is A Container](content/guides/docker-concepts/the-basics/what-is-a-container.md)
         * [What Is A Registry](content/guides/docker-concepts/the-basics/what-is-a-registry.md)
