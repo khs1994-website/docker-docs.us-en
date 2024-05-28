@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {{ partial "head.html" . }}
+</head>
+
+<body class="bg-background-light text-base dark:bg-background-dark dark:text-white">
+  {{ partial "header.html" . }}
+  <main class="grid grid-cols-1 xl:grid-cols-main-xl lg:grid-cols-main-lg md:grid-cols-main-md">
+    <!-- First column: visible on lg and xl -->
+    <div class="hidden md:block bg-background-light dark:bg-gray-dark-100 overflow-y-scroll"
+         {{- $classes := "'fixed', 'z-20', 'left-0', 'top-16', 'w-full', 'flex', 'h-lvh'" }}
+         x-data @togglesidebar.window="
+           if ($store.showSidebar == false) {
+             document.body.classList.add('overflow-hidden');
+             $el.classList.remove('hidden');
+             $el.classList.add({{$classes}});
+             $store.showSidebar = true;
+             return;
+           }
+           document.body.classList.remove('overflow-hidden');
+           $el.classList.add('hidden');
+           $el.classList.remove({{$classes}});
+           $store.showSidebar = false;
+         "
+      >
+      <div class="w-full max-w-none lg:max-w-[300px] ml-auto p-2">
+        {{ block "left" . }}
+        {{ end }}
+      </div>
+    </div>
+    <div class="min-w-0 px-4 pb-32">
+      {{ block "main" . }}
+      {{ end }}
+    </div>
+    <div class="sticky top-16 pb-32 h-screen hidden lg:block overflow-x-hidden overflow-y-scroll pr-2">
+      {{ block "right" . }}
+      {{ end }}
+    </div>
+  </main>
+  <footer>{{ partialCached "footer.html" . }}</footer>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+{{ $imagePath := .Destination }}
+{{ if and (eq .Page.Kind "page") (not (hasPrefix .Destination "/")) }}
+  {{ $imagePath = (printf "../%s" .Destination) }}
+{{ end }}
+
+{{ $params := (urls.Parse $imagePath).Query }}
+{{ $width := index $params "w" }}
+{{ $height := index $params "h" }}
+{{ $border := index $params "border" }}
+
+
+<figure
+  x-data="{ zoom: false }"
+  @click="zoom = ! zoom"
+  class="cursor-pointer hover:opacity-90"
+>
+  <img
+    loading="lazy"
+    src="{{ $imagePath }}"
+    alt="{{ .Text }}"
+    {{ with $width }}
+      width="{{ index . 0 }}"
+    {{ end }}
+    {{ with $height }}
+      height="{{ index . 0 }}"
+    {{ end }}
+    {{ with .Title }}title="{{ . }}"{{ end }}
+    class="rounded mx-auto{{ with $border }} border border-divider-light dark:border-divider-dark{{end}}"
+  />
+  {{ with .Title }}
+    <figcaption class="text-gray-light dark:text-gray-dark">{{ . }}</figcaption>
+  {{ end }}
+  <template x-teleport="body">
+    <div
+      x-show="zoom"
+      @click="zoom = false"
+      x-transition.opacity.duration.250ms
+      class="fixed z-20 inset-0 flex items-center justify-center bg-black/70 p-6"
+    >
+      <button
+        class="text-white fixed z-30 top-6 right-8 icon-svg"
+      >
+        {{ partialCached "icon" "close" "close" }}
+      </button>
+      <img
+        loading="lazy"
+        class="rounded max-w-full max-h-full"
+        src="{{ $imagePath }}"
+        alt="{{ .Text }}"
+        {{ with .Title }}title="{{ . }}"{{ end }}
+      />
+    </div>
+  </template>
+</figure>
